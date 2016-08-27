@@ -1,0 +1,8 @@
+node_modules
+dist
+app.min.js
+.sass-cache
+.env
+npm-debug.log
+bower_components
+public
