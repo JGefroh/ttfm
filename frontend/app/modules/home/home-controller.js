@@ -77,9 +77,14 @@
       }
     }
 
+    vm.setFilter = function(dateFilter) {
+      vm.activeDateFilters = [];
+      vm.activeDateFilters.push(dateFilter.value);
+      vm.isShowingOther = false;
+    }
+
     function initializeDateFilters() {
       vm.activeDateFilters = [];
-
       vm.dateFilters = [
         {
           label: 'sun',
@@ -110,7 +115,15 @@
           value: 'saturday'
         }
       ];
-      vm.activeDateFilters.push(vm.dateFilters[new Date().getDay()].value);
+      var todayDay = new Date().getDay();
+      vm.today = vm.dateFilters[todayDay];
+      if (todayDay <= 6) {
+        vm.tomorrow = vm.dateFilters[todayDay + 1];
+      }
+      else {
+        vm.tomorrow = vm.dateFilters[0];
+      }
+      vm.setFilter(vm.today);
     }
     initialize();
   }

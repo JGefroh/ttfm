@@ -9,6 +9,23 @@
     <span data-ng-if="!vm.detectingLocation">Find markets nearby...</span>
   </button>
   <div class="schedule-filters">
+    <span class="selection"
+          data-ng-click="vm.setFilter(vm.today)"
+          data-ng-class="{'active': vm.isActiveDateFilter(vm.today.value) && !vm.isShowingOther}">
+      Today
+    </span>
+    <span class="selection"
+          data-ng-click="vm.setFilter(vm.tomorrow)"
+          data-ng-class="{'active': vm.isActiveDateFilter(vm.tomorrow.value) && !vm.isShowingOther}">
+      Tomorrow
+    </span>
+    <span class="selection"
+          data-ng-click="vm.isShowingOther = true; vm.activeDateFilters = [];"
+          data-ng-class="{'active': vm.isShowingOther}">
+      Other
+    </span>
+  </div>
+  <div data-ng-if="vm.isShowingOther" class="schedule-filters">
     <span data-ng-repeat="dateFilter in vm.dateFilters"
           data-ng-click="vm.toggleDateFilter(dateFilter.value)"
           data-ng-class="{'active': vm.isActiveDateFilter(dateFilter.value)}"
