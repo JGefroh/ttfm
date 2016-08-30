@@ -8,14 +8,6 @@
         url: '/locations',
         templateUrl: 'standard-layout.html',
         abstract: true
-    }).state('ttfm.locations.browse', {
-        url: '',
-        templateUrl: 'locations-browse.html',
-        controller: 'LocationsBrowseController',
-        controllerAs: 'vm',
-        resolve: {
-          locations: ['LocationsService', resolveLocations]
-        }
     }).state('ttfm.locations.show', {
         url: '/{id:int}',
         templateUrl: 'locations-show.html',
