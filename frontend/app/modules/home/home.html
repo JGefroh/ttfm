@@ -1,0 +1,30 @@
+<div data-map data-markers="vm.locations" style="height: 100%; width: 100%; pading: 50rem;"></div>
+<div class="map-sidebar">
+  <span class="app-title">To the Farmer's Market</span>
+
+  <button class="input-prompt"
+          data-ng-click="vm.detectLocation()"
+          data-ng-disabled="vm.detectingLocation">
+    <span data-ng-if="vm.detectingLocation" class="fa fa-fw fa-spin fa-spinner"></span>
+    <span data-ng-if="!vm.detectingLocation">Find markets nearby...</span>
+  </button>
+  <div class="schedule-filters">
+    <span data-ng-repeat="dateFilter in vm.dateFilters"
+          data-ng-click="vm.toggleDateFilter(dateFilter.value)"
+          data-ng-class="{'active': vm.isActiveDateFilter(dateFilter.value)}"
+          class="selection">
+      {{dateFilter.label}}
+    </span>
+  </div>
+  <div class="locations">
+    <div data-ng-repeat="location in vm.locations | filter:vm.dateFilter | orderBy:'latitude' track by location.id"
+         data-ng-click="vm.panToLocation(location)"
+         class="location">
+      {{location.name}}<br/>
+      {{location.schedule.time}}<br/>
+    </div>
+  </div>
+  <div class="about">
+    Built by <a href="http://jgefroh.com">Joseph Gefroh</a>
+  </div>
+</div>

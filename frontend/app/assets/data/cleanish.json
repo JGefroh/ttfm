@@ -1,0 +1,7131 @@
+[{
+	"id": 0,
+	"name": "Country Market & Craft Fair at Waimanalo Homestead Community Center",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "9:00 AM to 4:00PM"
+	},
+	"venue": {
+		"address": {
+			"address": "1330 Kalanianaole Hwy.",
+			"city": "",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "1330 Kalanianaole Hwy. HI ",
+		"info": "Waimanalo Homestead Community Center"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": "Paul Richard",
+			"phone": "(808) 259-8611, Cell: (808) 284-2575",
+			"email": null
+		}
+	}
+}, {
+	"id": 1,
+	"name": "Halawa District Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": true,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": "7:00 AM to 8:00 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "99-795 Iwaiwa Street",
+			"city": "",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "99-795 Iwaiwa Street HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 522-7088",
+			"email": null
+		}
+	}
+}, {
+	"id": 2,
+	"name": "Kahaluu Farmers' Market at Windward Baptist Church",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": "3:00 PM to 7:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "47-528A Kamehameha Hwy.",
+			"city": "",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "47-528A Kamehameha Hwy. HI ",
+		"info": "Across from 7-11"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": "Sonny Doung",
+			"phone": "(808) 225-4002",
+			"email": "sonnydoung@hotmail.com"
+		}
+	}
+}, {
+	"id": 3,
+	"name": "Kailua Elementary School",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "4:00 PM to 8:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "315 Kuulei Road",
+			"city": "",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "315 Kuulei Road HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": "Sonny Doung",
+			"phone": "(808) 225-4002",
+			"email": "sonnydoung@hotmail.com"
+		}
+	}
+}, {
+	"id": 4,
+	"name": "Fern Forest Town Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "9:00 AM to 1:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "Hawaii",
+		"contact": {
+			"name": "Jan",
+			"phone": "(808) 968-8631",
+			"email": null
+		}
+	}
+}, {
+	"id": 5,
+	"name": "Hawaiian Homestead Farmers’ Market at Kuhio Hale Building",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "7:00 AM to 12:00 NOON"
+	},
+	"venue": {
+		"address": {
+			"address": "64-759 Kahilu Road, Waimea",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "64-759 Kahilu Road, Waimea ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Hawaii",
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 6,
+	"name": "Hilo Coffee Mill \"Market @ The Mill\"",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "8:00 AM - 1:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "17-995 Volcano Rd",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "17-995 Volcano Rd ",
+		"info": "Hilo Coffee Mill Farm, Between Mile Markers 12 & 13"
+	},
+	"organizer": {
+		"website": "Hawaii",
+		"contact": {
+			"name": "Katherine Patton  ",
+			"phone": "(808) 968-1333",
+			"email": null
+		}
+	}
+}, {
+	"id": 7,
+	"name": "Hilo’s Farmer’s Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "6:00 AM to 4:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": "Corner of Kamehameha Avenue and Mamo Street"
+	},
+	"organizer": {
+		"website": "Hawaii",
+		"contact": {
+			"name": "Keith",
+			"phone": "(808) 933-1000",
+			"email": null
+		}
+	}
+}, {
+	"id": 8,
+	"name": "Honokaa Farmer’s Market at Old Botelho Bldg., Downtown Honokaa",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "7:30 AM to 2:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "Hawaii",
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 9,
+	"name": "Ho'oulu Community Farmers Market at Keauhou Beach Resort Royal Gardens",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "12:30 PM to 5:30 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "Hawaii",
+		"contact": {
+			"name": "Kumu Keala Ching",
+			"phone": "(808) 324-2540",
+			"email": "keala.ching@outrigger.com"
+		}
+	}
+}, {
+	"id": 10,
+	"name": "Ka’u Farmers’ Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "7:00 AM to 12:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": "In Front of Ace Hardware, Ka’u"
+	},
+	"organizer": {
+		"website": "Hawaii",
+		"contact": {
+			"name": "Dennis & Marge",
+			"phone": "(808) 929-7239",
+			"email": "dewell@hawaii.rr.com"
+		}
+	}
+}, {
+	"id": 11,
+	"name": "Keaau Village Farmers’ Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": true,
+		"thursday": true,
+		"friday": true,
+		"saturday": true,
+		"time": "7:00 AM to 5:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "Hawaii",
+		"contact": {
+			"name": null,
+			"phone": "(808) 966-4853",
+			"email": null
+		}
+	}
+}, {
+	"id": 12,
+	"name": "Keauhou Farmer’s Market at Keauhou Shopping Center",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "8:00 AM to 12 NOON"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": "fronting Ace Hardware"
+	},
+	"organizer": {
+		"website": "Hawaii",
+		"contact": {
+			"name": "Nancy",
+			"phone": "(808) 322-3118, (808) 322-2362",
+			"email": "nkona@hawaii.rr.com"
+		}
+	}
+}, {
+	"id": 13,
+	"name": "Kekela Farm",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": true,
+		"friday": true,
+		"saturday": false,
+		"time": "2:00 PM to 5:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "64-604 Mana Road",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "64-604 Mana Road ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Hawaii",
+		"contact": {
+			"name": null,
+			"phone": "(808) 887-0023",
+			"email": null
+		}
+	}
+}, {
+	"id": 14,
+	"name": "Kona Farmers’ Market",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": true,
+		"friday": true,
+		"saturday": true,
+		"time": "7:00AM to 5:00PM"
+	},
+	"venue": {
+		"address": {
+			"address": "74-5465 Kamakaeha Avenue",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "74-5465 Kamakaeha Avenue ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Hawaii",
+		"contact": {
+			"name": "Bob Gagne",
+			"phone": "(808) 333-2478",
+			"email": "gagner001@hawaii.rr.com"
+		}
+	}
+}, {
+	"id": 15,
+	"name": "Laupahoehoe Farmers' Market",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "9:00AM to 1:00PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "Hawaii",
+		"contact": {
+			"name": "Beth Fulton",
+			"phone": "(808) 443-1679",
+			"email": "bethflo@hotmail.com"
+		}
+	}
+}, {
+	"id": 16,
+	"name": "Maku’u Farmer’s Market",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": true,
+		"thursday": true,
+		"friday": false,
+		"saturday": false,
+		"time": "6:00 AM to 1:30 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "Hawaii",
+		"contact": {
+			"name": null,
+			"phone": "(808) 965-1441, (808) 896-5537, (Cell) (808) 217-2307",
+			"email": "kekahuna@localnet.com"
+		}
+	}
+}, {
+	"id": 17,
+	"name": "Mamo Street Market",
+	"schedule": {
+		"sunday": true,
+		"monday": true,
+		"tuesday": true,
+		"wednesday": true,
+		"thursday": true,
+		"friday": true,
+		"saturday": true,
+		"time": "8:00 AM to 5:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "Hawaii",
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 18,
+	"name": "Panaewa Hawaiian Home Lands Farmers’ Market",
+	"schedule": {
+		"sunday": true,
+		"monday": true,
+		"tuesday": true,
+		"wednesday": true,
+		"thursday": true,
+		"friday": true,
+		"saturday": true,
+		"time": "8:00 AM to 5:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "Hawaii",
+		"contact": {
+			"name": "Jerry",
+			"phone": "(808) 959-0488",
+			"email": null
+		}
+	}
+}, {
+	"id": 19,
+	"name": "South Kona Fruit Stand",
+	"schedule": {
+		"sunday": true,
+		"monday": true,
+		"tuesday": true,
+		"wednesday": true,
+		"thursday": true,
+		"friday": true,
+		"saturday": true,
+		"time": "9:00 AM to 6:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "Hawaii",
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 20,
+	"name": "The Market Place",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "7:00 AM to 3:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "Hawaii",
+		"contact": {
+			"name": "Keith",
+			"phone": "(808) 933-1000",
+			"email": null
+		}
+	}
+}, {
+	"id": 21,
+	"name": "Under the Banyan’s Farmers’ Market in Hawi",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "7:30 AM to 1:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "Hawaii",
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 22,
+	"name": "Village Farmers’ Market",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": true,
+		"friday": true,
+		"saturday": true,
+		"time": "8:00 AM to 5:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": "Across from Hale Halawai, Kailua-Kona"
+	},
+	"organizer": {
+		"website": "Hawaii",
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 23,
+	"name": "Volcano Farmers’ Market",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "7:00 AM to 9:00 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "1000 Wright Road",
+			"city": "Cooper Center, Volcano",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "1000 Wright Road Cooper Center, Volcano ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Hawaii",
+		"contact": {
+			"name": "Betsy Mitchell",
+			"phone": "(808) 967-7209",
+			"email": null
+		}
+	}
+}, {
+	"id": 24,
+	"name": "Waimea Town Market at Parker School",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "7:00 AM to 2:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": "Behind Paniolo Country Inn"
+	},
+	"organizer": {
+		"website": "Hawaii",
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 25,
+	"name": "Hanapepe Park (Sunshine Markets)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": true,
+		"friday": false,
+		"saturday": false,
+		"time": "3:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "Kauai",
+		"contact": {
+			"name": "Cora Asuncion",
+			"phone": "(808) 742-1834",
+			"email": null
+		}
+	}
+}, {
+	"id": 26,
+	"name": "Hawaiian Farmers of Hanalei",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "2:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "Kauai",
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 27,
+	"name": "Kapaa New Town Park (Sunshine Markets)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "3:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "Kahau Road, Kapaa",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "Kahau Road, Kapaa ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Kauai",
+		"contact": {
+			"name": "Nancy Blalock",
+			"phone": "(808) 822-5887",
+			"email": null
+		}
+	}
+}, {
+	"id": 28,
+	"name": "Kauai Community Market (Kauai Community College)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "10:00 AM - 1:00 PM  "
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": "Campus front parking lot across from Grove Farm"
+	},
+	"organizer": {
+		"website": "Kauai",
+		"contact": {
+			"name": "Melissa McFerrin",
+			"phone": "(808) 337-9944",
+			"email": "kcfb@hawaiiantel.ne"
+		}
+	}
+}, {
+	"id": 29,
+	"name": "Kekaha Neighborhood Center (Sunshine Markets)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "9:00 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "Elepaio Road, Kekaha",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "Elepaio Road, Kekaha ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Kauai",
+		"contact": {
+			"name": "Cora Asuncion",
+			"phone": "(808) 742-1834",
+			"email": null
+		}
+	}
+}, {
+	"id": 30,
+	"name": "Kilauea Neighborhood Center (Sunshine Markets)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": true,
+		"friday": false,
+		"saturday": false,
+		"time": "4:30 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": "Keneke off Lighthouse Road"
+	},
+	"organizer": {
+		"website": "Kauai",
+		"contact": {
+			"name": "Ben Ferris",
+			"phone": "(808) 822-1712",
+			"email": null
+		}
+	}
+}, {
+	"id": 31,
+	"name": "Koloa Ball Park (Knudsen) (Sunshine Markets)",
+	"schedule": {
+		"sunday": false,
+		"monday": true,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "Noon"
+	},
+	"venue": {
+		"address": {
+			"address": "Maluhia Road",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "Maluhia Road ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Kauai",
+		"contact": {
+			"name": "Branch Harmony",
+			"phone": "(808) 322-0718",
+			"email": null
+		}
+	}
+}, {
+	"id": 32,
+	"name": "West Kauai Agricultural Association",
+	"schedule": {
+		"sunday": false,
+		"monday": true,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": "8:00 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": "Poipu Road and Cane Haul Road"
+	},
+	"organizer": {
+		"website": "Kauai",
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 33,
+	"name": null,
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": ".",
+			"city": "BIG ISLAND FARMER&rsquo;S MARKETS Updated 01/10/2011",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": ". BIG ISLAND FARMER&rsquo;S MARKETS Updated 01/10/2011 ",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 34,
+	"name": null,
+	"schedule": {
+		"sunday": true,
+		"monday": true,
+		"tuesday": true,
+		"wednesday": true,
+		"thursday": true,
+		"friday": true,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 35,
+	"name": "Akebono Farmers’ Market",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 36,
+	"name": "Alii Garden Market Place",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": true,
+		"friday": true,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 37,
+	"name": "Fern Forest Town Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 38,
+	"name": "Hawaiian Homestead Farmers’ Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 39,
+	"name": "Hilo Coffee Mill \"Market @ The Mill\"",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 40,
+	"name": "Hilo’s Farmer’s Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 41,
+	"name": "Honokaa Farmer’s Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 42,
+	"name": "Ho'oulu Community Farmers Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 43,
+	"name": "Ka’u Farmers’ Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 44,
+	"name": "Keaau Village Farmers’ Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": true,
+		"thursday": true,
+		"friday": true,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 45,
+	"name": "Keauhou Farmer’s Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 46,
+	"name": "Kekela Farm",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": true,
+		"friday": true,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 47,
+	"name": "Kinoole Farmer's Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 48,
+	"name": "Kona Farmers’ Market",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": true,
+		"friday": true,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 49,
+	"name": "Laupahoehoe Farmers' Market",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 50,
+	"name": "Maku’u Farmer’s Market",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": true,
+		"thursday": true,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 51,
+	"name": "Mamo Street Market",
+	"schedule": {
+		"sunday": true,
+		"monday": true,
+		"tuesday": true,
+		"wednesday": true,
+		"thursday": true,
+		"friday": true,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 52,
+	"name": "Panaewa Hawaiian Home Lands Farmers’ Market",
+	"schedule": {
+		"sunday": true,
+		"monday": true,
+		"tuesday": true,
+		"wednesday": true,
+		"thursday": true,
+		"friday": true,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 53,
+	"name": "South Kona Fruit Stand",
+	"schedule": {
+		"sunday": true,
+		"monday": true,
+		"tuesday": true,
+		"wednesday": true,
+		"thursday": true,
+		"friday": true,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 54,
+	"name": "The Market Place",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 55,
+	"name": "The South Kona Green Market",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 56,
+	"name": "Under the Banyan’s Farmers’ Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 57,
+	"name": "Village Farmers’ Market",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": true,
+		"friday": true,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 58,
+	"name": "Volcano Farmers’ Market",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 59,
+	"name": "Waikoloa Village Farmers Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 60,
+	"name": "Waimea Town Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 61,
+	"name": "KAUAI FARMER’S MARKETS",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 62,
+	"name": null,
+	"schedule": {
+		"sunday": true,
+		"monday": true,
+		"tuesday": true,
+		"wednesday": true,
+		"thursday": true,
+		"friday": true,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 63,
+	"name": "Hanalei Saturday Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 64,
+	"name": "Hanapepe Park (Sunshine Markets)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": true,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 65,
+	"name": "Hawaiian Farmers of Hanalei",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 66,
+	"name": "Kalaheo Neighborhood Center (Sunshine Markets)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 67,
+	"name": "Kapaa New Town Park (Sunshine Markets)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 68,
+	"name": "Kauai Community Market (Kauai Community College)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 69,
+	"name": "Kekaha Neighborhood Center (Sunshine Markets)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 70,
+	"name": "Kilauea Neighborhood Center (Sunshine Markets)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": true,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 71,
+	"name": "Koloa Ball Park (Knudsen) (Sunshine Markets)",
+	"schedule": {
+		"sunday": false,
+		"monday": true,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 72,
+	"name": "Kukui Grove Shopping Center",
+	"schedule": {
+		"sunday": false,
+		"monday": true,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 73,
+	"name": "Vidinha Stadium (Sunshine Markets)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 74,
+	"name": "West Kauai Agricultural Association",
+	"schedule": {
+		"sunday": false,
+		"monday": true,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 75,
+	"name": "OAHU FARMER'S MARKETS",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 76,
+	"name": null,
+	"schedule": {
+		"sunday": true,
+		"monday": true,
+		"tuesday": true,
+		"wednesday": true,
+		"thursday": true,
+		"friday": true,
+		"saturday": true,
+		"time": "Time"
+	},
+	"venue": {
+		"address": {
+			"address": "Address",
+			"city": "City",
+			"state": "State",
+			"zip": "Zip"
+		},
+		"addressOneLine": "Address City, State Zip",
+		"info": "Location Info"
+	},
+	"organizer": {
+		"website": "Website",
+		"contact": {
+			"name": "Phone",
+			"phone": "Email",
+			"email": null
+		}
+	}
+}, {
+	"id": 77,
+	"name": "Country Market & Craft Fair",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "9:00 AM to 4:00PM"
+	},
+	"venue": {
+		"address": {
+			"address": "1330 Kalanianaole Hwy.",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "1330 Kalanianaole Hwy. ",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 78,
+	"name": "Davies Pacific Center",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "10:00 AM - 1:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "841 Bishop Street",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "841 Bishop Street ",
+		"info": "*2nd & 4th Tuesdays"
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 79,
+	"name": "Dole Cannery",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": "10:00 AM to 5:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "650 Iwilei Road",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "650 Iwilei Road ",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": "drozemond@castlecooke.com"
+		}
+	}
+}, {
+	"id": 80,
+	"name": "Ewa Beach Elementary School",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 81,
+	"name": "First Insurance Center",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 82,
+	"name": "Waikoloa Village Farmers Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "7:15 AM to 10:00 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "68-3625 Paniolo Ave.",
+			"city": "Waikoloa",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "68-3625 Paniolo Ave. Waikoloa ",
+		"info": "Waikoloa Community Church Parking Lot"
+	},
+	"organizer": {
+		"website": "Hawaii",
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 83,
+	"name": "Fort Street near Wilcox Park",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 84,
+	"name": "Halawa District Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": true,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "www.co.honolulu.hi.us/parks/programs/pom ",
+		"contact": {
+			"name": "(808) 522-7088",
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 85,
+	"name": "Hale'iwa Farmers' Market ",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 86,
+	"name": "Hawaii Kai Farmers' Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 87,
+	"name": "Hawaii Kai Park-n-Ride (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 88,
+	"name": "Hawaii Kai Towne Center",
+	"schedule": {
+		"sunday": false,
+		"monday": true,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 89,
+	"name": "Honolulu Farmers' Market ",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 90,
+	"name": "International Market Place (Next to the Food Court)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": true,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 91,
+	"name": "Kahaluu Farmers' Market ",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 92,
+	"name": "Kailua District Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": true,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "www.co.honolulu.hi.us/parks/programs/pom ",
+		"contact": {
+			"name": "(808) 522-7088",
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 93,
+	"name": "Kailua Elementary School (Opening March 10, 2012)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 94,
+	"name": "Kaka'ako Makai Community Cultural Marketplace",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": true,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 95,
+	"name": "Kalihi Valley District Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "www.co.honolulu.hi.us/parks/programs/pom ",
+		"contact": {
+			"name": "(808) 522-7088",
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 96,
+	"name": "Kalihi Farmers' Market ",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 97,
+	"name": "Kaneohe District Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": true,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "www.co.honolulu.hi.us/parks/programs/pom ",
+		"contact": {
+			"name": "(808) 522-7088",
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 98,
+	"name": "Kapolei Community Park (People's Open Market)",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "www.co.honolulu.hi.us/parks/programs/pom ",
+		"contact": {
+			"name": "(808) 522-7088",
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 99,
+	"name": "Kaumualii Street (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "www.co.honolulu.hi.us/parks/programs/pom ",
+		"contact": {
+			"name": "(808) 522-7088",
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 100,
+	"name": "King's Village Shopping Center",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 101,
+	"name": "Mahiku Farmers' Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": true,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 102,
+	"name": "Mahiku Farmers' Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 103,
+	"name": "Makeke Kapolei",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": true,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 104,
+	"name": "Makiki District Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": true,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 105,
+	"name": "Makiki Local Grown Farmers' Market at St. Clement's Church",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": true,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 106,
+	"name": "Manoa Marketplace",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": true,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 107,
+	"name": "Manoa Valley District Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": true,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "www.co.honolulu.hi.us/parks/programs/pom ",
+		"contact": {
+			"name": "(808) 522-7088",
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 108,
+	"name": "Merchant Street Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 109,
+	"name": "Mililani District Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "www.co.honolulu.hi.us/parks/programs/pom ",
+		"contact": {
+			"name": "(808) 522-7088",
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 110,
+	"name": "Mother Waldron Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": true,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "www.co.honolulu.hi.us/parks/programs/pom ",
+		"contact": {
+			"name": "(808) 522-7088",
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 111,
+	"name": "North Shore Country Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 112,
+	"name": "Nuuanu Farmers Market ",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 113,
+	"name": "Old Stadium Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "www.co.honolulu.hi.us/parks/programs/pom ",
+		"contact": {
+			"name": "(808) 522-7088",
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 114,
+	"name": "Palolo Valley District Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "www.co.honolulu.hi.us/parks/programs/pom ",
+		"contact": {
+			"name": "(808) 522-7088",
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 115,
+	"name": "Pokai Bay Beach Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "www.co.honolulu.hi.us/parks/programs/pom ",
+		"contact": {
+			"name": "(808) 522-7088",
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 116,
+	"name": "Queen Kapiolani Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "www.co.honolulu.hi.us/parks/programs/pom ",
+		"contact": {
+			"name": "(808) 522-7088",
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 117,
+	"name": "Queen's Medical Center",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 118,
+	"name": "Restaurant Row Farmers' Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 119,
+	"name": "Royal Kunia Park-n-Ride (People's Open Market)",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "www.co.honolulu.hi.us/parks/programs/pom ",
+		"contact": {
+			"name": "(808) 522-7088",
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 120,
+	"name": "Salt Lake Municipal Lot  (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "www.co.honolulu.hi.us/parks/programs/pom ",
+		"contact": {
+			"name": "(808) 522-7088",
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 121,
+	"name": "The Kailua Thursday Night Farmers Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": true,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 122,
+	"name": "The Mililani Sunday Farmers' Market at Mililani High School",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 123,
+	"name": "The Saturday Farmers' Market at Kapiolani Community College Campus",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 124,
+	"name": "Wahiawa District Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "www.co.honolulu.hi.us/parks/programs/pom ",
+		"contact": {
+			"name": "(808) 522-7088",
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 125,
+	"name": "Waialua Farmers' Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 126,
+	"name": "Waianae Farmers' Market (sponsored by Waianae Coast Comprehensive Center)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 127,
+	"name": "Waiau District Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "www.co.honolulu.hi.us/parks/programs/pom ",
+		"contact": {
+			"name": "(808) 522-7088",
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 128,
+	"name": "Waikele Community Park (People's Open Market)",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "www.co.honolulu.hi.us/parks/programs/pom ",
+		"contact": {
+			"name": "(808) 522-7088",
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 129,
+	"name": "Waimanalo Beach Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": true,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "www.co.honolulu.hi.us/parks/programs/pom ",
+		"contact": {
+			"name": "(808) 522-7088",
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 130,
+	"name": "Waipahu District Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": "www.co.honolulu.hi.us/parks/programs/pom ",
+		"contact": {
+			"name": "(808) 522-7088",
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 131,
+	"name": "Waikiki Farmers' Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 132,
+	"name": "Ward Center",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 133,
+	"name": "Windward Mall",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 134,
+	"name": "MAUI FARMER’S MARKETS",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 135,
+	"name": null,
+	"schedule": {
+		"sunday": true,
+		"monday": true,
+		"tuesday": true,
+		"wednesday": true,
+		"thursday": true,
+		"friday": true,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 136,
+	"name": "Farmers' Market of Maui-Honokowai",
+	"schedule": {
+		"sunday": false,
+		"monday": true,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 137,
+	"name": "Farmers' Market of Maui-Kihei ",
+	"schedule": {
+		"sunday": false,
+		"monday": true,
+		"tuesday": true,
+		"wednesday": true,
+		"thursday": true,
+		"friday": true,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 138,
+	"name": "Hali'imaile Farmers' Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 139,
+	"name": "Lipoa Street Farmers' Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 140,
+	"name": "Makawao Farmers' Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 141,
+	"name": "The Maui's Fresh Produce Farmer's Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": true,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 142,
+	"name": "Maui Mall Farmers' Market & Craft Fair",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": true,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 143,
+	"name": "Maui Swap Meet",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 144,
+	"name": "Ono Organic Farms Farmers' Market",
+	"schedule": {
+		"sunday": false,
+		"monday": true,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": true,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 145,
+	"name": "Upcountry Farmers' Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": null
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 146,
+	"name": "Waipahu District Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "8:15 AM to 9:15 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "94-230 Paiwa Stree",
+			"city": "Waipahu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "94-230 Paiwa Stree Waipahu, HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 522-7088",
+			"email": null
+		}
+	}
+}, {
+	"id": 147,
+	"name": "Makeke Kapolei",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": true,
+		"friday": false,
+		"saturday": false,
+		"time": "3:00 PM to 6:30 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "Kapolei",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "Kapolei, HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 697-3599 or 692-8200 ext. 2267",
+			"email": null
+		}
+	}
+}, {
+	"id": 148,
+	"name": "The Maui's Fresh Produce Farmer's Market at Queen Ka'ahumanu Shopping Center ",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": true,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": "7:00 AM to 4:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "275 W. Ka&rsquo;ahumanu Ave",
+			"city": "Kahului",
+			"state": "HI",
+			"zip": "96732"
+		},
+		"addressOneLine": "275 W. Ka&rsquo;ahumanu Ave Kahului, HI 96732",
+		"info": "Center stage area"
+	},
+	"organizer": {
+		"website": "Maui",
+		"contact": {
+			"name": null,
+			"phone": "(808) 877-4325",
+			"email": null
+		}
+	}
+}, {
+	"id": 149,
+	"name": "Pokai Bay Beach Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": "11:00 AM to 11:45 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "85-037 Pokai Bay Road",
+			"city": "Waianae",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "85-037 Pokai Bay Road Waianae, HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 522-7088",
+			"email": null
+		}
+	}
+}, {
+	"id": 150,
+	"name": "Dole Cannery",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": "10:00 AM to 5:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "650 Iwilei Road",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "650 Iwilei Road Honolulu, HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": "Doreen Rozemond",
+			"phone": null,
+			"email": "drozemond@castlecooke.com"
+		}
+	}
+}, {
+	"id": 151,
+	"name": "Kalaheo Neighborhood Center (Sunshine Markets)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "3:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "Papalina Road",
+			"city": "Kalaheo",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "Papalina Road Kalaheo ",
+		"info": "Papalina Road off Kaumualii, Kalaheo"
+	},
+	"organizer": {
+		"website": "Kauai",
+		"contact": {
+			"name": "Matilda Adams at the site",
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 152,
+	"name": "Makawao Farmers' Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "9:30 AM -   2:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "200 Olinda Rd.",
+			"city": "Makawao",
+			"state": "HI",
+			"zip": "96768"
+		},
+		"addressOneLine": "200 Olinda Rd. Makawao, HI 96768",
+		"info": "Po'okela Church on Olinda Road"
+	},
+	"organizer": {
+		"website": "Maui",
+		"contact": {
+			"name": "Debbie",
+			"phone": "808-419-1570",
+			"email": null
+		}
+	}
+}, {
+	"id": 153,
+	"name": "Kukui Grove Shopping Center",
+	"schedule": {
+		"sunday": false,
+		"monday": true,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "3:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "Lihue",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "Lihue ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Kauai",
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 154,
+	"name": "Farmers' Market of Maui-Kihei ",
+	"schedule": {
+		"sunday": false,
+		"monday": true,
+		"tuesday": true,
+		"wednesday": true,
+		"thursday": true,
+		"friday": true,
+		"saturday": false,
+		"time": "8:00 AM to 4:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "61 South Kihei Road",
+			"city": "Kihei",
+			"state": "HI",
+			"zip": "96753-8801"
+		},
+		"addressOneLine": "61 South Kihei Road Kihei, HI 96753-8801",
+		"info": "Located in Suda Store parking lot on South Kihei Road"
+	},
+	"organizer": {
+		"website": "Maui",
+		"contact": {
+			"name": null,
+			"phone": "(808) 875-0949",
+			"email": null
+		}
+	}
+}, {
+	"id": 155,
+	"name": "Alii Garden Market Place",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": true,
+		"friday": true,
+		"saturday": true,
+		"time": "9:00 AM to 5:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "75-6129 Alii Drive",
+			"city": "Kailua-Kona",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "75-6129 Alii Drive Kailua-Kona ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Hawaii",
+		"contact": {
+			"name": null,
+			"phone": "(808) 334-1381",
+			"email": null
+		}
+	}
+}, {
+	"id": 156,
+	"name": "Maui Mall Farmers' Market & Craft Fair",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": true,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": "7:00 AM to 4:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "70 East Kaahumanu Ave",
+			"city": "Kahului",
+			"state": "HI",
+			"zip": "96732"
+		},
+		"addressOneLine": "70 East Kaahumanu Ave Kahului, HI 96732",
+		"info": null
+	},
+	"organizer": {
+		"website": "Maui",
+		"contact": {
+			"name": "Cynda Hearn",
+			"phone": "(808) 871-1307",
+			"email": null
+		}
+	}
+}, {
+	"id": 157,
+	"name": "Benjamin Parker Elementary School",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "8:00 AM to 2:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "45-259 Waikalua Road",
+			"city": "Kaneohe",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "45-259 Waikalua Road Kaneohe, HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": null,
+		"contact": {
+			"name": "(808) 225-4002",
+			"phone": null,
+			"email": "sonnydoung@hotmail.com  www.mahikufarmersmarket.com"
+		}
+	}
+}, {
+	"id": 158,
+	"name": "Hawaii Kai Farmers' Market at Kaiser High School",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "9:00 AM - 1:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "511 Lunalilo Home Road",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "511 Lunalilo Home Road Honolulu, HI ",
+		"info": "Kaiser High School parking lot"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 388-9696",
+			"email": null
+		}
+	}
+}, {
+	"id": 159,
+	"name": "Vidinha Stadium (Sunshine Markets)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": "3:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "Hoolako Road",
+			"city": "Lihue",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "Hoolako Road Lihue ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Kauai",
+		"contact": {
+			"name": "Cora Asuncion",
+			"phone": "(808) 742-1834",
+			"email": null
+		}
+	}
+}, {
+	"id": 160,
+	"name": "Honolulu Farmers' Market at Neal S. Blaisdell Center",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "4:00 PM to 7:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "777 Ward Ave",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": "96814"
+		},
+		"addressOneLine": "777 Ward Ave Honolulu, HI 96814",
+		"info": "Ward Ave. & King Street"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 848-2074",
+			"email": null
+		}
+	}
+}, {
+	"id": 161,
+	"name": "Kaumualii Street (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "8:15 AM to 9:30 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "Honolulu, HI ",
+		"info": "Kalihi Street"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 522-7088",
+			"email": null
+		}
+	}
+}, {
+	"id": 162,
+	"name": "Akebono Farmers’ Market",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "7:00 AM to 2:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "Pahoa",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "Pahoa, HI ",
+		"info": "Akebono Parking Lot"
+	},
+	"organizer": {
+		"website": "Hawaii",
+		"contact": {
+			"name": "Vinton",
+			"phone": "(808) 965-9205",
+			"email": null
+		}
+	}
+}, {
+	"id": 163,
+	"name": "Royal Kunia Park-n-Ride (People's Open Market)",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "9:30 AM to 11:00 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "Waipahu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "Waipahu, HI ",
+		"info": "Kupuna Lp / Kupohi Stree"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 522-7088",
+			"email": null
+		}
+	}
+}, {
+	"id": 164,
+	"name": "The South Kona Green Market at Amy Greenwell Ethnobotanical Garden field in ",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "9:00 AM to 2:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "Captain Cook",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "Captain Cook ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Hawaii",
+		"contact": {
+			"name": "Esta Feedora",
+			"phone": "(808) 328-2400",
+			"email": null
+		}
+	}
+}, {
+	"id": 165,
+	"name": "North Shore Country Market at Sunset Beach Elementary School",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "8:00 AM to 2:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "Haleiwa",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "Haleiwa, HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 237-8248",
+			"email": null
+		}
+	}
+}, {
+	"id": 166,
+	"name": "Hale'iwa Farmers' Market ",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "9:00 AM to 1:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "HI ",
+		"info": "Kam Hwy. and Joseph P. Leong Bypass"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 388-9696",
+			"email": "haleiwafarmersmarket@gmail.com"
+		}
+	}
+}, {
+	"id": 167,
+	"name": "Ono Organic Farms Farmers' Market in Hana",
+	"schedule": {
+		"sunday": true,
+		"monday": true,
+		"tuesday": true,
+		"wednesday": true,
+		"thursday": true,
+		"friday": true,
+		"saturday": true,
+		"time": "10:00 AM to 6:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "149 Hana Highway",
+			"city": "Hana",
+			"state": "HI",
+			"zip": "96713"
+		},
+		"addressOneLine": "149 Hana Highway Hana, HI 96713",
+		"info": "Old gas station, Hasegawa General Store - Hana Hwy."
+	},
+	"organizer": {
+		"website": "Maui",
+		"contact": {
+			"name": null,
+			"phone": "(808) 248-7779",
+			"email": null
+		}
+	}
+}, {
+	"id": 168,
+	"name": "Fort Street near Wilcox Park",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": "8:00 AM to 2:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "Honolulu, HI ",
+		"info": "In front of Macy's"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": "Lori Zane",
+			"phone": "(808) 777-9216",
+			"email": null
+		}
+	}
+}, {
+	"id": 169,
+	"name": "Salt Lake Municipal Lot  (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "11:15 AM to 12:00 Noon"
+	},
+	"venue": {
+		"address": {
+			"address": "5337 Likini Street",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "5337 Likini Street Honolulu, HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 522-7088",
+			"email": null
+		}
+	}
+}, {
+	"id": 170,
+	"name": "Queen's Medical Center",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "10:00 AM to 2:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "1301 Punchbowl Street",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "1301 Punchbowl Street Honolulu, HI ",
+		"info": "First Wednesdays"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 171,
+	"name": "City Hall Parking Lot Deck (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": true,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "11:45 AM to 12:30 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "Honolulu, HI ",
+		"info": "Alapai & Beretania Street"
+	},
+	"organizer": {
+		"website": "www.co.honolulu.hi.us/parks/programs/pom",
+		"contact": {
+			"name": "(808) 522-7088",
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 172,
+	"name": "Waikiki Farmers' Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": "7:00 AM to 1:00 PM "
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "HI ",
+		"info": "Waikiki Community Center's Parking Lot"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 923-1802",
+			"email": null
+		}
+	}
+}, {
+	"id": 173,
+	"name": "Ewa Beach Community Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": "9:00 AM to 10:00 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "91-955 North Road",
+			"city": "Ewa Beach",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "91-955 North Road Ewa Beach, HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 522-7088",
+			"email": null
+		}
+	}
+}, {
+	"id": 174,
+	"name": "Kaneohe District Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": true,
+		"friday": false,
+		"saturday": false,
+		"time": "10:45 AM to 11:45 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "45-660 Keaahala Road",
+			"city": "Kaneohe",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "45-660 Keaahala Road Kaneohe, HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 522-7088",
+			"email": null
+		}
+	}
+}, {
+	"id": 175,
+	"name": "Hawaii Kai Park-n-Ride (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "1:00 PM to 2:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "300 Keahole Street, Honolulu",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "300 Keahole Street, Honolulu Honolulu, HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 522-7088",
+			"email": null
+		}
+	}
+}, {
+	"id": 176,
+	"name": "Davies Pacific Center",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "10:00 AM - 1:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "841 Bishop Street",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "841 Bishop Street Honolulu, HI ",
+		"info": "*2nd & 4th Tuesdays"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 177,
+	"name": "Maui Swap Meet at Maui Community College ",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "6:00 AM to 1:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "310 Ka'ahumanu Avenue",
+			"city": "Kahului",
+			"state": "HI",
+			"zip": "96732"
+		},
+		"addressOneLine": "310 Ka'ahumanu Avenue Kahului, HI 96732",
+		"info": "Maui Community College (lot nearest to Kahului Beach Road)"
+	},
+	"organizer": {
+		"website": "Maui",
+		"contact": {
+			"name": null,
+			"phone": "(808) 877-3100",
+			"email": null
+		}
+	}
+}, {
+	"id": 178,
+	"name": "Kaka'ako Makai Community Cultural Marketplace",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": "4:30 PM - 8:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "Honolulu, HI ",
+		"info": "one block makai of Ala Moana Blvd. & Ward Ave. corner Ilalo & Ahui Sts. "
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": " (808) 330-6224",
+			"email": null
+		}
+	}
+}, {
+	"id": 179,
+	"name": "Kailua District Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": true,
+		"friday": false,
+		"saturday": false,
+		"time": "9:00 AM to 10:00 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "21 South Kainalu Drive",
+			"city": "Kailua",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "21 South Kainalu Drive Kailua, HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 522-7088",
+			"email": null
+		}
+	}
+}, {
+	"id": 180,
+	"name": "First Insurance Center",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "10:00 AM to 1:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "1100 Ward Ave",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "1100 Ward Ave Honolulu, HI ",
+		"info": "*1st & 3rd Wednesdays, across from Thomas Square"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 181,
+	"name": "Kalihi Valley District Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "10:00 AM to 10:45 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "1911 Kam IV Road",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "1911 Kam IV Road Honolulu, HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 522-7088",
+			"email": null
+		}
+	}
+}, {
+	"id": 182,
+	"name": "City Hall Parking Lot Deck (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": true,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "11:45 AM to 12:30 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "Honolulu, HI ",
+		"info": "Alapai & Beretania Street"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 522-7088",
+			"email": null
+		}
+	}
+}, {
+	"id": 183,
+	"name": "Waianae Farmers' Market (sponsored by Waianae Coast Comprehensive Center)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "8:30 AM to 11:30 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "85-251 Farrington Highway",
+			"city": "Waianae",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "85-251 Farrington Highway Waianae, HI ",
+		"info": "Waianae High School, Cafeteria Lanai"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": "Desiree",
+			"phone": "(808) 388-7386",
+			"email": "waianaefarmersmarket@wcchc.com"
+		}
+	}
+}, {
+	"id": 184,
+	"name": "Mahiku Farmers' Market at Momilani Community Center",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": "3:00 PM to 7:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "715 Hoomoana St",
+			"city": "Pearl City",
+			"state": "HI",
+			"zip": "96782"
+		},
+		"addressOneLine": "715 Hoomoana St Pearl City, HI 96782",
+		"info": "corner of Hoomoana & Komo Mai Dr"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": "Sonny Doung",
+			"phone": "(808) 225-4002",
+			"email": "sonnydoung@hotmail.com"
+		}
+	}
+}, {
+	"id": 185,
+	"name": "Ewa Beach Elementary School",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "9:00 AM to 1:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "91-740 Papipi Road",
+			"city": "Ewa Beach",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "91-740 Papipi Road Ewa Beach, HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": "Sonny Doung",
+			"phone": "(808) 225-4002",
+			"email": "sonnydoung@hotmail.com"
+		}
+	}
+}, {
+	"id": 186,
+	"name": "Mahiku Farmers' Market at International Market Place-Waikiki",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": true,
+		"friday": false,
+		"saturday": false,
+		"time": "4:00 PM - 8:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "Honolulu, HI ",
+		"info": "International Market Place-Waikiki (near the Food Court)"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": "Sonny Doung",
+			"phone": "(808) 225-4002",
+			"email": "sonnydoung@hotmail.com"
+		}
+	}
+}, {
+	"id": 187,
+	"name": "King's Village Shopping Center",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": "4:00 PM to 9:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "131 Kaiulani Ave.",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "131 Kaiulani Ave. Honolulu, HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 237-6340",
+			"email": null
+		}
+	}
+}, {
+	"id": 188,
+	"name": "Lipoa Street Farmers' Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "8:00 AM - 12:00 NOON"
+	},
+	"venue": {
+		"address": {
+			"address": "95 Lipoa Street",
+			"city": "Kihei",
+			"state": "HI",
+			"zip": "96753"
+		},
+		"addressOneLine": "95 Lipoa Street Kihei, HI 96753",
+		"info": null
+	},
+	"organizer": {
+		"website": "Maui",
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 189,
+	"name": "Kalihi Farmers' Market at Kapalama Elementary School",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "7:00 AM to 1:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "1601 N. School Street",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "1601 N. School Street Honolulu, HI ",
+		"info": "Kapalama Elementary School"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": "Sonny Doung",
+			"phone": "(808) 225-4002",
+			"email": "sonnydoung@hotmail.com"
+		}
+	}
+}, {
+	"id": 190,
+	"name": "The Saturday Farmers' Market at Kapiolani Community College Campus",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "7:30 AM to 11:00 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "4303 Diamond Head Road",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": "96816"
+		},
+		"addressOneLine": "4303 Diamond Head Road Honolulu, HI 96816",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 848-2074",
+			"email": null
+		}
+	}
+}, {
+	"id": 191,
+	"name": "Hali'imaile Farmers' Market at Hali'imaile Town Center",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": "1:00 PM - 6:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "900 Haliimaile Rd",
+			"city": "Makawao",
+			"state": "HI",
+			"zip": "96768"
+		},
+		"addressOneLine": "900 Haliimaile Rd Makawao, HI 96768",
+		"info": "in former Maui Pineapple Co. parking lot next to Hali'imaile General Store"
+	},
+	"organizer": {
+		"website": "Maui",
+		"contact": {
+			"name": null,
+			"phone": "(808) 463-1676",
+			"email": null
+		}
+	}
+}, {
+	"id": 192,
+	"name": "Makiki District Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": true,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "8:30 AM to 9:30 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "1527 Keeaumoku Street",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "1527 Keeaumoku Street Honolulu, HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 522-7088",
+			"email": null
+		}
+	}
+}, {
+	"id": 193,
+	"name": "The Kailua Thursday Night Farmers Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": true,
+		"friday": false,
+		"saturday": false,
+		"time": "5:00 PM to 7:30 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "Kailua",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "Kailua, HI ",
+		"info": "Kailua Road - Kailua Parking Garage (behind Longs)"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 848-2074",
+			"email": null
+		}
+	}
+}, {
+	"id": 194,
+	"name": "Waialua Farmers' Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "8:30 AM to 12:00 Noon"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "HI ",
+		"info": "Waialua Sugar Mill"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": "Edith Ramiscal",
+			"phone": null,
+			"email": "info@sugarmillhawaii.com"
+		}
+	}
+}, {
+	"id": 195,
+	"name": "Nuuanu Farmers Market at Honolulu Central Seventh Day Adventist Church",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "4:00 PM to 7:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "2313 Nuuanu Avenue",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "2313 Nuuanu Avenue Honolulu, HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 282-2276",
+			"email": "nuuanumarket@gmail.com"
+		}
+	}
+}, {
+	"id": 196,
+	"name": "The Mililani Sunday Farmers' Market at Mililani High School",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "8:00 AM to 12:00 NOON"
+	},
+	"venue": {
+		"address": {
+			"address": "95-1200 Meheula Parkway",
+			"city": "Mililani",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "95-1200 Meheula Parkway Mililani, HI ",
+		"info": "Mililani High School Parking Lot"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 848-2074",
+			"email": null
+		}
+	}
+}, {
+	"id": 197,
+	"name": "Upcountry Farmers' Market at Pukalani Longs Drugs at Kulamalu",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "7:00 AM - 12:00 NOON"
+	},
+	"venue": {
+		"address": {
+			"address": "55 Kiopaa St",
+			"city": "Makawao",
+			"state": "HI",
+			"zip": "96768"
+		},
+		"addressOneLine": "55 Kiopaa St Makawao, HI 96768",
+		"info": "in the parking lot next to Long's  Drugs at Kulamalu"
+	},
+	"organizer": {
+		"website": "Maui",
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": "info@upcountryfarmersmarket.com"
+		}
+	}
+}, {
+	"id": 198,
+	"name": "Mililani District Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "11:45 AM to 12:30 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "94-1150 Lanikuhana Avenue",
+			"city": "Mililani",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "94-1150 Lanikuhana Avenue Mililani, HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 522-7088",
+			"email": null
+		}
+	}
+}, {
+	"id": 199,
+	"name": "Manoa Marketplace",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": true,
+		"friday": false,
+		"saturday": false,
+		"time": "7:00 AM to 11:00 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "2752 Woodlawn Drive",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": "96822"
+		},
+		"addressOneLine": "2752 Woodlawn Drive Honolulu, HI 96822",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 847-0494 Cell: (808) 554-4667",
+			"email": null
+		}
+	}
+}, {
+	"id": 200,
+	"name": "Maui Open Market, Maui Tropical Plantation",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": true,
+		"thursday": true,
+		"friday": true,
+		"saturday": true,
+		"time": "10:00 AM -4:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "1670 HONOAPIILANI HWY",
+			"city": "Wailuku",
+			"state": "HI",
+			"zip": "96793"
+		},
+		"addressOneLine": "1670 HONOAPIILANI HWY Wailuku, HI 96793",
+		"info": null
+	},
+	"organizer": {
+		"website": "Maui",
+		"contact": {
+			"name": null,
+			"phone": "808-244-7643",
+			"email": null
+		}
+	}
+}, {
+	"id": 201,
+	"name": "Banyan Court Mall (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "6:15 AM to 7:30 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "800 North King Street",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "800 North King Street Honolulu, HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 522-7088",
+			"email": null
+		}
+	}
+}, {
+	"id": 202,
+	"name": "Old Stadium Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "8:15 AM to 9:15 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "2237 South King Street",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "2237 South King Street Honolulu, HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 522-7088",
+			"email": null
+		}
+	}
+}, {
+	"id": 203,
+	"name": "Hawaii Kai Towne Center",
+	"schedule": {
+		"sunday": false,
+		"monday": true,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "7:30 AM to 3:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "333 Keahole Street",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": "96825"
+		},
+		"addressOneLine": "333 Keahole Street Honolulu, HI 96825",
+		"info": "behind Panda Express"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 396-0766",
+			"email": null
+		}
+	}
+}, {
+	"id": 204,
+	"name": "Hana Fresh Market",
+	"schedule": {
+		"sunday": true,
+		"monday": true,
+		"tuesday": true,
+		"wednesday": true,
+		"thursday": true,
+		"friday": true,
+		"saturday": true,
+		"time": "All Day"
+	},
+	"venue": {
+		"address": {
+			"address": "4590 H&#257;na Highway",
+			"city": "Hana",
+			"state": "HI",
+			"zip": "96713"
+		},
+		"addressOneLine": "4590 H&#257;na Highway Hana, HI 96713",
+		"info": "between mile markers 34 and 35."
+	},
+	"organizer": {
+		"website": "Maui",
+		"contact": {
+			"name": null,
+			"phone": "(808) 248-7515 ext. 26",
+			"email": null
+		}
+	}
+}, {
+	"id": 205,
+	"name": "Kinoole Farmer's Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "7:00 AM to 12 Noon"
+	},
+	"venue": {
+		"address": {
+			"address": "1990 Kinoole Street, Hilo",
+			"city": "",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "1990 Kinoole Street, Hilo ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Hawaii",
+		"contact": {
+			"name": "Lori",
+			"phone": "(808) 557-2780",
+			"email": "bifb@hawaiiantel.net"
+		}
+	}
+}, {
+	"id": 206,
+	"name": "Ala Moana Farmers' Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "9:00 AM to 1:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "1450 Ala Moana Blvd.",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "1450 Ala Moana Blvd. Honolulu, HI ",
+		"info": "Ala Moana Center, upper deck by Sears, corner of Piikoi & Ala Moana Blvd."
+	},
+	"organizer": {
+		"website": "\nhttp://alamoanafarmersmarket.com/ala-moana.html",
+		"contact": {
+			"name": "808-388-9696\n",
+			"phone": null,
+			"email": "AlaMoanaFarmersMarket@gmail.com"
+		}
+	}
+}, {
+	"id": 207,
+	"name": "Molokai Saturday Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "7:00 AM - 12 NOON"
+	},
+	"venue": {
+		"address": {
+			"address": "40 Ala Malama Street",
+			"city": "Kaunakakai",
+			"state": "HI",
+			"zip": "96748"
+		},
+		"addressOneLine": "40 Ala Malama Street Kaunakakai, HI 96748",
+		"info": "Ala Malama Street at the Thomas Trade Building, located between Bank of Hawai‘i and American Savings Bank."
+	},
+	"organizer": {
+		"website": "Molokai",
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 208,
+	"name": "Waiau District Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "6:30 AM to 7:30 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "Pearl City",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "Pearl City, HI ",
+		"info": "Komo Mai Drive, Pearl City"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 522-7088",
+			"email": null
+		}
+	}
+}, {
+	"id": 209,
+	"name": "Hanalei Saturday Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "9 AM  - 1:30 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "Hanalei",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "Hanalei ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Kauai",
+		"contact": {
+			"name": "Stephanie Struble",
+			"phone": "(808) 826-1011",
+			"email": null
+		}
+	}
+}, {
+	"id": 210,
+	"name": "Kaka'ako Makai Community Cultural Marketplace",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "9:00 AM - 2:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "Honolulu, HI ",
+		"info": "one block makai of Ala Moana Blvd. & Ward Ave. corner Ilalo & Ahui Sts. "
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": " (808) 330-6224",
+			"email": null
+		}
+	}
+}, {
+	"id": 211,
+	"name": "Merchant Street Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "10:00 AM to 1:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "841 Bishop Street",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "841 Bishop Street Honolulu, HI ",
+		"info": "2nd and 4th Tuesday of each month"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 545-4477",
+			"email": "dpcinfo@isleconcierge.com"
+		}
+	}
+}, {
+	"id": 212,
+	"name": "Mother Waldron Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": true,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "10:15 AM to 11:00 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "525 Coral Street",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "525 Coral Street Honolulu, HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 522-7088",
+			"email": null
+		}
+	}
+}, {
+	"id": 213,
+	"name": "Wahiawa District Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "10:00 AM to 11:00 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "HI ",
+		"info": "N. Cane & California Avenue"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 522-7088",
+			"email": null
+		}
+	}
+}, {
+	"id": 214,
+	"name": "Ewa Beach Community Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": "9:00 AM to 10:00 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "91-955 North Road",
+			"city": "Ewa Beach",
+			"state": "",
+			"zip": ""
+		},
+		"addressOneLine": "91-955 North Road Ewa Beach ",
+		"info": null
+	},
+	"organizer": {
+		"website": "www.co.honolulu.hi.us/parks/programs/pom ",
+		"contact": {
+			"name": "(808) 522-7088",
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 215,
+	"name": "Banyan Court Mall (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "6:15 AM to 7:30 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "800 North King Street",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "800 North King Street Honolulu, HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": "www.co.honolulu.hi.us/parks/programs/pom",
+		"contact": {
+			"name": "(808) 522-7088",
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 216,
+	"name": "Paia’s One Love Farmers Market",
+	"schedule": {
+		"sunday": true,
+		"monday": true,
+		"tuesday": true,
+		"wednesday": true,
+		"thursday": true,
+		"friday": true,
+		"saturday": true,
+		"time": "10:00 AM - 4:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "381 Baldwin Ave",
+			"city": "Paia",
+			"state": "HI",
+			"zip": "96799"
+		},
+		"addressOneLine": "381 Baldwin Ave Paia, HI 96799",
+		"info": "Historical Paia train depot"
+	},
+	"organizer": {
+		"website": "Maui",
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 217,
+	"name": "International Market Place ",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": true,
+		"friday": false,
+		"saturday": false,
+		"time": "4:00 PM to 8:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "2330 Kalakaua Avenue",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "2330 Kalakaua Avenue Honolulu, HI ",
+		"info": "Next to Food Court"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 218,
+	"name": "Queen Kapiolani Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "10:00 AM to 11:00 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "Honolulu, HI ",
+		"info": "Monsarrat and Paki Street"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 522-7088",
+			"email": null
+		}
+	}
+}, {
+	"id": 219,
+	"name": "Kapolei Community Park (People's Open Market)",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "7:00 AM to 8:30 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "91-1049 Kamaaha Loop",
+			"city": "Kapolei",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "91-1049 Kamaaha Loop Kapolei, HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 522-7088",
+			"email": null
+		}
+	}
+}, {
+	"id": 220,
+	"name": "Ward Center",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": true,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "8:00 AM to 1:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "",
+			"city": "",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "HI ",
+		"info": "Parking lot across from Ward 16 Theatres, Corner of Auahi & Kamakee St."
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 221,
+	"name": "Makiki Local Grown Farmers' Market at St. Clement's Church",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": true,
+		"friday": false,
+		"saturday": false,
+		"time": "4:30 PM to 7:30 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "1515 Wilder Avenue",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "1515 Wilder Avenue Honolulu, HI ",
+		"info": "Parking on Wilder after 5:30 p.m"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": "George Lee",
+			"phone": "(808) 735-4550",
+			"email": "georgelee2468@gmail.com"
+		}
+	}
+}, {
+	"id": 222,
+	"name": "Waimanalo Beach Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": true,
+		"friday": false,
+		"saturday": false,
+		"time": "7:15 AM to 8:15 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "41-741 Kalanianaole Highway",
+			"city": "Waimanalo",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "41-741 Kalanianaole Highway Waimanalo, HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 522-7088",
+			"email": null
+		}
+	}
+}, {
+	"id": 223,
+	"name": "Windward Mall",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "3:00 PM to 8:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "46-056 Kamehameha Highway",
+			"city": "Kaneohe",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "46-056 Kamehameha Highway Kaneohe, HI ",
+		"info": "fronting Macy's"
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": null,
+			"email": null
+		}
+	}
+}, {
+	"id": 224,
+	"name": "Farmers' Market of Maui-Honokowai",
+	"schedule": {
+		"sunday": false,
+		"monday": true,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": true,
+		"saturday": false,
+		"time": "7:00 AM to 11:00 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "3636 Lower Honoapi&lsquo;ilani Road",
+			"city": "Lahina",
+			"state": "HI",
+			"zip": "96761"
+		},
+		"addressOneLine": "3636 Lower Honoapi&lsquo;ilani Road Lahina, HI 96761",
+		"info": "Location at Hawaiian Motors parking lot (across from Honokowai Park)"
+	},
+	"organizer": {
+		"website": "Maui",
+		"contact": {
+			"name": null,
+			"phone": "(808) 669-7004",
+			"email": null
+		}
+	}
+}, {
+	"id": 225,
+	"name": "Manoa Valley District Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": true,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "6:45 AM to 7:45 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "2721 Kaaipu Avenue",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": "96822"
+		},
+		"addressOneLine": "2721 Kaaipu Avenue Honolulu, HI 96822",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 522-7088",
+			"email": null
+		}
+	}
+}, {
+	"id": 226,
+	"name": "Ala Moana Farmers' Market",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "9:00 AM to 1:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "1450 Ala Moana Blvd.",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "1450 Ala Moana Blvd. Honolulu, HI ",
+		"info": "Ala Moana Center, upper deck by Sears, corner of Piikoi & Ala Moana Blvd."
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "808-388-9696\n",
+			"email": "AlaMoanaFarmersMarket@gmail.com"
+		}
+	}
+}, {
+	"id": 227,
+	"name": "Palolo Valley District Park (People's Open Market)",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": true,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "6:30 AM to 7:30 AM"
+	},
+	"venue": {
+		"address": {
+			"address": "2007 Palolo Avenue",
+			"city": "Honolulu",
+			"state": "HI",
+			"zip": "96816"
+		},
+		"addressOneLine": "2007 Palolo Avenue Honolulu, HI 96816",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 522-7088",
+			"email": null
+		}
+	}
+}, {
+	"id": 228,
+	"name": "Benjamin Parker Elementary School",
+	"schedule": {
+		"sunday": false,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": true,
+		"time": "8:00 AM to 2:00 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "45-259 Waikalua Road",
+			"city": "Kaneohe",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "45-259 Waikalua Road Kaneohe, HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": "Sonny Doung",
+			"phone": "(808) 225-4002",
+			"email": "sonnydoung@hotmail.com"
+		}
+	}
+}, {
+	"id": 229,
+	"name": "Waikele Community Park (People's Open Market)",
+	"schedule": {
+		"sunday": true,
+		"monday": false,
+		"tuesday": false,
+		"wednesday": false,
+		"thursday": false,
+		"friday": false,
+		"saturday": false,
+		"time": "11:30 AM to 12:30 PM"
+	},
+	"venue": {
+		"address": {
+			"address": "94-870 Lumiaina Street",
+			"city": "Waipahu",
+			"state": "HI",
+			"zip": ""
+		},
+		"addressOneLine": "94-870 Lumiaina Street Waipahu, HI ",
+		"info": null
+	},
+	"organizer": {
+		"website": "Oahu",
+		"contact": {
+			"name": null,
+			"phone": "(808) 522-7088",
+			"email": null
+		}
+	}
+}]

@@ -1,0 +1,28 @@
+@import 'hack/trigger_watch';
+@import 'locations';
+@import 'sidebar';
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Helvetica';
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.map-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.map {
+  width: 100%;
+  height: 100%;
+}
+
+.ui-view-content {
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,113 @@
+$color-sidebar-background: rgba(66, 63, 63, 0.95);
+$color-sidebar-text: #F1F1F1;
+$color-sidebar-filter-text: #A1A1A1;
+$color-sidebar-filter-active: orange;
+
+.map-sidebar {
+  position: absolute;
+  z-index: 10;
+  left: 0.5rem;
+  top: 5rem;
+  width: 30%;
+  background-color: $color-sidebar-background;
+  padding: 1rem;
+}
+
+.input-prompt {
+  display: block;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  background-color: $color-sidebar-background;
+  color: $color-sidebar-filter-text;
+  border-radius: 5px;
+  border: 1px solid $color-sidebar-filter-text;
+  padding: 1rem;
+  margin: 0 auto;
+  outline: none;
+
+  &:hover {
+    background-color: $color-sidebar-filter-text;
+    color: $color-sidebar-background;
+  }
+  transition: content 2s;
+}
+
+.input-prompt-alt {
+  display: block;
+  font-size: 0.8rem;
+  margin: 1rem;
+  text-align: center;
+  cursor: pointer;
+  color: $color-sidebar-filter-text;
+}
+
+
+.app-title {
+  font-size: 2.5rem;
+  display: block;
+  color: $color-sidebar-text;
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+.app-tagline {
+  color: $color-sidebar-text;
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.schedule-filters {
+  margin: 1.25rem 0;
+  text-align: center;
+  .selection {
+    text-transform:uppercase;
+    display: inline-block;
+    color: $color-sidebar-filter-text;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0.25rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $color-sidebar-filter-text;
+      color: $color-sidebar-background;
+    }
+    &.active {
+      color: $color-sidebar-filter-active;
+    }
+    &.active:hover {
+      color: $color-sidebar-background;
+      background-color: $color-sidebar-filter-active;
+    }
+  }
+}
+
+.locations {
+  color: $color-sidebar-text;
+  overflow-y: scroll;
+  height: 300px;
+  .location {
+    cursor: pointer;
+    padding: 1rem;
+    display: block;
+    &:hover {
+      color: $color-sidebar-background;
+      background-color: $color-sidebar-filter-active;
+    }
+  }
+}
+
+.about {
+  color: $color-sidebar-text;
+  font-size: 0.8rem;
+  text-align: center;
+  a {
+    color: $color-sidebar-text;
+  }
+  a:visited {
+    color: $color-sidebar-text;
+  }
+}

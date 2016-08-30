@@ -4,6 +4,7 @@
   "description": "",
   "dependencies": {
     "angular": "~1.4.x",
+    "angular-sanitize": "~1.4.6",
     "angular-ui-router": "~0.2.15",
     "font-awesome": "~4.4.0"
   }
