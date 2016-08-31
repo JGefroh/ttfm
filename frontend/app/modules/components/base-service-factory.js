@@ -42,7 +42,7 @@
       };
 
       service.getResponsePayload = function(response) {
-        return response.data;
+        return response.data[service.resourceNamePlural];
       };
 
       service.createPayload = function(resource) {

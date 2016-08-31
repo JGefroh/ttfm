@@ -20,9 +20,11 @@
       controllerAs: 'vm',
       bindToController: true,
       scope: {
-        markers: '='
+        markers: '=',
+        bounds: '='
       },
       link: function(scope, element, attributes) {
+        var currentPositionMarker = null;
         var myLatLng = {lat: 21.3000, lng: -157.8167};
         var infoWindow = new google.maps.InfoWindow({});
         var allMarkers = [];
@@ -31,6 +33,11 @@
           center: myLatLng
         });
 
+      google.maps.event.addListener(map, "bounds_changed", function() {
+        scope.$applyAsync(function() {
+          scope.vm.bounds = map.getBounds();
+        });
+      });
        scope.$on('location:show', function(event, payload) {
          var marker = getMarkerWithId(payload.id);
          if (marker && marker.latitude) {
@@ -40,6 +47,10 @@
          }
          else {
            map.panTo(new google.maps.LatLng(payload.latitude, payload.longitude));
+           if (currentPositionMarker) {
+             currentPositionMarker.setMap(null);
+           }
+           currentPositionMarker = addMarker(map, -1, payload, 'You are here!', '/images/marker-current-location.png');
            map.setZoom(16);
          }
        });
@@ -70,7 +81,10 @@
            var content = '';
            var label = marker.name;
            if (!marker.isHidden) {
-             addMarker(map, marker.id, marker, label);
+             var marker = addMarker(map, marker.id, marker, label);
+             if (marker) {
+               allMarkers.push(marker);
+             }
            }
          });
        }, true);
@@ -82,18 +96,19 @@
          allMarkers = [];
        }
 
-       function addMarker(map, id, position, content) {
+       function addMarker(map, id, position, content, icon) {
          if (angular.isNumber(position.latitude) && angular.isNumber(position.longitude)) {
            var marker = new google.maps.Marker({
              id: id,
              map: map,
              position: {lat: position.latitude, lng: position.longitude},
+             icon: icon,
              content: content
            });
            marker.addListener('click', function() {
              openInfoWindow(map, marker);
            });
-           allMarkers.push(marker);
+           return marker;
          }
        }
 

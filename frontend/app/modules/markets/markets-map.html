@@ -1,0 +1,33 @@
+<div data-map data-markers="vm.markets" data-bounds="vm.bounds" style="height: 100%; width: 100%; pading: 50rem;"></div>
+<div class="map-sidebar">
+  <span class="app-title">To the Farmer's Market</span>
+  <p data-ng-if="!vm.currentPosition"
+     style="text-align: center;">
+    <button class="cta"
+            data-ng-click="vm.detectLocation()"
+            data-ng-disabled="vm.loading['detect-location']">
+      <span data-ng-show="vm.loading['detect-location']" class="fa fa-fw fa-spin fa-spinner"></span>
+      <span data-ng-show="!vm.loading['detect-location']">Find Markets Near Me</span>
+    </button>
+    We're showing all markets that are visible on the map.
+  </p>
+  <p data-ng-if="vm.currentPosition" style="text-align: center;">
+    <button class="cta small" data-ng-click="vm.currentPosition = null" style="margin-top: 1rem;">Show All Markets</button>
+    
+    We're showing markets within <strong>20 miles</strong> of your detected location.
+  </p>
+
+  <label style="text-align: center; display: block"><span data-ng-show="vm.loading['query-markets']" class="fa fa-fw fa-spin fa-spinner"></span>&nbsp;</label>
+  <div class="markets">
+    <div data-ng-repeat="market in vm.markets track by market.id"
+         data-ng-click="vm.panToMarket(market)"
+         class="market">
+      {{market.name}}<br/>
+      {{market.schedule.time}}<br/>
+      <span data-ng-if="market.distance">{{market.distance.toFixed(2) + ' miles away'}}</span><br/>
+    </div>
+  </div>
+  <div class="about">
+    Built by <a href="http://jgefroh.com">Joseph Gefroh</a>
+  </div>
+</div>

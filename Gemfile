@@ -8,6 +8,10 @@ gem 'unicorn'
 gem 'rails_12factor', group: :production
 gem 'rack-cors', '0.4.0'
 
+
+gem 'geocoder'
+
 group :development do
   gem 'spring'
+  gem 'byebug'
 end
