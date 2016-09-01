@@ -1,8 +1,11 @@
 (function() {
   'use strict';
   var webServiceBase = '{!api_host!}';
+  var analyticsEnabled = '{!analytics_enabled!}'
   angular
     .module('ttfm', [
+            'angulartics',
+            'angulartics.google.analytics',
             'ngSanitize',
             'ui.router',
             'ttfm.home',
@@ -21,6 +24,9 @@
           url: '/',
           templateUrl: 'standard-layout.html'
       });
+    }])
+    .config(['$analyticsProvider', function($analyticsProvider) {
+      $analyticsProvider.developerMode('true' != analyticsEnabled);
     }])
     .constant('config', {webServiceBase: webServiceBase})
     .controller('ApplicationController', ['$sce', '$rootScope', '$scope', '$state',function($sce, $rootScope, $scope, $state) {

@@ -8,6 +8,7 @@
     "angular-ui-router": "~0.2.15",
     "bourbon": "~4.2.6",
     "font-awesome": "~4.4.0",
-    "neat": "~1.7.2"
+    "neat": "~1.7.2",
+    "angulartics-google-analytics": "^0.2.1"
   }
 }

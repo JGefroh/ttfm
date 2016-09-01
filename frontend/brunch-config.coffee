@@ -1,6 +1,10 @@
 host = 'http://localhost:5000'
+analytics_enabled = false
+
 if process.env.APP_ENVIRONMENT is 'production'
   host = 'https://api.grats.io'
+  analytics_enabled = true
+
 exports.config =
   modules:
     definition: false
@@ -15,6 +19,7 @@ exports.config =
       log: true
       mappings:
         'api_host': host
+        'analytics_enabled': analytics_enabled
       paths: [
         'public/js/app.js'
       ]
