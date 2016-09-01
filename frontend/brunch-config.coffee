@@ -1,4 +1,6 @@
 host = 'http://localhost:5000'
+if process.env.APP_ENVIRONMENT is 'production'
+  host = 'https://api.grats.io'
 exports.config =
   modules:
     definition: false
