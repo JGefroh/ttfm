@@ -7,6 +7,7 @@
   function Controller($scope, MarketsService, $timeout) {
     var vm = this;
     var timeoutTilSearch;
+    var ignoreMovement = false;
     function initialize() {
       vm.loading = {};
       vm.errors = {};
@@ -18,11 +19,12 @@
           vm.loading['query-markets'] = false;
           $timeout.cancel(timeoutTilSearch);
         }
-
-        vm.loading['query-markets'] = true;
-        timeoutTilSearch = $timeout(function() {
-          vm.findWithin(vm.bounds);
-        }, 1000);
+        if (!ignoreMovement) {
+          vm.loading['query-markets'] = true;
+          timeoutTilSearch = $timeout(function() {
+            vm.findWithin(vm.bounds);
+          }, 1000);
+        }
       });
     }
 
@@ -58,6 +60,14 @@
         });
       }
     }
+
+    vm.panToMarket = function(market) {
+      ignoreMovement = true;
+      $scope.$broadcast('location:show', market);
+      $timeout(function() {
+        ignoreMovement = false;
+      }, 600);
+    };
 
     initialize();
   }
