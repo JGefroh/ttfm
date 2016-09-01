@@ -37,7 +37,6 @@
         current_lat: vm.currentPosition ? vm.currentPosition.latitude : null,
         current_lng: vm.currentPosition ? vm.currentPosition.longitude : null
       };
-      console.info(vm.currentPosition);
 
       vm.loading['query-markets'] = true;
       MarketsService.query(params).then(function(markets) {

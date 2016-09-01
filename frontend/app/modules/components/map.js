@@ -30,7 +30,13 @@
         var allMarkers = [];
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 10,
-          center: myLatLng
+          center: myLatLng,
+          mapTypeControl: false,
+          streetViewControl: false,
+          rotateControl: false,
+          scaleControl: false,
+          fullscreenControl: false,
+
         });
 
       google.maps.event.addListener(map, "bounds_changed", function() {
