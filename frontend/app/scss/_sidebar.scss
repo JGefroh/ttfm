@@ -35,7 +35,9 @@ $color-sidebar-filter-active: orange;
   }
 }
 .cta-wrapper {
-  display: inline-block;
+  @include media($mobile) {
+    float: none;
+  }
   text-align: center;
   float: right;
   vertical-align: top;
@@ -59,16 +61,20 @@ $color-sidebar-filter-active: orange;
 
 
 .app-title {
+  @include media($mobile) {
+    display: block;
+  }
   font-size: 2rem;
-  display: inline-block;
   color: $color-sidebar-text;
   text-align: center;
   margin-bottom: 1.25rem;
 }
 
 .app-tagline {
+  @include media($mobile) {
+    display: block;
+  }
   color: $color-sidebar-text;
-  display: block;
   text-align: center;
   font-size: 1rem;
 }
@@ -76,14 +82,37 @@ $color-sidebar-filter-active: orange;
 
 .markets-bar {
   position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 10rem;
-  height: 10rem;
+  @include media($mobile) {
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    height: 10rem;
+  }
+  @include media($desktop) {
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    max-width: 20rem;
+    height: 20%;
+  }
   background-color: $color-sidebar-background;
   color: $color-sidebar-filter-text;
   padding: 1rem;
   overflow-y: scroll;
+}
+
+.markets {
+  color: $color-sidebar-text;
+  .market {
+    cursor: pointer;
+    padding: 1rem;
+    display: block;
+    border-bottom: 1px solid $color-sidebar-filter-text;
+    &:hover {
+      color: $color-sidebar-background;
+      background-color: $color-sidebar-filter-active;
+    }
+  }
 }
 
 .schedule-filters {
@@ -107,20 +136,6 @@ $color-sidebar-filter-active: orange;
       color: $color-sidebar-filter-active;
     }
     &.active:hover {
-      color: $color-sidebar-background;
-      background-color: $color-sidebar-filter-active;
-    }
-  }
-}
-
-.markets {
-  color: $color-sidebar-text;
-  .market {
-    cursor: pointer;
-    padding: 1rem;
-    display: block;
-    border-bottom: 1px solid $color-sidebar-filter-text;
-    &:hover {
       color: $color-sidebar-background;
       background-color: $color-sidebar-filter-active;
     }

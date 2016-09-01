@@ -1,4 +1,11 @@
 @import 'hack/trigger_watch';
+
+//[JG]: Bourbon and neat must come first, followed by grid settings.
+@import 'bourbon';
+@import 'neat';
+@import 'grid';
+
+@import 'variables';
 @import 'sidebar';
 
 html {
