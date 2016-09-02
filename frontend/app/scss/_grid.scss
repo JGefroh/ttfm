@@ -12,3 +12,11 @@ $desktop: new-breakpoint(min-width 640px 12);
 .col-xs-6 {
   @include span-columns(6);
 }
+
+
+
+.hidden-mobile {
+  @include media($mobile) {
+    display: none;
+  }
+}

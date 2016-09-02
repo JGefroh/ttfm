@@ -31,6 +31,10 @@
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 10,
           center: myLatLng,
+          zoomControl: true,
+          zoomControlOptions: {
+            position: google.maps.ControlPosition.LEFT_CENTER
+          },
           mapTypeControl: false,
           streetViewControl: false,
           rotateControl: false,

@@ -2,9 +2,6 @@
 <div class="map-bar">
   <span class="app-title">
     To the Farmer's Market
-    <span class="app-tagline">
-      Created by Joseph Gefroh
-    </span>
   </span>
   <div data-ng-if="!vm.currentPosition"
        class="cta-wrapper">
@@ -14,20 +11,25 @@
       <span data-ng-show="vm.loading['detect-location']" class="fa fa-fw fa-spin fa-spinner"></span>
       <span data-ng-show="!vm.loading['detect-location']">Find Markets Near Me</span>
     </button>
-    <span style="text-align: center; display: block; margin-top: 0.5rem;">We're showing all markets that are visible on the map.</span>
+    <span class="detail">We're showing all markets that are visible on the map.</span>
   </div>
   <div data-ng-if="vm.currentPosition" class="cta-wrapper">
     <button class="cta small" data-ng-click="vm.currentPosition = null">Show All Markets</button>
-    <span style="text-align: center; display: block; margin-top: 0.5rem;">
+    <span class="detail">
       We're showing markets within <strong>20 miles</strong> of your detected location.
     </span>
   </div>
 </div>
 
-<div class="markets-bar">
+<div class="markets-bar" data-ng-class="{'full' : vm.expanded}">
   <label style="text-align: center; display: block">
     <span data-ng-show="vm.loading['query-markets']" class="fa fa-fw fa-spin fa-spinner"></span>&nbsp;
-    <span data-ng-show="!vm.loading['query-markets']">Markets</span>
+    <span data-ng-show="!vm.loading['query-markets']">
+      <a data-ng-click="vm.expanded = !vm.expanded" style="cursor: pointer;">
+        <span class="fa fa-fw" data-ng-class="{'fa-chevron-up': vm.expanded, 'fa-chevron-down': !vm.expanded}"></span>
+      </a>
+      Markets
+    </span>
   </label>
   <div class="markets">
     <div data-ng-repeat="market in vm.markets track by market.id"
