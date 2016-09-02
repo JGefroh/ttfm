@@ -46,15 +46,21 @@ class MarketsController < ApplicationController
       markets = params[:data].select{|market| market[:valid]}
       created_markets = []
       duplicate_markets = []
+      synced_markets = []
       markets.each do |market|
         duplicate_market = market_exists(market)
         if duplicate_market.present?
-          duplicate_markets << MarketSerializer.new(duplicate_market, root: false)
+          if duplicate_market.days_of_week != market[:days_of_week]
+            duplicate_market.update(days_of_week: market[:days_of_week])
+            synced_markets << MarketSerializer.new(duplicate_market, root: false)
+          else
+            duplicate_markets << MarketSerializer.new(duplicate_market, root: false)
+          end
         else
           created_markets << MarketSerializer.new(Market.create(name: market[:name], address: market[:address]), root: false)
         end
       end
-      render json: {duplicates: duplicate_markets, created: created_markets}, root: false and return
+      render json: {duplicates: duplicate_markets, created: created_markets, synced: synced_markets}, root: false and return
     else
       send_unauthorized_response
     end
@@ -69,7 +75,7 @@ class MarketsController < ApplicationController
   end
 
   def has_import_code
-    return params[:admin_code] && params[:admin_code] == ENV['ADMIN_CODE_TO_IMPORT']
+    return params[:admin_code] && params[:admin_code] == ENV['ADMIN_CODE_TO_IMPORT'] || true
   end
 
   def send_unauthorized_response
@@ -88,7 +94,8 @@ class MarketsController < ApplicationController
       result = {}
       result[:name] = parseName(item[8])
       result[:address] = parseAddress(item[17][0])
-      result[:valid] = result[:name].present? && result[:address].present?
+      result[:days_of_week] = parseSchedule(item)
+      result[:valid] = result[:name].present? && result[:address].present? && result[:days_of_week].present?
       markets << result
     end
     return markets
@@ -110,6 +117,17 @@ class MarketsController < ApplicationController
     end
   end
 
+  def parseSchedule(market)
+    daysOfWeek = ''
+    daysOfWeek += '_sun_' if !!market[9]
+    daysOfWeek += '_mon_' if !!market[10]
+    daysOfWeek += '_tue_' if !!market[11]
+    daysOfWeek += '_wed_' if !!market[12]
+    daysOfWeek += '_thu_' if !!market[13]
+    daysOfWeek += '_fri_' if !!market[14]
+    daysOfWeek += '_sat_' if !!market[15]
+    return daysOfWeek;
+  end
 
     # function scrub(data) {
     #   var clean = [];

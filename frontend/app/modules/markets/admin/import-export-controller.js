@@ -25,6 +25,7 @@
         console.info(response);
         vm.duplicates = response.duplicates;
         vm.created = response.created;
+        vm.synced = response.synced;
       }).finally(function() {
         vm.loadingImport = false;
         vm.results = true;

@@ -13,6 +13,8 @@
       vm.errors = {};
       vm.bounds = {};
       vm.currentPosition = null;
+      vm.daysSelected = [];
+      initializeDays();
 
       $scope.$watch('vm.bounds', function() {
         if (timeoutTilSearch) {
@@ -23,7 +25,7 @@
           vm.loading['query-markets'] = true;
           timeoutTilSearch = $timeout(function() {
             vm.findWithin(vm.bounds);
-          }, 1000);
+          }, 400);
         }
       });
     }
@@ -69,6 +71,54 @@
       }, 600);
     };
 
+    function initializeDays() {
+      vm.days = [
+        {
+          label: "sun",
+          value: 0
+        },
+        {
+          label: "mon",
+          value: 1
+        },
+        {
+          label: "tue",
+          value: 2
+        },
+        {
+          label: "wed",
+          value: 3
+        },
+        {
+          label: "thu",
+          value: 4
+        },
+        {
+          label: "fri",
+          value: 5
+        },
+        {
+          label: "sat",
+          value: 6
+        }
+      ];
+      vm.daysSelected.push(vm.days[new Date().getDay()]);
+    }
+
+    vm.toggleDay = function(day) {
+      var index = vm.daysSelected.indexOf(day);
+      if (index !== -1) {
+        vm.daysSelected.splice(index, 1);
+      }
+      else {
+        vm.daysSelected.push(day);
+      }
+    }
+
+    vm.isDaySelected = function(day) {
+      var index = vm.daysSelected.indexOf(day);
+      return index !== -1;
+    }
     initialize();
   }
 })();

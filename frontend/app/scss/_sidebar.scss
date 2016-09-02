@@ -93,11 +93,15 @@ $height-sidebar-mobile: 3.5rem;
 }
 
 .markets-bar {
+  a {
+    color: inherit;
+    text-decoration: inherit;
+  }
   position: absolute;
   @include media($mobile) {
     left: 0;
     bottom: 0;
-    height: 10rem;
+    height: 30%;
     width: 100%;
   }
   @include media($desktop) {
@@ -121,21 +125,6 @@ $height-sidebar-mobile: 3.5rem;
   }
 }
 
-.markets {
-  color: $color-sidebar-text;
-  overflow-y: scroll;
-  height: 100%;
-  .market {
-    cursor: pointer;
-    padding: 1rem;
-    display: block;
-    border-bottom: 1px solid $color-sidebar-filter-text;
-    &:hover {
-      color: $color-sidebar-background;
-      background-color: $color-sidebar-filter-active;
-    }
-  }
-}
 
 .schedule-filters {
   margin: 1.25rem 0;
@@ -173,5 +162,26 @@ $height-sidebar-mobile: 3.5rem;
   }
   a:visited {
     color: $color-sidebar-text;
+  }
+}
+
+.markets {
+  color: $color-sidebar-text;
+  overflow-y: scroll;
+  height: 100%;
+  .market {
+    cursor: pointer;
+    padding: 1rem;
+    display: block;
+    border-bottom: 1px solid $color-sidebar-filter-text;
+    &:hover {
+      color: $color-sidebar-background;
+      background-color: $color-sidebar-filter-active;
+    }
+    .distance {
+      display: block;
+    }
+    padding: 0.25rem;
+    margin: 0;
   }
 }

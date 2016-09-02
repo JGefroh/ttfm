@@ -22,25 +22,36 @@
 </div>
 
 <div class="markets-bar" data-ng-class="{'full' : vm.expanded}">
-  <label style="text-align: center; display: block">
+  <label style="text-align: center; display: block; padding: 0.25rem">
     <span data-ng-show="vm.loading['query-markets']" class="fa fa-fw fa-spin fa-spinner"></span>&nbsp;
     <span data-ng-show="!vm.loading['query-markets']">
-      <a data-ng-click="vm.expanded = !vm.expanded" style="cursor: pointer;">
-        <span class="fa fa-fw" data-ng-class="{'fa-chevron-up': vm.expanded, 'fa-chevron-down': !vm.expanded}"></span>
-      </a>
       Markets
     </span>
+      <a data-ui-sref="ttfm.markets.list" style="float: right; display: none;"><span class="fa fa-fw fa-list"></span> List</a>
+
+      <a data-ng-click="vm.expanded = !vm.expanded" style="cursor: pointer; float: left;">
+        <span class="fa fa-fw" data-ng-class="{'fa-chevron-up': vm.expanded, 'fa-chevron-down': !vm.expanded}"></span>
+      </a>
   </label>
+
+  <div class="schedule-filters">
+    <div data-ng-repeat="day in vm.days"
+         data-ng-click="vm.toggleDay(day);"
+         data-ng-class="{'active': vm.isDaySelected(day)}"
+         class="selection">
+      {{day.label}}
+    </div>
+  </div>
   <div class="markets">
-    <div data-ng-repeat="market in vm.markets track by market.id"
+    <div data-ng-repeat="market in vm.markets | day:vm.daysSelected track by market.id"
          data-ng-click="vm.panToMarket(market)"
          data-analytics-on="click"
          data-analytics-event="select-market"
          data-analytics-category="content-engagement"
          data-analytics-label="map-list"
          class="market">
-      {{market.name}}<br/>
-      <span data-ng-if="market.distance">{{market.distance.toFixed(2) + ' miles away'}}</span>
+      {{market.name}}
+      <span data-ng-if="market.distance" class="distance">{{market.distance.toFixed(2) + ' miles away'}}</span>
     </div>
   </div>
 </div>

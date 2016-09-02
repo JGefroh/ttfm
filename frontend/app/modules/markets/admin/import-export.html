@@ -26,6 +26,15 @@
           </div>
         </div>
       </div>
+      <div data-ng-if="vm.results && vm.synced.length" style="margin-bottom: 1rem;">
+        The following markets had their details updated.
+        <div class="list">
+          <div data-ng-repeat="market in vm.synced" class="selection">
+            {{market.name}}<br/>
+            <span class="subtle">{{market.address}}</span>
+          </div>
+        </div>
+      </div>
       <div data-ng-if="vm.results && vm.duplicates.length">
         The following markets were duplicates and not created:
         <div class="list">
