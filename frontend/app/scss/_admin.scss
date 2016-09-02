@@ -1,0 +1,28 @@
+.admin {
+  .section-icon {
+    text-align: center;
+  }
+  .section {
+    background-color: $color-subtler;
+    border: 1px solid $color-subtler;
+    border-radius: 5px;
+    padding: 1rem;
+
+    .list {
+      max-height: 300px;
+      overflow-y: scroll;
+    }
+  }
+
+  .selection {
+    text-align: left;
+    border-left: 3px solid;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .selection:hover {
+    background-color: white;
+    cursor: pointer;
+  }
+}

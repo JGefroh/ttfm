@@ -1,0 +1,79 @@
+<div class="admin container">
+  <h1 style="text-align: center;">Import / Export from 3rd-party Sources</h1>
+  <p style="text-align: center;">
+    This is an admin tool to perform batch imports and exports of market data.
+    <br/>
+    If you were trying to find the market map, <a data-ui-sref="ttfm">click here!</a>
+  </p>
+  <div class="col-xs-6 section">
+    <h2 class="section-icon">
+      <span class="fa fa-fw fa-cloud-download fa-4x"></span><br/>
+      Import Data from Socrata<br/>
+      <input placeholder="Enter admin code..." type="password" data-ng-model="vm.adminImportCode"></input>
+      <button data-ng-disabled="!vm.adminImportCode || vm.loadingCheckImport"
+              data-ng-click="vm.checkImportData(vm.adminImportCode)">
+              <span data-ng-show="vm.loadingCheckImport" class="fa fa-fw fa-spin fa-spinner"></span> Check Data
+      </button>
+      <p class="error">
+        {{ vm.importError }}
+      </p>
+      <div data-ng-if="vm.results && vm.created.length" style="margin-bottom: 1rem;">
+        The following markets were added to the system.
+        <div class="list">
+          <div data-ng-repeat="market in vm.created" class="selection">
+            {{market.name}}<br/>
+            <span class="subtle">{{market.address}}</span>
+          </div>
+        </div>
+      </div>
+      <div data-ng-if="vm.results && vm.duplicates.length">
+        The following markets were duplicates and not created:
+        <div class="list">
+          <div data-ng-repeat="market in vm.duplicates" class="selection">
+            {{market.name}}<br/>
+            <span class="subtle">{{market.address}}</span>
+          </div>
+        </div>
+      </div>
+      <div data-ng-if="vm.importing && !vm.results">
+        <div data-ng-if="!vm.markets.length">
+          There weren't any markets to import.
+        </div>
+        <div data-ng-if="vm.markets.length">
+          This is the information that we're going to import into the system.<br/>
+          Entries marked as <span class="error">invalid</span> will not be imported unless specified.
+          <br/><br/>
+          <div class="list">
+            <div data-ng-repeat="market in vm.markets"
+               data-ng-class="{'error': !market.valid}"
+               data-ng-click="market.valid = !market.valid"
+               class="selection">
+              {{market.name}}<br/>
+              <span class="subtle">{{market.address}}</span>
+            </div>
+          </div>
+
+          <p>
+            Ready to import?<br/>
+            <button data-ng-click="vm.importData(vm.adminImportCode, vm.markets)"
+                    data-ng-disabled="vm.loadingImport">
+                    <span data-ng-show="vm.loadingImport" class="fa fa-fw fa-spin fa-spinner"></span>
+                    Import Selected Data
+            </button>
+          </p>
+        </div>
+      </div>
+    </h2>
+  </div>
+  <div class="col-xs-6 section">
+    <h2 class="section-icon">
+      <span class="fa fa-fw fa-cloud-upload fa-4x"></span><br/>
+      Export Data to Socrata<br/>
+      <input placeholder="Enter admin code..." type="password" data-ng-model="vm.adminExportCode"></input>
+      <button data-ng-disabled="!vm.adminExportCode" data-ng-click="vm.exportData(vm.adminExportCode)">Export</button>
+      <p class="error">
+        {{ vm.exportError }}
+      </p>
+    </h2>
+  </div>
+</div>

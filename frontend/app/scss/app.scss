@@ -6,6 +6,7 @@
 @import 'grid';
 
 @import 'variables';
+@import 'admin';
 @import 'sidebar';
 
 html {
@@ -31,4 +32,8 @@ body {
 .ui-view-content {
   height: 100%;
   width: 100%;
+}
+
+.error {
+  color: $color-error;
 }

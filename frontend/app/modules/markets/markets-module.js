@@ -6,7 +6,13 @@
   function Routes($stateProvider) {
     $stateProvider.state('ttfm.markets', {
         url: '/markets',
-        abstract: true
-    });
+        abstract: true,
+        templateUrl: 'standard-layout'
+      }).state('ttfm.markets.admin', {
+        url: '/admin',
+        templateUrl: 'import-export.html',
+        controller: 'ImportExportController',
+        controllerAs: 'vm'
+    });;
   }
 })();
