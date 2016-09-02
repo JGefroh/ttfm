@@ -1,6 +1,6 @@
 class MarketSerializer < ActiveModel::Serializer
   attributes :id,
-             :address, :distance, :name
+             :address, :distance, :latitude, :longitude, :name
   def distance
     if object.respond_to?(:distance)
       object.distance
