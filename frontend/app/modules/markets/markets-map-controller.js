@@ -26,7 +26,7 @@
             vm.findWithin(vm.bounds);
           }
         }, 400);
-    });
+      });
     }
 
     vm.findWithin = function(bounds) {
@@ -35,6 +35,7 @@
         ne_lng: bounds.getNorthEast().lng(),
         sw_lat: bounds.getSouthWest().lat(),
         sw_lng: bounds.getSouthWest().lng(),
+        ignore: getIdsFrom(vm.markets),
         find_within: true
       };
 
@@ -63,6 +64,16 @@
           existingMarkets.push(newMarket);
         }
       });
+    }
+
+    function getIdsFrom(markets) {
+      var ids = [];
+      angular.forEach(markets, function(market) {
+        if (market.id) {
+          ids.push(market.id);
+        }
+      });
+      return ids.join(',');
     }
 
     vm.detectLocation = function() {
