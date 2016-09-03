@@ -7,8 +7,9 @@
 
 @import 'variables';
 @import 'admin';
-@import 'sidebar';
+@import 'map-page';
 @import 'list';
+@import 'navigation';
 
 html {
   height: 100%;
@@ -27,12 +28,15 @@ body {
   @include media($desktop) {
     position: absolute;
     left: $width-markets-bar-desktop;
+    top: $height-sidebar;
     right: 0;
+    bottom: 0;
+    height: auto;
     width: auto;
   }
   @include media($mobile) {
     position: absolute;
-    top: 0;
+    top: $height-sidebar-mobile;
     bottom: $height-markets-bar-mobile;
     height: auto;
   }

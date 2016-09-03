@@ -91,6 +91,14 @@
            var content = '';
            var label = marker.name;
            if (!marker.isHidden) {
+             label =
+                      ['<span style="font-weight: bold;">',
+                         $sanitize(marker.name),
+                        '</span><br/>',
+                        $sanitize(marker.address),
+                        '<br/>',
+                        $sanitize(getSchedule(marker))
+                      ].join('');
              var marker = addMarker(map, marker.id, marker, label);
              if (marker) {
                allMarkers.push(marker);
@@ -98,6 +106,35 @@
            }
          });
        }, true);
+
+       function getSchedule(marker) {
+         if (!marker || !marker.days_of_week) {
+           return;
+         }
+         var schedule = [];
+         if (marker.days_of_week.indexOf('sun') !== -1) {
+           schedule.push('Sunday');
+         }
+         if (marker.days_of_week.indexOf('mon') !== -1) {
+           schedule.push('Monday');
+         }
+         if (marker.days_of_week.indexOf('tue') !== -1) {
+           schedule.push('Tuesday');
+         }
+         if (marker.days_of_week.indexOf('wed') !== -1) {
+           schedule.push('Wednesday');
+         }
+         if (marker.days_of_week.indexOf('thu') !== -1) {
+           schedule.push('Thursday');
+         }
+         if (marker.days_of_week.indexOf('fri') !== -1) {
+           schedule.push('Friday');
+         }
+         if (marker.days_of_week.indexOf('sat') !== -1) {
+           schedule.push('Saturday');
+         }
+         return schedule.join(', ');
+       }
 
        function clearMarkers() {
          angular.forEach(allMarkers, function(marker) {
