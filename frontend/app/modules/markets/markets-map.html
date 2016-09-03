@@ -3,30 +3,32 @@
   <span class="app-title">
     To the Farmer's Market
   </span>
-  <div data-ng-if="!vm.currentPosition"
+  <div data-ng-if="vm.searchMode === 'bounds'"
        class="cta-wrapper">
     <button class="cta small"
-            data-ng-click="vm.detectLocation()"
+            data-ng-click="vm.showNearby()"
             data-ng-disabled="vm.loading['detect-location']">
       <span data-ng-show="vm.loading['detect-location']" class="fa fa-fw fa-spin fa-spinner"></span>
       <span data-ng-show="!vm.loading['detect-location']">Find Markets Near Me</span>
     </button>
     <span class="detail">We're showing all markets that are visible on the map.</span>
   </div>
-  <div data-ng-if="vm.currentPosition" class="cta-wrapper">
-    <button class="cta small" data-ng-click="vm.currentPosition = null">Show All Markets</button>
+  <div data-ng-if="vm.searchMode === 'nearby'" class="cta-wrapper">
+    <button class="cta small" data-ng-click="vm.showAll()">Show All Markets</button>
     <span class="detail">
-      We're showing markets within <strong>20 miles</strong> of your detected location.
+      We're showing markets within <strong>60 miles</strong> of your detected location.
     </span>
   </div>
 </div>
 
 <div class="markets-bar" data-ng-class="{'full' : vm.expanded}">
-  <label style="text-align: center; display: block; padding: 0.25rem">
-    <span data-ng-show="vm.loading['query-markets']" class="fa fa-fw fa-spin fa-spinner"></span>&nbsp;
-    <span data-ng-show="!vm.loading['query-markets']">
-      Markets
-    </span>
+  <label style="text-align: center; display: block; padding-top: 0.25rem">
+      <span data-ng-if="vm.markets.length">
+        Markets
+      </span>
+      <span data-ng-if="!vm.markets.length">
+        <span class="fa fa-fw fa-spin fa-spinner"></span>
+      </span>
       <a data-ui-sref="ttfm.markets.list" style="float: right; display: none;"><span class="fa fa-fw fa-list"></span> List</a>
 
       <a data-ng-click="vm.expanded = !vm.expanded" style="cursor: pointer; float: left;">
@@ -43,7 +45,7 @@
     </div>
   </div>
   <div class="markets">
-    <div data-ng-repeat="market in vm.markets | day:vm.daysSelected track by market.id"
+    <div data-ng-repeat="market in vm.markets | day:vm.daysSelected | orderBy: ['distance', 'name'] track by market.id"
          data-ng-click="vm.panToMarket(market)"
          data-analytics-on="click"
          data-analytics-event="select-market"
