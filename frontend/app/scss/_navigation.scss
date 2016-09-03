@@ -11,6 +11,10 @@
     height: $height-sidebar-mobile;
   }
   height: $height-sidebar;
+  .link {
+    padding-left: 1rem;
+    cursor: pointer;
+  }
 }
 
 .app-title {
