@@ -30,13 +30,16 @@ body {
     right: 0;
     width: auto;
   }
+  @include media($mobile) {
+    position: absolute;
+    top: 0;
+    bottom: $height-markets-bar-mobile;
+    height: auto;
+  }
 }
 .map {
   height: 100%;
   width: 100%;
-  @include media($mobile) {
-    bottom: $height-markets-bar-mobile;
-  }
 }
 
 .ui-view-content {
