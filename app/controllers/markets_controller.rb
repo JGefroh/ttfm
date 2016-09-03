@@ -76,7 +76,7 @@ class MarketsController < ApplicationController
   end
 
   def has_import_code
-    return params[:admin_code] && params[:admin_code] == ENV['ADMIN_CODE_TO_IMPORT'] || true
+    return params[:admin_code] && params[:admin_code] == ENV['ADMIN_CODE_TO_IMPORT']
   end
 
   def send_unauthorized_response
