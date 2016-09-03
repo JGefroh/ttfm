@@ -45,14 +45,14 @@
         {{day.label}}
       </div>
     </div>
-    <div class="markets">
+    <div class="list markets">
       <div data-ng-repeat="market in vm.markets | day:vm.daysSelected | orderBy: ['distance', 'name'] track by market.id"
            data-ng-click="vm.panToMarket(market)"
            data-analytics-on="click"
            data-analytics-event="select-market"
            data-analytics-category="content-engagement"
            data-analytics-label="map-list"
-           class="market">
+           class="selection">
         {{market.name}}
         <span data-ng-if="market.distance" class="distance">{{market.distance.toFixed(2) + ' miles away'}}</span>
       </div>

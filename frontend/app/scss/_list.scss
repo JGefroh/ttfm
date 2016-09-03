@@ -1,7 +1,18 @@
-.list-page {
-  .listing {
-    margin-bottom: 1rem;
-    .header {
+.list {
+  .selection {
+    cursor: pointer;
+    margin: 0.5rem;
+    padding-left: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    display: block;
+    font-size: 1.25rem;
+    border-left: 1px solid $color-list-primary;
+    @include user-select(none);
+    &:hover {
+      color: $color-list-secondary;
+      background-color: $color-list-primary;
     }
   }
+
 }

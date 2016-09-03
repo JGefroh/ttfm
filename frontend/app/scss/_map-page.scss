@@ -146,25 +146,12 @@
   }
 
   .markets {
-    color: $color-sidebar-text;
     overflow-y: scroll;
     height: 100%;
-    .market {
-      cursor: pointer;
-      padding: 1rem;
-      display: block;
-      border-bottom: 1px solid $color-sidebar-filter-text;
-      @include user-select(none);
-
-      &:hover {
-        color: $color-sidebar-background;
-        background-color: $color-sidebar-filter-text;
-      }
+    .selection {
       .distance {
         display: block;
       }
-      padding: 0.25rem;
-      margin: 0;
     }
   }
 }
