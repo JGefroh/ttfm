@@ -20,3 +20,8 @@ $desktop: new-breakpoint(min-width 640px 12);
     display: none;
   }
 }
+.hidden-desktop {
+  @include media($desktop) {
+    display: none;
+  }
+}

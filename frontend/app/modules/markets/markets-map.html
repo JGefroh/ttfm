@@ -1,4 +1,5 @@
-<div data-map data-markers="vm.markets" data-bounds="vm.bounds" style="height: 100%; width: 100%; pading: 50rem;"></div>
+<div data-map data-markers="vm.markets" data-bounds="vm.bounds"></div>
+
 <div class="map-bar">
   <span class="app-title">
     To the Farmer's Market
@@ -31,7 +32,7 @@
       </span>
       <a data-ui-sref="ttfm.markets.list" style="float: right; display: none;"><span class="fa fa-fw fa-list"></span> List</a>
 
-      <a data-ng-click="vm.expanded = !vm.expanded" style="cursor: pointer; float: left;">
+      <a data-ng-click="vm.expanded = !vm.expanded" style="cursor: pointer; float: left;" class="hidden-desktop">
         <span class="fa fa-fw" data-ng-class="{'fa-chevron-up': vm.expanded, 'fa-chevron-down': !vm.expanded}"></span>
       </a>
   </label>

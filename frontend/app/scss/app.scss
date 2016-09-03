@@ -24,10 +24,19 @@ body {
 .map-wrapper {
   width: 100%;
   height: 100%;
+  @include media($desktop) {
+    position: absolute;
+    left: $width-markets-bar-desktop;
+    right: 0;
+    width: auto;
+  }
 }
 .map {
-  width: 100%;
   height: 100%;
+  width: 100%;
+  @include media($mobile) {
+    bottom: $height-markets-bar-mobile;
+  }
 }
 
 .ui-view-content {
