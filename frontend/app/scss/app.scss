@@ -12,6 +12,8 @@
 @import 'navigation';
 @import 'page';
 @import 'about';
+@import 'form';
+@import 'markets';
 
 html {
   height: 100%;
@@ -24,30 +26,6 @@ body {
   margin: 0px;
   padding: 0px;
 }
-.map-wrapper {
-  width: 100%;
-  height: 100%;
-  @include media($desktop) {
-    position: absolute;
-    left: $width-markets-bar-desktop;
-    top: $height-sidebar;
-    right: 0;
-    bottom: 0;
-    height: auto;
-    width: auto;
-  }
-  @include media($mobile) {
-    position: absolute;
-    top: $height-sidebar-mobile;
-    bottom: $height-markets-bar-mobile;
-    height: auto;
-  }
-}
-.map {
-  height: 100%;
-  width: 100%;
-}
-
 .ui-view-content {
   height: 100%;
   width: 100%;

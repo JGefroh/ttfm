@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>Add Market
+    <button data-ui-sref="ttfm.markets.admin.sync" style="float: right;" class="cta info small">
+      <span class="fa fa-fw fa-cloud"></span> Import / Export
+    </button>
+  </h1>
+  <div data-markets-form data-market="vm.market" data-save="vm.save()"></div>
+  <p class="error">
+    {{vm.errors}}
+  </p>
+</div>

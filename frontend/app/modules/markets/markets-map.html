@@ -2,7 +2,7 @@
 
   <div data-map data-markers="vm.markets" data-bounds="vm.bounds"></div>
 
-  <div class="map-bar">
+  <div class="sub-navigation">
     <div data-ng-if="vm.searchMode === 'bounds'"
          class="cta-wrapper">
       <button class="cta small"
@@ -30,7 +30,6 @@
         <span data-ng-if="!vm.markets.length">
           <span class="fa fa-fw fa-spin fa-spinner"></span>
         </span>
-        <a data-ui-sref="ttfm.markets.list" style="float: right; display: none;"><span class="fa fa-fw fa-list"></span> List</a>
 
         <a data-ng-click="vm.expanded = !vm.expanded" style="cursor: pointer; float: left;" class="hidden-desktop">
           <span class="fa fa-fw" data-ng-class="{'fa-chevron-up': vm.expanded, 'fa-chevron-down': !vm.expanded}"></span>
@@ -56,6 +55,9 @@
         {{market.name}}
         <span data-ng-if="market.distance" class="distance">{{market.distance.toFixed(2) + ' miles away'}}</span>
       </div>
+      <a data-ng-if="vm.markets.length > 0" data-ui-sref="ttfm.markets.admin" style="float: right;">
+        <span class="secret-button"><span class="fa fa-fw fa-gear"></span> Adminstrate System</span>
+      </a>
     </div>
   </div>
 </div>

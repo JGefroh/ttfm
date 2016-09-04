@@ -1,0 +1,6 @@
+<div class="container">
+  <h1>{{vm.market.name}}</h1>
+  <h2>{{vm.market.address}}</h2>
+  <h3>{{vm.market.days_of_week_as_array.join(', ')}}</h3>
+  <div data-static-map data-location="vm.market.latitude + ',' + vm.market.longitude" data-size="1024x1024"></div>
+</div>

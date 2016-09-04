@@ -1,7 +1,8 @@
 (function() {
   'use strict';
   var webServiceBase = '{!api_host!}';
-  var analyticsEnabled = '{!analytics_enabled!}'
+  var analyticsEnabled = '{!analytics_enabled!}';
+  var googleMapsAPIKey = 'AIzaSyCgNsKGtrqTlN4uRXj6HbzR-drBWKqqHxA'; //Also in index.html
   angular
     .module('ttfm', [
             'angulartics',
@@ -28,7 +29,7 @@
     .config(['$analyticsProvider', function($analyticsProvider) {
       $analyticsProvider.developerMode('true' != analyticsEnabled);
     }])
-    .constant('config', {webServiceBase: webServiceBase})
+    .constant('config', {webServiceBase: webServiceBase, googleMapsAPIKey: googleMapsAPIKey})
     .controller('ApplicationController', ['$sce', '$rootScope', '$scope', '$state',function($sce, $rootScope, $scope, $state) {
       var vm = this;
     }]);

@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>Edit market
+    <button data-button-action="vm.delete(vm.market)" style="float: right;" class="cta danger small"><span class="fa fa-fw fa-trash"></span> Delete</button>
+  </h1>
+  <div data-markets-form data-market="vm.market" data-save="vm.save()"></div>
+  <p class="error">
+    {{vm.errors}}
+  </p>
+</div>

@@ -15,10 +15,10 @@
       }
       else {
         angular.forEach(markets, function(market) {
-          if (market.days_of_week) {
+          if (market.days_of_week_as_array.length) {
             var match = false;
             angular.forEach(selectedDays, function(selectedDay) {
-              if (market.days_of_week.indexOf(selectedDay.label) !== -1) {
+              if (market.days_of_week_as_array.indexOf(selectedDay.label) !== -1) {
                 match = true;
               }
             });

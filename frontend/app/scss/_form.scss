@@ -1,0 +1,93 @@
+.input-field {
+  margin-bottom: 1rem;
+  label {
+    display: block;
+    font-size: 1.25rem;
+  }
+  &.radio {
+    label {
+      @include media($mobile) {
+        font-size: 1rem;
+      }
+      display: inline-block;
+      margin-right: 0.75rem;
+      cursor: pointer;
+      font-size: 1.5rem;
+
+    }
+    input {
+    }
+  }
+  .tip {
+    color: $color-subtless;
+  }
+
+  &.text {
+    input {
+      @include media($mobile) {
+        font-size: 1rem;
+      }
+      font-size: 1.5rem;
+      border-radius: 5px;
+      border: 1px solid $color-subtle;
+      padding: 0.25rem;
+      width: 100%;
+    }
+  }
+}
+
+.cta {
+  display: inline-block;
+  font-size: 1.25rem;
+  cursor: pointer;
+  background-color: $color-button-background;
+  color: $color-button;
+  border-radius: 5px;
+  border: 1px solid $color-button-background;
+  padding: 1rem;
+  outline: none;
+
+  &.danger {
+    border: 1px solid $color-button-danger-background;
+    background-color: $color-button-danger-background;
+  }
+  &.danger:hover {
+    background-color: $color-button-danger;
+    color: $color-button-danger-background;
+  }
+  &.info {
+    border: 1px solid $color-button-info-background;
+    background-color: $color-button-info-background;
+  }
+  &.info:hover {
+    background-color: $color-button-info;
+    color: $color-button-info-background;
+  }
+
+  &:hover {
+    background-color: $color-button;
+    color: $color-button-background;
+  }
+
+  &.small {
+    font-size: 1rem;
+    padding: .5rem;
+  }
+}
+
+
+.form-primary {
+  @include span-columns(8);
+  @include media($mobile) {
+    @include span-columns(12);
+    font-size: 1rem;
+  }
+  padding-right: 2rem;
+}
+.form-aside {
+  @include span-columns(4);
+  @include media($mobile) {
+    @include span-columns(12);
+    font-size: 1rem;
+  }
+}

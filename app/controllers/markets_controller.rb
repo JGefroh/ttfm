@@ -16,9 +16,38 @@ class MarketsController < ApplicationController
   end
 
   def create
-    Market.create()
+    if has_admin_code
+      @market = Market.create(market_params)
+      @market.save!
+      render json: @market
+    else
+      send_unauthorized_response
+    end
   end
 
+  def update
+    if has_admin_code
+      @market = Market.find(params[:id])
+      @market.update(market_params)
+      render json: @market
+    else
+      send_unauthorized_response
+    end
+  end
+
+  def destroy
+    if has_admin_code
+      @market = Market.find(params[:id])
+      @market.destroy
+      render json: @market
+    else
+      send_unauthorized_response
+    end
+  end
+
+  def show
+    render json: Market.find(params[:id])
+  end
 
   def export_data
     if has_export_code
@@ -67,8 +96,12 @@ class MarketsController < ApplicationController
     end
   end
 
-  private def location_params
-    params.require(:location).permit(:name, :address)
+  private def market_params
+    params.require(:market).permit(:name, :address, :days_of_week)
+  end
+
+  def has_admin_code
+    return params[:admin_code] && params[:admin_code] == ENV['ADMIN_CODE_TO_UPDATE']
   end
 
   def has_export_code
@@ -80,7 +113,7 @@ class MarketsController < ApplicationController
   end
 
   def send_unauthorized_response
-    render json: {error: 'You are unauthorized to access this command - your information has been logged and reported.'}, root: false, status: 403 and return
+    render json: {error: 'An administration code is required to use this feature. - Further invalid attempts may be logged and reported.'}, root: false, status: 403 and return
   end
 
   def market_exists(market)
@@ -120,13 +153,13 @@ class MarketsController < ApplicationController
 
   def parseSchedule(market)
     daysOfWeek = ''
-    daysOfWeek += '_sun_' if !!market[9]
-    daysOfWeek += '_mon_' if !!market[10]
-    daysOfWeek += '_tue_' if !!market[11]
-    daysOfWeek += '_wed_' if !!market[12]
-    daysOfWeek += '_thu_' if !!market[13]
-    daysOfWeek += '_fri_' if !!market[14]
-    daysOfWeek += '_sat_' if !!market[15]
+    daysOfWeek += 'sun,' if !!market[9]
+    daysOfWeek += 'mon,' if !!market[10]
+    daysOfWeek += 'tue,' if !!market[11]
+    daysOfWeek += 'wed,' if !!market[12]
+    daysOfWeek += 'thu,' if !!market[13]
+    daysOfWeek += 'fri,' if !!market[14]
+    daysOfWeek += 'sat,' if !!market[15]
     return daysOfWeek;
   end
 

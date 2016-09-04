@@ -42,7 +42,7 @@
       };
 
       service.getResponsePayload = function(response) {
-        return response.data[service.resourceNamePlural];
+        return response.data[service.resourceNameSingular] || response.data[service.resourceNamePlural];
       };
 
       service.createPayload = function(resource) {
@@ -63,8 +63,8 @@
       service.update = function(resource, params) {
         return $http.put(service.memberUrl(resource.id), service.createPayload(resource), {params: params}).then(service.getResponsePayload);
       };
-      service.delete = function(resource) {
-        return $http.delete(service.memberUrl(resource.id)).then(service.getResponsePayload);
+      service.delete = function(resource, params) {
+        return $http.delete(service.memberUrl(resource.id), {params: params}).then(service.getResponsePayload);
       };
 
       return service;

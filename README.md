@@ -5,3 +5,4 @@
 Required environment variables:
 * ADMIN_CODE_TO_IMPORT
 * ADMIN_CODE_TO_EXPORT
+* ADMIN_CODE_TO_UPDATE

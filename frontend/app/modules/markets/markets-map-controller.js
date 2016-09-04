@@ -88,9 +88,11 @@
             current_lat: vm.currentPosition ? vm.currentPosition.latitude : null,
             current_lng: vm.currentPosition ? vm.currentPosition.longitude : null
           };
-
+          vm.loading['query-markets'] = true;
           MarketsService.query(params).then(function(nearbyMarkets) {
             vm.markets = nearbyMarkets;
+          }).finally(function() {
+            vm.loading['query-markets'] = false;
           });
 
           vm.loading['detect-location'] = false;

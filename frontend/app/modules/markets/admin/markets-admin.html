@@ -1,0 +1,31 @@
+<div class="main-content-wrapper" style="overflow-y: scroll;">
+  <div class="main-content" style="padding: 1rem;">
+    <div data-ui-view="show-and-edit">
+      <h1 style="text-align: center;">This page is intended for administrators!</h1>
+      <p style="text-align: center;"><button data-ui-sref="ttfm.home" class="cta">Go back to the map</button></p>
+    </div>
+  </div>
+</div>
+<div class="sub-navigation">
+   <button class="cta small" data-ui-sref="ttfm.markets.admin.new">Add Market</button>
+</div>
+<div class="markets-bar" data-ng-class="{'full' : vm.expanded}">
+
+  <label style="text-align: center; display: block; padding-top: 0.25rem">
+      <span>
+        Administrate Markets
+        <br/>
+        <input data-ng-model="vm.adminCode" placeholder="Enter admin code..." type="password"></input>
+      </span>
+      <a data-ng-click="vm.expanded = !vm.expanded" style="cursor: pointer; float: left;" class="hidden-desktop">
+        <span class="fa fa-fw" data-ng-class="{'fa-chevron-up': vm.expanded, 'fa-chevron-down': !vm.expanded}"></span>
+      </a>
+  </label>
+  <div class="list markets">
+    <div data-ng-repeat="market in vm.markets | orderBy: 'name' track by market.id"
+         data-ui-sref="ttfm.markets.admin.edit({id: market.id})"
+         class="selection">
+      {{market.name}}
+    </div>
+  </div>
+</div>

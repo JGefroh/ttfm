@@ -1,0 +1,34 @@
+<div class="form">
+  <div data-text-field data-label="Display name of the market" data-ng-model="vm.market.name"></div>
+  <div>
+    <div class="form-aside">
+      <label>Map of the address</label><br/>
+      <div data-ng-if="vm.market.address" data-static-map data-location="vm.market.address" data-size="512x256" style="width: 100%;"></div>
+    </div>
+    <div class="form-primary">
+      <div data-text-field data-label="Address of the market" data-ng-model="vm.market.address" data-ng-model-options="{debounce: 1000}">
+        <span class="tip">format example: 123 Main Street Honolulu, Hawaii 96800</span>
+      </div>
+      <div class="input-field radio">
+        <label>Schedule</label>
+        <div>
+          <label><input type="checkbox" data-ng-click="vm.toggleDay('sun')" data-ng-checked="vm.isDaySelected('sun')"></input> Sunday</label>
+          <label><input type="checkbox" data-ng-click="vm.toggleDay('mon')" data-ng-checked="vm.isDaySelected('mon')"></input> Monday</label>
+          <label><input type="checkbox" data-ng-click="vm.toggleDay('tue')" data-ng-checked="vm.isDaySelected('tue')"></input> Tuesday</label>
+          <label><input type="checkbox" data-ng-click="vm.toggleDay('wed')" data-ng-checked="vm.isDaySelected('wed')"></input> Wednesday</label>
+          <label><input type="checkbox" data-ng-click="vm.toggleDay('thu')" data-ng-checked="vm.isDaySelected('thu')"></input> Thursday</label>
+          <label><input type="checkbox" data-ng-click="vm.toggleDay('fri')" data-ng-checked="vm.isDaySelected('fri')"></input> Friday</label>
+          <label><input type="checkbox" data-ng-click="vm.toggleDay('sat')" data-ng-checked="vm.isDaySelected('sat')"></input> Saturday</label>
+        </div>
+      </div>
+      <!-- <div data-text-field data-label="Start time" data-ng-model="vm.market.start_time" data-type="time">
+        <span class="tip">format example: 08:00</span>
+      </div>
+      <div data-text-field data-label="End time" data-ng-model="vm.market.end_time" data-type="time">
+        <span class="tip">format example: 19:00</span>
+      </div> -->
+      <button data-button-action="vm.save()" class="cta">Save Changes</button>
+
+    </div>
+  </div>
+</div>
