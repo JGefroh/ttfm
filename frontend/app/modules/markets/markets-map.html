@@ -68,6 +68,10 @@
         {{market.name}}
         <span data-ng-if="market.distance" class="distance">{{market.distance.toFixed(2) + ' miles away'}}</span>
       </div>
+
+      <a data-ng-if="vm.markets.length > 0" data-ui-sref="ttfm.about" style="float: left;">
+        <span class="secret-button"><span class="fa fa-fw fa-info-circle"></span> About</span>
+      </a>
       <a data-ng-if="vm.markets.length > 0" data-ui-sref="ttfm.markets.admin" style="float: right;">
         <span class="secret-button"><span class="fa fa-fw fa-gear"></span> Adminstrate System</span>
       </a>
