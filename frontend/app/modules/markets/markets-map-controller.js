@@ -54,6 +54,7 @@
       };
       vm.loading['query-markets'] = true;
       MarketsService.query(params).then(function(nearbyMarkets) {
+        buildMarkerLabels(nearbyMarkets);
         vm.markets = nearbyMarkets;
       }).finally(function() {
         vm.loading['query-markets'] = false;
@@ -72,6 +73,7 @@
 
       vm.loading['query-markets'] = true;
       MarketsService.query(params).then(function(markets) {
+        buildMarkerLabels(markets);
         if (params.position_known) {
           vm.markets = markets;
         }
@@ -188,6 +190,11 @@
         }, 400);
       });
     }
+
+    function buildMarkerLabels(markets) {
+      MarketsService.buildMarkerLabels(markets);
+    }
+
     initialize();
   }
 })();

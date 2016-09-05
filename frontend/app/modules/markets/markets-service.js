@@ -1,9 +1,9 @@
 (function() {
   angular
     .module('ttfm.markets')
-    .service('MarketsService', ['$rootScope', 'BaseServiceFactory', Service]);
+    .service('MarketsService', ['$rootScope', '$sanitize', 'BaseServiceFactory', Service]);
 
-  function Service($rootScope, BaseServiceFactory) {
+  function Service($rootScope, $sanitize, BaseServiceFactory) {
     var service = BaseServiceFactory('market', 'markets');
 
     service.checkImportData = function(credentials) {
@@ -20,6 +20,21 @@
 
     service.toCoordinates = function(address) {
       return service.$http.get(service.collectionsUrl() + '/to_coordinates', {params: {address: address}}).then(service.getResponsePayload);
+    }
+
+
+    service.buildMarkerLabels = function(markets) {
+      angular.forEach(markets, function(market) {
+         market.markerLabel =
+                  ['<span style="font-weight: bold;">',
+                    $sanitize(market.name),
+                    '</span><br/>',
+                    $sanitize(market.address),
+                    '<br/>',
+                    $sanitize(market.days_of_week_as_array.join(', '))
+                  ].join('');
+      });
+      return markets;
     }
     return service;
   }

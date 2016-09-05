@@ -86,16 +86,8 @@
          clearMarkers();
          angular.forEach(newValue, function(marker) {
            var content = '';
-           var label = marker.name;
+           var label = marker.markerLabel;
            if (!marker.isHidden) {
-             label =
-                      ['<span style="font-weight: bold;">',
-                         $sanitize(marker.name),
-                        '</span><br/>',
-                        $sanitize(marker.address),
-                        '<br/>',
-                        $sanitize(marker.days_of_week_as_array.join(', '))
-                      ].join('');
              var marker = addMarker(map, marker.id, marker, label);
              if (marker) {
                allMarkers.push(marker);
