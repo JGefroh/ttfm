@@ -1,6 +1,6 @@
 .page {
-  padding: $height-sidebar 1rem 1rem 1rem;
+  padding: $height-navigation 1rem 1rem 1rem;
   @include media($mobile) {
-    padding-top: $height-sidebar-mobile;
+    padding-top: $height-navigation-mobile;
   }
 }
