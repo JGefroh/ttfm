@@ -114,6 +114,7 @@
 
     vm.panToMarket = function(market) {
       $scope.$broadcast('location:show', market);
+      vm.expanded = false;
     };
 
     function initializeDays() {
