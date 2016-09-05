@@ -8,11 +8,6 @@
         url: '/markets',
         abstract: true,
         templateUrl: 'standard-layout'
-      }).state('ttfm.markets.list', {
-        url: '/list',
-        templateUrl: 'markets-list.html',
-        controller: 'MarketsListController',
-        controllerAs: 'vm'
       }).state('ttfm.markets.admin', {
         url: '/admin',
         views: {
