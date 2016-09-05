@@ -1,6 +1,5 @@
 $breakpoint-mobile: 420px;
 
-
 $color-primary: #e8e2b5;
 $color-accent-primary: #f68717;
 $color-accent-secondary: #00a363;
@@ -29,7 +28,8 @@ $color-button-info-background: $color-info;
 
 $color-list-primary: $color-sidebar-filter-active;
 $color-list-secondary: $color-sidebar-background;
-$height-markets-bar-mobile: 40%;
-$width-markets-bar-desktop: 20rem;
+$width-sidebar: 20rem;
 $height-sidebar: 6rem;
-$height-sidebar-mobile: 3.5rem;
+$height-sidebar-mobile: 40%;
+$height-navigation: 6rem;
+$height-navigation-mobile: 3.5rem;

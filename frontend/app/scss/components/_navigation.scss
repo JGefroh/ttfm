@@ -8,9 +8,9 @@
   padding: 1rem;
   @include media($mobile) {
     padding-bottom: 0;
-    height: $height-sidebar-mobile;
+    height: $height-navigation-mobile;
   }
-  height: $height-sidebar;
+  height: $height-navigation;
   .link {
     padding-left: 1rem;
     cursor: pointer;

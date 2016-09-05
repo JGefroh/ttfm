@@ -1,5 +1,4 @@
 .map-page {
-
   .cta-wrapper {
     @include media($mobile) {
       float: right;
@@ -49,19 +48,7 @@
     }
   }
 
-  .about {
-    color: $color-sidebar-text;
-    font-size: 0.8rem;
-    text-align: center;
-    a {
-      color: $color-sidebar-text;
-    }
-    a:visited {
-      color: $color-sidebar-text;
-    }
-  }
-
-  .markets {
+  .list {
     .selection {
       .distance {
         display: block;

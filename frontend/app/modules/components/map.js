@@ -11,10 +11,7 @@
     return {
       restrict: 'A',
       replace: true,
-      template: '<div class="map-wrapper">' +
-                  '<div id="map" class="map">' +
-                  '</div>' +
-                '</div>',
+      template: '<div id="map" class="map"></div>',
       replace: true,
       controller: [Controller],
       controllerAs: 'vm',

@@ -1,6 +1,7 @@
-<div class="map-page">
-
-  <div data-map data-markers="vm.markets" data-bounds="vm.bounds"></div>
+<div class="map-page with-sidebar">
+  <div class="main-content-wrapper">
+    <div data-map data-markers="vm.markets" data-bounds="vm.bounds" class="main-content"></div>
+  </div>
 
   <div class="sub-navigation">
     <div data-ng-if="vm.searchMode === 'bounds'"
@@ -22,7 +23,7 @@
     </div>
   </div>
 
-  <div class="markets-bar" data-ng-class="{'full' : vm.expanded}">
+  <div class="sidebar" data-ng-class="{'full' : vm.expanded}">
     <label style="text-align: center; display: block; padding-top: 0.25rem">
         <span data-ng-if="vm.markets.length">
           Markets
@@ -44,7 +45,7 @@
         {{day.label}}
       </div>
     </div>
-    <div class="list markets">
+    <div class="list">
       <div data-ng-repeat="market in vm.markets | day:vm.daysSelected | orderBy: ['distance', 'name'] track by market.id"
            data-ng-click="vm.panToMarket(market)"
            data-analytics-on="click"

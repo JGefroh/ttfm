@@ -3,29 +3,32 @@
 //[JG]: Bourbon and neat must come first, followed by grid settings.
 @import 'bourbon';
 @import 'neat';
-@import 'grid';
+@import 'base/variables';
+@import 'base/grid';
+@import 'base/layouts';
 
-@import 'variables';
-@import 'admin';
-@import 'map-page';
-@import 'list';
-@import 'navigation';
-@import 'page';
-@import 'about';
-@import 'form';
-@import 'markets';
+@import 'components/form';
+@import 'components/list';
+@import 'components/navigation';
+@import 'components/page';
+
+@import 'pages/admin';
+@import 'pages/about';
+@import 'pages/map';
 
 html {
   height: 100%;
   width: 100%;
   font-family: 'BenchNine', sans-serif;
 }
+
 body {
   height: 100%;
   width: 100%;
   margin: 0px;
   padding: 0px;
 }
+
 .ui-view-content {
   height: 100%;
   width: 100%;
