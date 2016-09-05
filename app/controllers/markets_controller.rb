@@ -96,6 +96,15 @@ class MarketsController < ApplicationController
     end
   end
 
+  def to_coordinates
+    if params[:address]
+      coordinates = Geocoder.coordinates(params[:address])
+      render json: {latitude: coordinates[0], longitude: coordinates[1]}, root: false
+    else
+      render json: nil, status: 404 and return
+    end
+  end
+
   private def market_params
     params.require(:market).permit(:name, :address, :days_of_week)
   end

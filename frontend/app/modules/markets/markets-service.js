@@ -17,6 +17,10 @@
     service.exportData = function(credentials) {
       return service.$http.post(service.collectionsUrl() + '/export_data', credentials).then(service.getResponsePayload);
     }
+
+    service.toCoordinates = function(address) {
+      return service.$http.get(service.collectionsUrl() + '/to_coordinates', {params: {address: address}}).then(service.getResponsePayload);
+    }
     return service;
   }
 })();

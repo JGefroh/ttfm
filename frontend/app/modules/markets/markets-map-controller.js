@@ -7,6 +7,7 @@
   function Controller($scope, MarketsService, $timeout) {
     var vm = this;
     var timeoutTilSearch;
+    var GEOLOCATION_TIMEOUT_IN_MS = 10000;
     function initialize() {
       vm.loading = {};
       vm.errors = {};
@@ -16,16 +17,46 @@
       vm.daysSelected = [];
       vm.searchMode = 'bounds';
       initializeDays();
+      initializeMapChangeWatcher();
+    }
 
-      $scope.$watch('vm.bounds', function() {
-        if (timeoutTilSearch) {
-          $timeout.cancel(timeoutTilSearch);
-        }
-        timeoutTilSearch = $timeout(function() {
-          if (vm.searchMode === 'bounds') {
-            vm.findWithin(vm.bounds);
-          }
-        }, 400);
+    vm.detectLocation = function() {
+      if (navigator && navigator.geolocation) {
+        vm.loading['detect-location'] = true;
+        navigator.geolocation.getCurrentPosition(function(currentPosition) {
+          $scope.$applyAsync(function() {
+            vm.currentPosition = currentPosition.coords;
+            vm.findNearby(vm.currentPosition);
+            vm.loading['detect-location'] = false;
+          });
+        }, function() {
+          $scope.$applyAsync(function() {
+            vm.promptLocation();
+            vm.loading['detect-location'] = false;
+          });
+        }, {timeout: GEOLOCATION_TIMEOUT_IN_MS});
+      }
+      else {
+        vm.promptLocation();
+      }
+    }
+
+    vm.findNearby = function(currentPosition) {
+      if (!currentPosition) {
+        return;
+      }
+      vm.searchMode = 'nearby';
+      $scope.$broadcast('location:show', {latitude: currentPosition.latitude, longitude: currentPosition.longitude});
+      var params = {
+        position_known: true,
+        current_lat: currentPosition ? currentPosition.latitude : null,
+        current_lng: currentPosition ? currentPosition.longitude : null
+      };
+      vm.loading['query-markets'] = true;
+      MarketsService.query(params).then(function(nearbyMarkets) {
+        vm.markets = nearbyMarkets;
+      }).finally(function() {
+        vm.loading['query-markets'] = false;
       });
     }
 
@@ -76,31 +107,16 @@
       return ids.join(',');
     }
 
-    vm.detectLocation = function() {
-      if (navigator.geolocation) {
-        vm.loading['detect-location'] = true;
-        navigator.geolocation.getCurrentPosition(function(currentPosition) {
-          vm.currentPosition = currentPosition.coords;
-          vm.searchMode = 'nearby';
-          $scope.$broadcast('location:show', currentPosition.coords);
-          var params = {
-            position_known: true,
-            current_lat: vm.currentPosition ? vm.currentPosition.latitude : null,
-            current_lng: vm.currentPosition ? vm.currentPosition.longitude : null
-          };
-          vm.loading['query-markets'] = true;
-          MarketsService.query(params).then(function(nearbyMarkets) {
-            vm.markets = nearbyMarkets;
-          }).finally(function() {
-            vm.loading['query-markets'] = false;
-          });
+    vm.promptLocation = function() {
+      vm.showPrompt = true;
+    }
 
-          vm.loading['detect-location'] = false;
-        }, function() {
-          vm.showAll();
-          vm.loading['detect-location'] = false;
-        });
-      }
+    vm.identifyLocation = function(address) {
+      return MarketsService.toCoordinates(address).then(function(coordinates) {
+        vm.showPrompt = false;
+        vm.currentPosition = coordinates;
+        vm.findNearby(coordinates);
+      });
     }
 
     vm.showAll = function() {
@@ -158,6 +174,19 @@
     vm.isDaySelected = function(day) {
       var index = vm.daysSelected.indexOf(day);
       return index !== -1;
+    }
+
+    function initializeMapChangeWatcher() {
+      $scope.$watch('vm.bounds', function() {
+        if (timeoutTilSearch) {
+          $timeout.cancel(timeoutTilSearch);
+        }
+        timeoutTilSearch = $timeout(function() {
+          if (vm.searchMode === 'bounds') {
+            vm.findWithin(vm.bounds);
+          }
+        }, 400);
+      });
     }
     initialize();
   }

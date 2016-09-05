@@ -4,22 +4,34 @@
   </div>
 
   <div class="sub-navigation">
-    <div data-ng-if="vm.searchMode === 'bounds'"
+    <div data-ng-if="vm.searchMode === 'bounds' && !vm.showPrompt"
          class="cta-wrapper">
       <button class="cta small"
               data-ng-click="vm.showNearby()"
               data-ng-disabled="vm.loading['detect-location']"
-              data-ng-show="!vm.loading['detect-location']">
+              data-ng-show="!vm.loading['detect-location'] && !vm.showPrompt">
         <span>Find Markets Near Me</span>
       </button>
       <span data-ng-show="vm.loading['detect-location']" class="fa fa-fw fa-spin fa-spinner" style="font-size: 1.5rem;"></span>
-      <span class="detail">We're showing all markets that are visible on the map.</span>
+      <span data-ng-if="!vm.showPrompt" class="detail">We're showing all markets that are visible on the map.</span>
     </div>
     <div data-ng-if="vm.searchMode === 'nearby'" class="cta-wrapper">
       <button class="cta small" data-ng-click="vm.showAll()">Show All Markets</button>
       <span class="detail">
         We're showing markets within <strong>60 miles</strong> of your location.
       </span>
+    </div>
+    <div data-ng-if="vm.showPrompt" class="cta-wrapper">
+      <div>
+        <input data-ng-model="vm.manualLocation" data-address-autocomplete placeholder="Where are you?" style="margin-right: 0.2rem;" class="hidden-desktop"></input>
+        <input data-ng-model="vm.manualLocation" data-address-autocomplete placeholder="Where are you?" style="margin-right: 0.2rem; font-size: 1.25rem;" class="hidden-mobile"></input>
+        <button data-button-action="vm.identifyLocation(vm.manualLocation)" class="cta tiny hidden-desktop">Search</button>
+        <button data-button-action="vm.identifyLocation(vm.manualLocation)" class="cta small hidden-mobile">Search</button>
+
+        <span class="detail">
+          We couldn't detect your location. Let us know where you are!
+        </span>
+      </div>
     </div>
   </div>
 

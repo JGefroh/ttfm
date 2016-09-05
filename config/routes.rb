@@ -6,5 +6,6 @@ Rails.application.routes.draw do
     post 'check_import_data', on: :collection
     post 'import_data', on: :collection
     post 'export_data', on: :collection
+    get 'to_coordinates', on: :collection
   end
 end

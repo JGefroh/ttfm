@@ -17,11 +17,12 @@ $desktop: new-breakpoint(min-width 640px 12);
 
 .hidden-mobile {
   @include media($mobile) {
-    display: none;
+    display: none !important;
   }
 }
+
 .hidden-desktop {
   @include media($desktop) {
-    display: none;
+    display: none !important;
   }
 }
