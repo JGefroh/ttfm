@@ -30,6 +30,9 @@
               market.isHidden = true;
             }
           }
+          else {
+            market.isHidden = true;
+          }
         });
       }
       return matches;
