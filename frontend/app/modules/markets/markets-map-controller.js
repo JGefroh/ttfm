@@ -151,13 +151,7 @@
     }
 
     vm.toggleDay = function(day) {
-      var index = vm.daysSelected.indexOf(day);
-      if (index !== -1) {
-        vm.daysSelected.splice(index, 1);
-      }
-      else {
-        vm.daysSelected.push(day);
-      }
+      vm.daysSelected = [day];
     }
 
     vm.isDaySelected = function(day) {
