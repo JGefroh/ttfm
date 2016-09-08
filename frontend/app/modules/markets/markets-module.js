@@ -7,8 +7,15 @@
     $stateProvider.state('ttfm.markets', {
         url: '/markets',
         abstract: true,
-        templateUrl: 'standard-layout'
-      }).state('ttfm.markets.admin', {
+        templateUrl: 'standard-layout.html'
+      })
+      .state('ttfm.markets.browse', {
+        url: '',
+        controller: 'MarketsMapController',
+        controllerAs: 'vm',
+        templateUrl: 'markets-map.html'
+      })
+      .state('ttfm.markets.admin', {
         url: '/admin',
         views: {
           '': {
@@ -52,21 +59,17 @@
             controllerAs: 'vm'
           }
         }
-      }).state('ttfm.markets.show', {
+      }).state('ttfm.markets.browse.show', {
         url: '/{id:int}',
-        templateUrl: 'markets-show.html',
-        controller: 'MarketsShowController',
-        controllerAs: 'vm',
-        resolve: {
-          market: ['MarketsService', '$stateParams', resolveMarket]
-        }
-      }).state('ttfm.markets.edit', {
-        url: '/{id:int}/edit',
-        templateUrl: 'markets-edit.html',
-        controller: 'MarketsSaveController',
-        controllerAs: 'vm',
-        resolve: {
-          market: ['MarketsService', '$stateParams', resolveMarket]
+        views: {
+          'show-and-edit': {
+            templateUrl: 'markets-show.html',
+            controller: 'MarketsShowController',
+            controllerAs: 'vm',
+            resolve: {
+              market: ['MarketsService', '$stateParams', resolveMarket]
+            }
+          }
         }
       });
 

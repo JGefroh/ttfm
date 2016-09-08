@@ -1,6 +1,8 @@
 $breakpoint-mobile: 420px;
 
+$color-black: #231f20;
 $color-primary: #e8e2b5;
+$color-primary-light: #f2f0d8;
 $color-accent-primary: #f68717;
 $color-accent-secondary: #00a363;
 $color-subtless: #A1A1A1;
@@ -14,9 +16,9 @@ $color-info: #4e6d93;
 
 
 //App variables
-$color-sidebar-background: #F1F1F1;
-$color-sidebar-text: #1F1F1F;
-$color-sidebar-filter-text: #0D0D0D;
+$color-sidebar-background: $color-primary-light;
+$color-sidebar-text: $color-black;
+$color-sidebar-filter-text: $color-black;
 $color-sidebar-filter-active: $color-accent-primary;
 $color-button: $color-sidebar-background;
 $color-button-background: $color-accent-secondary;

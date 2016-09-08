@@ -2,8 +2,8 @@
   'use strict';
   angular
     .module('jgefroh.components')
-    .directive('map', ['$filter', '$compile', '$sanitize', Directive]);
-  function Directive($filter, $compile, $sanitize) {
+    .directive('map', ['$window', '$filter', '$compile', '$sanitize', Directive]);
+  function Directive($window, $filter, $compile, $sanitize) {
     function Controller() {
       var vm = this;
     }
@@ -22,7 +22,7 @@
       },
       link: function(scope, element, attributes) {
         var currentPositionMarker = null;
-        var myLatLng = {lat: 21.3000, lng: -157.8167};
+        var myLatLng = {lat: 21.283142849689918, lng: -158.0157570068359};
         var infoWindow = new google.maps.InfoWindow({});
         var allMarkers = [];
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -37,15 +37,14 @@
           rotateControl: false,
           scaleControl: false,
           fullscreenControl: false,
-
+        });
+        google.maps.event.addListener(map, "bounds_changed", function() {
+          scope.$applyAsync(function() {
+            scope.vm.bounds = map.getBounds();
+          });
         });
 
-      google.maps.event.addListener(map, "bounds_changed", function() {
-        scope.$applyAsync(function() {
-          scope.vm.bounds = map.getBounds();
-        });
-      });
-       scope.$on('location:show', function(event, payload) {
+        scope.$on('location:show', function(event, payload) {
          var marker = getMarkerWithId(payload.id);
          if (marker && marker.latitude) {
            map.panTo(new google.maps.LatLng(marker.latitude, marker.longitude));
@@ -60,7 +59,7 @@
            currentPositionMarker = addMarker(map, -1, payload, 'You are here!', '/images/marker-current-location.png');
            map.setZoom(16);
          }
-       });
+        });
 
        function getGoogleMarkerWithId(id) {
          var match = null;

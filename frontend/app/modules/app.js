@@ -15,7 +15,7 @@
           ]
     )
     .config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function($stateProvider, $urlRouterProvider, $locationProvider) {
-      $urlRouterProvider.otherwise('/markets');
+      $urlRouterProvider.otherwise('/404');
       $locationProvider.html5Mode(true);
       $stateProvider.state('ttfm', {
           url: '',
@@ -24,6 +24,10 @@
       .state('ttfm-home_if_no_slash', { //[JG] Fixes blank screen when refreshing on home page
           url: '/',
           templateUrl: 'standard-layout.html'
+      })
+      .state('404', {
+        url: '/404',
+        templateUrl: '404.html'
       });
     }])
     .config(['$analyticsProvider', function($analyticsProvider) {

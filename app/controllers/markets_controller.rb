@@ -3,7 +3,11 @@ class MarketsController < ApplicationController
     @markets = Market.all
     if params[:find_within]
       search_center = Geocoder::Calculations.geographic_center([[params[:sw_lat], params[:sw_lng]], [params[:ne_lat], params[:ne_lng]]])
-      @markets = @markets.within_bounding_box([params[:sw_lat], params[:sw_lng], params[:ne_lat], params[:ne_lng]])
+      if params[:sw_lat] != params[:ne_lat] && params[:sw_lng] != params[:ne_lng]
+        @markets = @markets.within_bounding_box([params[:sw_lat], params[:sw_lng], params[:ne_lat], params[:ne_lng]])
+      else
+        @markets = @markets.near([params[:sw_lat], params[:sw_lng]], 60)
+      end
       if params[:ignore]
         @markets = @markets.where.not(id: params[:ignore].split(','))
       end

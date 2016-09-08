@@ -2,9 +2,9 @@
   'use strict';
   angular
     .module('ttfm.markets')
-    .controller('MarketsMapController', ['$scope', 'MarketsService', '$timeout', Controller]);
+    .controller('MarketsMapController', ['$scope', '$state', 'MarketsService', '$timeout', Controller]);
 
-  function Controller($scope, MarketsService, $timeout) {
+  function Controller($scope, $state, MarketsService, $timeout) {
     var vm = this;
     var timeoutTilSearch;
     var GEOLOCATION_TIMEOUT_IN_MS = 10000;
@@ -18,6 +18,7 @@
       vm.searchMode = 'bounds';
       initializeDays();
       initializeMapChangeWatcher();
+      initializeMapToggleListener();
     }
 
     vm.detectLocation = function() {
@@ -130,9 +131,12 @@
       vm.detectLocation();
     }
 
-    vm.panToMarket = function(market) {
+    vm.selectMarket = function(market) {
       $scope.$broadcast('location:show', market);
       vm.expanded = false;
+      if (!vm.isShowingMap) {
+        $state.go('ttfm.markets.browse.show', {id: market.id});
+      }
     };
 
     function initializeDays() {
@@ -188,6 +192,14 @@
             vm.findWithin(vm.bounds);
           }
         }, 400);
+      });
+    }
+
+    function initializeMapToggleListener() {
+      $scope.$watch(function() {
+        return $state.params.id;
+      }, function() {
+        vm.isShowingMap = !$state.params.id;
       });
     }
 

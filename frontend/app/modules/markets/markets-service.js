@@ -26,6 +26,7 @@
     service.buildMarkerLabels = function(markets) {
       angular.forEach(markets, function(market) {
          market.markerLabel =
+                  // ['<a href="/markets/' + market.id + '" style="font-weight: bold;">',
                   ['<span style="font-weight: bold;">',
                     $sanitize(market.name),
                     '</span><br/>',

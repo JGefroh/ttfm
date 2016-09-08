@@ -35,7 +35,8 @@
         color: $color-sidebar-background;
       }
       &.active {
-        color: $color-sidebar-filter-active;
+        color: $color-sidebar-background;
+        background-color: $color-sidebar-filter-active;
       }
       &.active:hover {
         color: $color-sidebar-background;

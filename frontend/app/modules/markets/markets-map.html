@@ -1,6 +1,7 @@
 <div class="map-page with-sidebar">
-  <div class="main-content-wrapper">
-    <div data-map data-markers="vm.markets" data-bounds="vm.bounds" class="main-content"></div>
+  <div class="main-content-wrapper" data-ng-style="{'overflow-y': vm.isShowingMap ? 'hidden' : 'auto'}" style="overflow-x: hidden;">
+    <div data-ui-view="show-and-edit" class="main-content" data-ng-if="!vm.isShowingMap" style="padding: 1rem;"></div>
+    <div data-map data-markers="vm.markets" data-bounds="vm.bounds" class="main-content" data-ng-class="{'push-behind': !vm.isShowingMap}"></div>
   </div>
 
   <div class="sub-navigation">
@@ -22,9 +23,13 @@
       </span>
     </div>
     <div data-ng-if="vm.showPrompt" class="cta-wrapper">
-      <div>
-        <input data-ng-model="vm.manualLocation" data-address-autocomplete placeholder="Where are you?" style="margin-right: 0.2rem;" class="hidden-desktop"></input>
-        <input data-ng-model="vm.manualLocation" data-address-autocomplete placeholder="Where are you?" style="margin-right: 0.2rem; font-size: 1.25rem;" class="hidden-mobile"></input>
+      <div >
+        <div style="display: inline-block; position: relative;">
+          <input data-ng-model="vm.manualLocation" data-address-autocomplete placeholder="Where are you?" style="margin-right: 0.2rem;" class="hidden-desktop"></input>
+          <input data-ng-model="vm.manualLocation" data-address-autocomplete placeholder="Where are you?" style="margin-right: 0.2rem; font-size: 1.25rem;" class="hidden-mobile"></input>
+          <!-- <a data-ng-click="vm.showNearby()" style="cursor: pointer; position: absolute; top: 0.25rem; right: 0.25rem;"><span class="fa fa-fw fa-location-arrow input-icon hidden-mobile"></span></a>
+          <a data-ng-click="vm.showNearby()" style="cursor: pointer; position: absolute; top: 0.15rem; right: 0.25rem;"><span class="fa fa-fw fa-location-arrow input-icon hidden-desktop"></span></a> -->
+        </div>
         <button data-button-action="vm.identifyLocation(vm.manualLocation)" class="cta tiny hidden-desktop">Search</button>
         <button data-button-action="vm.identifyLocation(vm.manualLocation)" class="cta small hidden-mobile">Search</button>
 
@@ -59,14 +64,14 @@
     </div>
     <div class="list">
       <div data-ng-repeat="market in vm.markets | day:vm.daysSelected | orderBy: ['distance', 'name'] track by market.id"
-           data-ng-click="vm.panToMarket(market)"
+           data-ng-click="vm.selectMarket(market)"
            data-analytics-on="click"
            data-analytics-event="select-market"
            data-analytics-category="content-engagement"
            data-analytics-label="map-list"
            class="selection">
         {{market.name}}
-        <span data-ng-if="market.distance" class="distance">{{market.distance.toFixed(2) + ' miles away'}}</span>
+        <span data-ng-if="market.distance && vm.currentPosition" class="distance">{{market.distance.toFixed(2) + ' miles away'}}</span>
       </div>
 
       <a data-ng-if="vm.markets.length > 0" data-ui-sref="ttfm.about" style="float: left;">

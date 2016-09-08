@@ -1,6 +1,7 @@
 <div class="container">
+  <button data-ui-sref="ttfm.markets.browse" class="cta tiny info">Back to map</button>
   <h1>{{vm.market.name}}</h1>
   <h2>{{vm.market.address}}</h2>
   <h3>{{vm.market.days_of_week_as_array.join(', ')}}</h3>
-  <div data-static-map data-location="vm.market.latitude + ',' + vm.market.longitude" data-size="1024x1024"></div>
+  <div data-static-map data-location="vm.market.latitude + ',' + vm.market.longitude" data-size="512x512"></div>
 </div>
