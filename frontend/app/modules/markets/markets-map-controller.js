@@ -168,6 +168,10 @@
         {
           label: "sat",
           value: 6
+        },
+        {
+          label: "all",
+          value: -1
         }
       ];
       vm.daysSelected.push(vm.days[new Date().getDay()]);

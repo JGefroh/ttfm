@@ -6,7 +6,7 @@
   function Filter() {
     return function(markets, selectedDays) {
       var matches = [];
-      if (!selectedDays || !selectedDays.length) {
+      if (!selectedDays || !selectedDays.length || selectedDays[0].value === -1) {
         angular.forEach(markets, function(market) {
           market.isHidden = false;
         });
