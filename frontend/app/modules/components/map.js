@@ -45,19 +45,32 @@
         });
 
         scope.$on('location:show', function(event, payload) {
-         var marker = getMarkerWithId(payload.id);
-         if (marker && marker.latitude) {
+          var marker = getMarkerWithId(payload.id);
+          if (marker && marker.latitude) {
            map.panTo(new google.maps.LatLng(marker.latitude, marker.longitude));
            map.setZoom(16);
            openInfoWindow(map, getGoogleMarkerWithId(payload.id));
-         }
-         else {
+          }
+          else {
            map.panTo(new google.maps.LatLng(payload.latitude, payload.longitude));
            if (currentPositionMarker) {
              currentPositionMarker.setMap(null);
-           }
-           currentPositionMarker = addMarker(map, -1, payload, 'You are here!', '/images/marker-current-location.png');
-           map.setZoom(16);
+          }
+          currentPositionMarker = addMarker(map, -1, payload, 'You are here!', '/images/marker-current-location.png');
+          var bounds = null;
+          angular.forEach(allMarkers, function(marker) {
+            if (!bounds) {
+              bounds = new google.maps.LatLngBounds();
+              bounds.extend(marker.getPosition());
+              bounds.extend(currentPositionMarker.getPosition());
+            }
+          })
+          if (bounds) {
+            map.fitBounds(bounds);
+          }
+          else {
+            map.setZoom(16);
+          }
          }
         });
 
