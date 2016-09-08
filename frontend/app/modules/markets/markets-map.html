@@ -35,10 +35,10 @@
 
   <div class="sidebar" data-ng-class="{'full' : vm.expanded}">
     <label style="text-align: center; display: block; padding-top: 0.25rem">
-        <span data-ng-if="vm.markets.length">
+        <span data-ng-if="vm.markets.length && !vm.loading['query-markets']">
           Markets
         </span>
-        <span data-ng-if="!vm.markets.length">
+        <span data-ng-if="vm.loading['query-markets']">
           <span class="fa fa-fw fa-spin fa-spinner"></span>
         </span>
 
@@ -56,6 +56,9 @@
       </div>
     </div>
     <div class="list">
+      <div data-ng-if="!vm.markets.length && !vm.loading['detect-location'] && !vm.loading['query-markets']" style="text-align: center;">
+        No markets found in the area.
+      </div>
       <div data-ng-repeat="market in vm.markets | day:vm.daysSelected | orderBy: ['distance', 'name'] track by market.id"
            data-ng-click="vm.selectMarket(market)"
            data-analytics-on="click"
