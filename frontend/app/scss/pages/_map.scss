@@ -26,9 +26,14 @@
       text-align: center;
       border-radius: 5px;
       padding: 0.25rem;
-      font-size: 1.5rem;
       cursor: pointer;
       @include user-select(none);
+      @include media($mobile) {
+        font-size: 1.25rem;
+      }
+      @include media($desktop) {
+        font-size: 1.5rem;
+      }
 
       &:hover {
         background-color: $color-sidebar-filter-text;
