@@ -37,6 +37,17 @@
             time = 'Ends at ' + market.end_time;
           }
         }
+
+
+        var organization = null;
+        if (market.organization === 'hfbf') {
+          market.markerIcon = null;
+          organization = 'The Hawaii Farm Bureau'
+        }
+        else if (market.organization === 'pom') {
+          market.markerIcon = null;
+          organization = 'People\'s Open Market'
+        }
          market.markerLabel =
                   // ['<a href="/markets/' + market.id + '" style="font-weight: bold;">',
                   ['<span style="font-weight: bold;">',
@@ -45,7 +56,8 @@
                     $sanitize(market.address),
                     '<br/>',
                     $sanitize(market.days_of_week_as_array.join(', ')),
-                    time ? '<br/>' + time : ''
+                    time ? '<br/>' + time : '',
+                    organization ? '<br/> Organized by ' + organization : ''
                   ].join('');
       });
       return markets;

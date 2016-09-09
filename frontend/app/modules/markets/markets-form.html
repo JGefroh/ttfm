@@ -27,6 +27,16 @@
       <div data-text-field data-label="End time" data-ng-model="vm.market.end_time">
         <span class="tip">format example: 19:00</span>
       </div>
+      <div class="input-field">
+        <label>Is this market managed by a specific organization?</label>
+        <select data-ng-model="vm.market.organization">
+          <br/>
+          <option value="">No</option>
+          <option value="pom">People's Open Market</option>
+          <option value="hfbf">The Hawaii Farm Bureau</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
       <button data-button-action="vm.save()" class="cta">Save Changes</button>
 
     </div>

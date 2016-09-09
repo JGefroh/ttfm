@@ -21,7 +21,6 @@
   .tip {
     color: $color-subtless;
   }
-
   &.text {
     input {
       @include media($mobile) {

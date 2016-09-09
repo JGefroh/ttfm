@@ -100,7 +100,7 @@
            var content = '';
            var label = marker.markerLabel;
            if (!marker.isHidden) {
-             var marker = addMarker(map, marker.id, marker, label);
+             var marker = addMarker(map, marker.id, marker, label, marker.markerIcon);
              if (marker) {
                allMarkers.push(marker);
              }
