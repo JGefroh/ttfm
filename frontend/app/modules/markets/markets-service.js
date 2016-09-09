@@ -41,11 +41,11 @@
 
         var organization = null;
         if (market.organization === 'hfbf') {
-          market.markerIcon = null;
+          market.icon = '/images/HFBF_logo_only_200.png';
           organization = 'The Hawaii Farm Bureau'
         }
         else if (market.organization === 'pom') {
-          market.markerIcon = null;
+          market.icon = null;
           organization = 'People\'s Open Market'
         }
          market.markerLabel =

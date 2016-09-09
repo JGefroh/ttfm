@@ -100,7 +100,7 @@
            var content = '';
            var label = marker.markerLabel;
            if (!marker.isHidden) {
-             var marker = addMarker(map, marker.id, marker, label, marker.markerIcon);
+             var marker = addMarker(map, marker.id, marker, label, marker.icon);
              if (marker) {
                allMarkers.push(marker);
              }
@@ -117,11 +117,21 @@
 
        function addMarker(map, id, position, content, icon) {
          if (angular.isNumber(position.latitude) && angular.isNumber(position.longitude)) {
+           var pinIcon = null;
+           if (icon) {
+             pinIcon = new google.maps.MarkerImage(
+                  icon,
+                  null, /* size is determined at runtime */
+                  null, /* origin is 0,0 */
+                  null, /* anchor is bottom center of the scaled image */
+                  new google.maps.Size(42, 42)
+              );
+           }
            var marker = new google.maps.Marker({
              id: id,
              map: map,
              position: {lat: position.latitude, lng: position.longitude},
-             icon: icon,
+             icon: pinIcon,
              content: content
            });
            marker.addListener('click', function() {
