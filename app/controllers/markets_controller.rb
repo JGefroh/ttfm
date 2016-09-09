@@ -110,7 +110,7 @@ class MarketsController < ApplicationController
   end
 
   private def market_params
-    params.require(:market).permit(:name, :address, :days_of_week)
+    params.require(:market).permit(:address, :days_of_week, :end_time, :name, :start_time)
   end
 
   def has_admin_code

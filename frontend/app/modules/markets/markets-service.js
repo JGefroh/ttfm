@@ -25,6 +25,18 @@
 
     service.buildMarkerLabels = function(markets) {
       angular.forEach(markets, function(market) {
+        var time = '';
+        if (market.start_time && market.end_time) {
+          time = market.start_time + ' to ' + market.end_time;
+        }
+        else if (market.start_time || market.end_time) {
+          if (market.start_time) {
+            time = 'Starts at ' + market.start_time;
+          }
+          else {
+            time = 'Ends at ' + market.end_time;
+          }
+        }
          market.markerLabel =
                   // ['<a href="/markets/' + market.id + '" style="font-weight: bold;">',
                   ['<span style="font-weight: bold;">',
@@ -32,7 +44,8 @@
                     '</span><br/>',
                     $sanitize(market.address),
                     '<br/>',
-                    $sanitize(market.days_of_week_as_array.join(', '))
+                    $sanitize(market.days_of_week_as_array.join(', ')),
+                    time ? '<br/>' + time : ''
                   ].join('');
       });
       return markets;
