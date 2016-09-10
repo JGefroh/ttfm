@@ -45,7 +45,7 @@
           organization = 'The Hawaii Farm Bureau'
         }
         else if (market.organization === 'pom') {
-          market.icon = null;
+          market.icon = '/images/POM_Logo_transparent.png';
           organization = 'People\'s Open Market'
         }
          market.markerLabel =
