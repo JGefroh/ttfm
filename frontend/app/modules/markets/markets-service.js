@@ -22,22 +22,26 @@
       return service.$http.get(service.collectionsUrl() + '/to_coordinates', {params: {admin_code: adminCode, address: address}}).then(service.getResponsePayload);
     }
 
+    service.getTimeString = function(market) {
+      var time = '';
+      if (market.start_time && market.end_time) {
+        time = market.start_time + ' to ' + market.end_time;
+      }
+      else if (market.start_time || market.end_time) {
+        if (market.start_time) {
+          time = 'Starts at ' + market.start_time;
+        }
+        else {
+          time = 'Ends at ' + market.end_time;
+        }
+      }
+      return time;
+    }
+
 
     service.buildMarkerLabels = function(markets) {
       angular.forEach(markets, function(market) {
-        var time = '';
-        if (market.start_time && market.end_time) {
-          time = market.start_time + ' to ' + market.end_time;
-        }
-        else if (market.start_time || market.end_time) {
-          if (market.start_time) {
-            time = 'Starts at ' + market.start_time;
-          }
-          else {
-            time = 'Ends at ' + market.end_time;
-          }
-        }
-
+        var time = service.getTimeString(market);
 
         var organization = null;
         if (market.organization === 'hfbf') {

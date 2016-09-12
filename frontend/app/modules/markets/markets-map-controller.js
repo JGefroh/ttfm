@@ -42,6 +42,10 @@
       }
     }
 
+    vm.getTimeString = function(market) {
+      return MarketsService.getTimeString(market);
+    }
+
     vm.findNearby = function(currentPosition) {
       if (!currentPosition) {
         return;
