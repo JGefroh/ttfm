@@ -6,11 +6,22 @@
 
   function Routes($stateProvider) {
     $stateProvider
-        .state('ttfm.sign-in', {
-            url: '/sign-in',
-            reloadOnSearch: false,
-            template: '<div data-sign-in></div>',
-        })
+      .state('ttfm.admin', {
+        url: '/admin',
+        requiresAuthentication: true,
+        views: {
+          '': {
+            templateUrl: 'markets-admin.html',
+            controller: 'MarketsAdminController',
+            controllerAs: 'vm'
+          }
+        }
+      })
+      .state('ttfm.sign-in', {
+          url: '/sign-in',
+          reloadOnSearch: false,
+          template: '<div data-sign-in></div>'
+      })
   }
 
   function RouteSecurity($state, $rootScope) {
