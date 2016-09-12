@@ -6,16 +6,16 @@
   function Service($rootScope, $sanitize, BaseServiceFactory) {
     var service = BaseServiceFactory('market', 'markets');
 
-    service.checkImportData = function(credentials) {
-      return service.$http.post(service.collectionsUrl() + '/check_import_data', credentials).then(service.getResponsePayload);
+    service.checkImportData = function() {
+      return service.$http.post(service.collectionsUrl() + '/check_import_data').then(service.getResponsePayload);
     }
-    service.importData = function(adminCode, data) {
-      return service.$http.post(service.collectionsUrl() + '/import_data', {admin_code: adminCode, data: data}).then(function(response) {
+    service.importData = function(data) {
+      return service.$http.post(service.collectionsUrl() + '/import_data', {data: data}).then(function(response) {
         return response.data;
       });
     }
-    service.exportData = function(credentials) {
-      return service.$http.post(service.collectionsUrl() + '/export_data', credentials).then(service.getResponsePayload);
+    service.exportData = function() {
+      return service.$http.post(service.collectionsUrl() + '/export_data').then(service.getResponsePayload);
     }
 
     service.toCoordinates = function(address) {
@@ -49,10 +49,9 @@
           organization = 'People\'s Open Market'
         }
          market.markerLabel =
-                  // ['<a href="/markets/' + market.id + '" style="font-weight: bold;">',
-                  ['<span style="font-weight: bold;">',
+                  ['<a href="/markets/' + market.id + '" style="font-weight: bold;" rel="noopener">',
                     $sanitize(market.name),
-                    '</span><br/>',
+                    '</a><br/>',
                     $sanitize(market.address),
                     '<br/>',
                     $sanitize(market.days_of_week_as_array.join(', ')),

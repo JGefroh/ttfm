@@ -16,7 +16,7 @@
         vm.market.days_of_week = vm.market.days_of_week_as_array.join(',');
       }
       if (vm.market.id) {
-        return MarketsService.update(vm.market, {admin_code: $scope.$parent.vm.adminCode}).then(function(savedMarket) {
+        return MarketsService.update(vm.market).then(function(savedMarket) {
           angular.copy(savedMarket, vm.market);
           updateMarketList(savedMarket);
         }).catch(function(response) {
@@ -24,7 +24,7 @@
         });
       }
       else {
-        return MarketsService.save(vm.market, {admin_code: $scope.$parent.vm.adminCode}).then(function(createdMarket) {
+        return MarketsService.save(vm.market).then(function(createdMarket) {
           angular.copy(createdMarket, vm.market);
           updateMarketList(createdMarket, true);
           $state.go('^');
@@ -52,7 +52,7 @@
     vm.delete = function(market) {
       vm.errors = null;
       var index = -1;
-      MarketsService.delete(market, {admin_code: $scope.$parent.vm.adminCode}).then(function() {
+      MarketsService.delete(market).then(function() {
         if ($scope.$parent.vm.markets) {
           angular.forEach($scope.$parent.vm.markets, function(existingMarket, currentIndex) {
             if (market.id === existingMarket.id) {

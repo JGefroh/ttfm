@@ -6,4 +6,8 @@ class ApplicationController < ActionController::Base
   def index
     render json: {status: 200, message: 'API is up and running.', name: 'Joseph Gefroh'}
   end
+
+  def has_admin_code
+    return request.headers['Authorization'] && request.headers['Authorization'] == ENV['ADMIN_CODE_TO_UPDATE']
+  end
 end
