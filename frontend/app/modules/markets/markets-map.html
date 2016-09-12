@@ -69,7 +69,7 @@
         <img data-ng-if="market.icon" data-ng-src="{{market.icon}}" style="width: 1rem; height: 1rem;"></img>
         {{market.name}}
         <span data-ng-if="::vm.getTimeString(market)" data-ng-bind="::vm.getTimeString(market)" style="display: block;"></span>
-        <span data-ng-if="market.distance && vm.currentPosition" class="distance">{{market.distance.toFixed(2) + ' miles away'}}</span>
+        <span data-ng-if="market.distance >= 0 && vm.currentPosition" class="distance">{{market.distance.toFixed(2) + ' miles away'}}</span>
       </div>
 
       <a data-ng-if="vm.markets.length > 0" data-ui-sref="ttfm.about" style="float: left;">
