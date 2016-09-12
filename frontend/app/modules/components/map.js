@@ -56,7 +56,7 @@
            if (currentPositionMarker) {
              currentPositionMarker.setMap(null);
           }
-          currentPositionMarker = addMarker(map, -1, payload, 'You are here!', '/images/marker-current-location.png');
+          currentPositionMarker = addMarker(map, -1, payload, 'You are here!', '/images/marker-current-location.png', 24);
           var bounds = null;
           angular.forEach(allMarkers, function(marker) {
             if (!bounds) {
@@ -115,7 +115,7 @@
          allMarkers = [];
        }
 
-       function addMarker(map, id, position, content, icon) {
+       function addMarker(map, id, position, content, icon, size) {
          if (angular.isNumber(position.latitude) && angular.isNumber(position.longitude)) {
            var pinIcon = null;
            if (icon) {
@@ -124,7 +124,7 @@
                   null, /* size is determined at runtime */
                   null, /* origin is 0,0 */
                   null, /* anchor is bottom center of the scaled image */
-                  new google.maps.Size(42, 42)
+                  new google.maps.Size(size || 42, size || 42)
               );
            }
            var marker = new google.maps.Marker({

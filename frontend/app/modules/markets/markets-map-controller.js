@@ -42,6 +42,10 @@
       }
     }
 
+    vm.getTimeString = function(market) {
+      return MarketsService.getTimeString(market);
+    }
+
     vm.findNearby = function(currentPosition) {
       if (!currentPosition) {
         return;
@@ -57,6 +61,16 @@
       MarketsService.query(params).then(function(nearbyMarkets) {
         buildMarkerLabels(nearbyMarkets);
         vm.markets = nearbyMarkets;
+        var atMarket = null;
+        angular.forEach(vm.markets, function(market) {
+          if (market.distance <= 0.05
+                && market.days_of_week_as_array.indexOf(vm.days[new Date().getDay()].label) !== -1) {
+            atMarket = market;
+          }
+        })
+        if (atMarket) {
+          $state.go('ttfm.markets.browse.show', {id: atMarket.id});
+        }
       }).finally(function() {
         vm.loading['query-markets'] = false;
       });
