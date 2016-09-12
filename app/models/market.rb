@@ -2,6 +2,9 @@ class Market < ActiveRecord::Base
   include Locatable
   include Schedulable
 
+  has_many :market_vendors, dependent: :destroy
+  has_many :vendors, through: :market_vendors
+
 
   def days_of_week_as_array
     unless self.days_of_week.present?

@@ -8,30 +8,28 @@
     </div>
   </div>
   <div class="sub-navigation">
-     <button class="cta small" data-ui-sref="ttfm.markets.admin.new">Add Market</button>
+     <button class="cta small" data-ui-sref="ttfm.vendors.admin.new">Add Vendor</button>
   </div>
   <div class="sidebar" data-ng-class="{'full' : vm.expanded}">
 
     <label style="text-align: center; display: block; padding-top: 0.25rem">
         <span>
-          Administrate Markets
+          Administrate Vendors
           <br/>
+          <input data-ng-model="$root.adminCode" placeholder="Enter admin code..." type="password"></input>
         </span>
-        <input data-ng-model="$root.adminCode" placeholder="Enter admin code..." type="password"></input>
         <a data-ng-click="vm.expanded = !vm.expanded" style="cursor: pointer; float: left;" class="hidden-desktop">
           <span class="fa fa-fw" data-ng-class="{'fa-chevron-up': vm.expanded, 'fa-chevron-down': !vm.expanded}"></span>
         </a>
     </label>
     <div class="list">
-      <div data-ng-repeat="market in vm.markets | orderBy: 'name' track by market.id"
-           data-ui-sref="ttfm.markets.admin.edit({id: market.id})"
+      <div data-ng-repeat="vendor in vm.vendors | orderBy: 'name' track by vendor.id"
+           data-ui-sref="ttfm.vendors.admin.edit({id: vendor.id})"
            class="selection">
-        {{market.name}}
+        {{vendor.name}}
       </div>
-
-
-      <a data-ui-sref="ttfm.vendors.admin" style="float: right">
-        <span class="secret-button"><span class="fa fa-fw fa-gear"></span> Adminstrate Vendors</span>
+      <a data-ui-sref="ttfm.markets.admin" style="float: right">
+        <span class="secret-button"><span class="fa fa-fw fa-gear"></span> Adminstrate Markets</span>
       </a>
     </div>
   </div>

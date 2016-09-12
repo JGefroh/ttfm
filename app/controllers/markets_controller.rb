@@ -15,6 +15,8 @@ class MarketsController < ApplicationController
       search_distance_in_miles = 60
       search_center = [params[:current_lat], params[:current_lng]]
       @markets = @markets.near(search_center, search_distance_in_miles)
+    elsif params[:vendor_id]
+      @markets = @markets.joins(:vendors).where('vendors.id = ?', params[:vendor_id])
     end
     render json: @markets
   end
@@ -111,10 +113,6 @@ class MarketsController < ApplicationController
 
   private def market_params
     params.require(:market).permit(:address, :days_of_week, :end_time, :name, :organization, :start_time)
-  end
-
-  def has_admin_code
-    return params[:admin_code] && params[:admin_code] == ENV['ADMIN_CODE_TO_UPDATE']
   end
 
   def has_export_code

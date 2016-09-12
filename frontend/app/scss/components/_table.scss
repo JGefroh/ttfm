@@ -1,0 +1,26 @@
+table {
+  th {
+    text-align: left;
+  }
+  width: 100%;
+  .button-column {
+    text-align: center;
+
+    a {
+      cursor: pointer;
+    }
+  }
+  td {
+    padding: 0.25rem;
+  }
+}
+tr {
+  width: 100%;
+}
+
+tr:nth-child(even) {
+  background-color: $color-subtler;
+}
+tr:hover {
+  background-color: $color-primary;
+}

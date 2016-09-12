@@ -1,0 +1,14 @@
+<div data-ng-show="vm.vendors.length">
+  <table>
+    <thead>
+      <th>Vendor</th>
+      <th>Products</th>
+    </thead>
+    <tbody>
+      <tr data-ng-repeat="vendor in vm.vendors | orderBy: 'name' track by vendor.id">
+        <td><span data-ng-bind="vendor.name"></span></td>
+        <td><span data-ng-bind="vendor.description"></span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

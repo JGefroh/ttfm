@@ -8,4 +8,9 @@ Rails.application.routes.draw do
     post 'export_data', on: :collection
     get 'to_coordinates', on: :collection
   end
+
+  resources :vendors do
+    put 'add_market', on: :member
+    put 'remove_market', on: :member
+  end
 end

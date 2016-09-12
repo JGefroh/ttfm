@@ -11,6 +11,8 @@
             'ui.router',
             'ttfm.home',
             'ttfm.markets',
+            'ttfm.security',
+            'ttfm.vendors',
             'jgefroh.components'
           ]
     )
