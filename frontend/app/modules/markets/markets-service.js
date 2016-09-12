@@ -53,8 +53,9 @@
                     $sanitize(market.name),
                     '</a><br/>',
                     $sanitize(market.address),
-                    '<br/>',
+                    '<br/><span style="text-transform: capitalize">',
                     $sanitize(market.days_of_week_as_array.join(', ')),
+                    '</span>',
                     time ? '<br/>' + time : '',
                     organization ? '<br/> Organized by ' + organization : ''
                   ].join('');
