@@ -1,3 +1,40 @@
+.ag_green {
+  color: $color-button-background;
+}
+
 .home-page {
   text-align: center;
 }
+
+.image {
+  width: 25%;
+  height: 25%;
+  position: absolute;
+}
+
+.spacer_height {
+  width: 25%;
+  height: 25%;
+  max-height: 250px;
+}
+
+.spin_image {
+  -webkit-animation: spin 3s linear 1s 2;
+  -moz-animation: spin 3s linear 1s 2;
+  animation: spin 3s linear 1s 2;
+}
+
+.splash_border {
+  position: static;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  border: 10px solid transparent;
+  -webkit-border-image: url("../../images/HDOA-logo.svg") 30% round;
+  -o-border-image: url("../../images/HDOA-logo.svg") 30% round;
+  border-image: url("../../images/HDOA-logo.svg") 30% repeat;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
