@@ -8,7 +8,7 @@
     return {
         request: function (config) {
             config.headers = config.headers || {};
-            config.headers['Authorization'] = $rootScope.adminCode;
+            config.headers['X-TTFM-Authorization'] = '' + $rootScope.adminCode;
             return config;
         }
     };

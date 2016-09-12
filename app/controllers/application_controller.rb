@@ -8,6 +8,14 @@ class ApplicationController < ActionController::Base
   end
 
   def has_admin_code
-    return request.headers['Authorization'] && request.headers['Authorization'] == ENV['ADMIN_CODE_TO_UPDATE']
+    return request.headers['X-TTFM-Authorization'] && request.headers['X-TTFM-Authorization'] == ENV['ADMIN_CODE_TO_UPDATE']
+  end
+
+  def check_admin_code
+    if params[:admin_code] == ENV['ADMIN_CODE_TO_UPDATE']
+      render json: {success: true}
+    else
+      render json: {success: false}, status: 403 and return
+    end
   end
 end

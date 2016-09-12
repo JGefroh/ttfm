@@ -2,8 +2,7 @@
   <div class="main-content-wrapper" style="overflow-y: scroll;">
     <div class="main-content" style="padding: 1rem;">
       <div data-ui-view="show-and-edit">
-        <h1 style="text-align: center;">This page is intended for administrators!</h1>
-        <p style="text-align: center;"><button data-ui-sref="ttfm.home" class="cta">Go back to the map</button></p>
+        <h1>You can use this screen to edit the vendors. Don't forget to sign out!</h1>
       </div>
     </div>
   </div>
@@ -16,7 +15,7 @@
         <span>
           Administrate Vendors
           <br/>
-          <input data-ng-model="$root.adminCode" placeholder="Enter admin code..." type="password"></input>
+          <button data-sign-out></button>
         </span>
         <a data-ng-click="vm.expanded = !vm.expanded" style="cursor: pointer; float: left;" class="hidden-desktop">
           <span class="fa fa-fw" data-ng-class="{'fa-chevron-up': vm.expanded, 'fa-chevron-down': !vm.expanded}"></span>

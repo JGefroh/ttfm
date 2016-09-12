@@ -12,6 +12,7 @@
       })
       .state('ttfm.vendors.admin', {
         url: '/admin',
+        requiresAuthentication: true,
         views: {
           '': {
             templateUrl: 'vendors-admin.html',
@@ -21,6 +22,7 @@
         }
       }).state('ttfm.vendors.admin.edit', {
         url: '/{id:int}/edit',
+        requiresAuthentication: true,
         views: {
           'show-and-edit': {
             templateUrl: 'vendors-edit.html',
@@ -33,6 +35,7 @@
         }
       }).state('ttfm.vendors.admin.new', {
         url: '/new',
+        requiresAuthentication: true,
         views: {
           'show-and-edit': {
             templateUrl: 'vendors-new.html',

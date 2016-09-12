@@ -17,6 +17,7 @@
       })
       .state('ttfm.markets.admin', {
         url: '/admin',
+        requiresAuthentication: true,
         views: {
           '': {
             templateUrl: 'markets-admin.html',
@@ -26,6 +27,7 @@
         }
       }).state('ttfm.markets.admin.edit', {
         url: '/{id:int}/edit',
+        requiresAuthentication: true,
         views: {
           'show-and-edit': {
             templateUrl: 'markets-edit.html',
@@ -38,6 +40,7 @@
         }
       }).state('ttfm.markets.admin.new', {
         url: '/new',
+        requiresAuthentication: true,
         views: {
           'show-and-edit': {
             templateUrl: 'markets-new.html',
@@ -52,6 +55,7 @@
         }
       }).state('ttfm.markets.admin.sync', {
         url: '/sync',
+        requiresAuthentication: true,
         views: {
           'show-and-edit': {
             templateUrl: 'import-export.html',

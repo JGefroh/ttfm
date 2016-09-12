@@ -1,0 +1,12 @@
+<div class="page">
+  <h1 style="text-align: center;">This page is intended for administrators!</h1>
+  <p style="text-align: center;"><button data-ui-sref="ttfm.markets.browse" class="cta">Go back to the map</button></p>
+  <div style="text-align: center">
+    <label>Password:</label>
+    <input data-ng-model="vm.password" type="password"></input>
+    <button data-button-action="vm.signIn()" class="cta info tiny">Sign in</button>
+    <p class="error">
+      {{vm.error}}
+    </p>
+  </div>
+</div>
