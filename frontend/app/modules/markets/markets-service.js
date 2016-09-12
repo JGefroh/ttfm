@@ -18,8 +18,8 @@
       return service.$http.post(service.collectionsUrl() + '/export_data', {admin_code: adminCode}).then(service.getResponsePayload);
     }
 
-    service.toCoordinates = function(adminCode, address) {
-      return service.$http.get(service.collectionsUrl() + '/to_coordinates', {params: {admin_code: adminCode, address: address}}).then(service.getResponsePayload);
+    service.toCoordinates = function(address) {
+      return service.$http.get(service.collectionsUrl() + '/to_coordinates', {params: {address: address}}).then(service.getResponsePayload);
     }
 
     service.getTimeString = function(market) {
