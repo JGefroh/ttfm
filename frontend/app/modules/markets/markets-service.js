@@ -6,20 +6,20 @@
   function Service($rootScope, $sanitize, BaseServiceFactory) {
     var service = BaseServiceFactory('market', 'markets');
 
-    service.checkImportData = function() {
-      return service.$http.post(service.collectionsUrl() + '/check_import_data').then(service.getResponsePayload);
+    service.checkImportData = function(adminCode) {
+      return service.$http.post(service.collectionsUrl() + '/check_import_data', {admin_code: adminCode}).then(service.getResponsePayload);
     }
-    service.importData = function(data) {
-      return service.$http.post(service.collectionsUrl() + '/import_data', {data: data}).then(function(response) {
+    service.importData = function(adminCode, data) {
+      return service.$http.post(service.collectionsUrl() + '/import_data', {admin_code: adminCode, data: data}).then(function(response) {
         return response.data;
       });
     }
-    service.exportData = function() {
-      return service.$http.post(service.collectionsUrl() + '/export_data').then(service.getResponsePayload);
+    service.exportData = function(adminCode) {
+      return service.$http.post(service.collectionsUrl() + '/export_data', {admin_code: adminCode}).then(service.getResponsePayload);
     }
 
-    service.toCoordinates = function(address) {
-      return service.$http.get(service.collectionsUrl() + '/to_coordinates', {params: {address: address}}).then(service.getResponsePayload);
+    service.toCoordinates = function(adminCode, address) {
+      return service.$http.get(service.collectionsUrl() + '/to_coordinates', {params: {admin_code: adminCode, address: address}}).then(service.getResponsePayload);
     }
 
 

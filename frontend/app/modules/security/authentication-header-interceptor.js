@@ -7,7 +7,6 @@
   function Interceptor($rootScope) {
     return {
         request: function (config) {
-          console.info($rootScope.adminCode);
             config.headers = config.headers || {};
             config.headers['Authorization'] = $rootScope.adminCode;
             return config;

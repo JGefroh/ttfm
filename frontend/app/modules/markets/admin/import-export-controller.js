@@ -22,7 +22,6 @@
     vm.importData = function(adminImportCode, data) {
       vm.loadingImport = true;
       MarketsService.importData(adminImportCode, data).then(function(response) {
-        console.info(response);
         vm.duplicates = response.duplicates;
         vm.created = response.created;
         vm.synced = response.synced;
@@ -39,7 +38,7 @@
       vm.results = false;
       vm.duplicates = [];
       vm.created = [];
-      MarketsService.checkImportData({admin_code: adminImportCode}).then(function(data) {
+      MarketsService.checkImportData(adminImportCode).then(function(data) {
         vm.importing = true;
         vm.markets = data;
       }).catch(function(response) {

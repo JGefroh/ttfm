@@ -87,13 +87,13 @@ class MarketsController < ApplicationController
         duplicate_market = market_exists(market)
         if duplicate_market.present?
           if duplicate_market.days_of_week != market[:days_of_week]
-            duplicate_market.update(days_of_week: market[:days_of_week])
+            duplicate_market.update(days_of_week: market[:days_of_week], start_time: market[:start_time], end_time: market[:end_time])
             synced_markets << MarketSerializer.new(duplicate_market, root: false)
           else
             duplicate_markets << MarketSerializer.new(duplicate_market, root: false)
           end
         else
-          created_markets << MarketSerializer.new(Market.create(name: market[:name], address: market[:address]), root: false)
+          created_markets << MarketSerializer.new(Market.create(name: market[:name], address: market[:address], start_time: market[:start_time], end_time: market[:end_time]), root: false)
         end
       end
       render json: {duplicates: duplicate_markets, created: created_markets, synced: synced_markets}, root: false and return
@@ -136,12 +136,18 @@ class MarketsController < ApplicationController
   def scrub(data)
     markets = []
     data['data'].each do |item|
-      result = {}
-      result[:name] = parseName(item[8])
-      result[:address] = parseAddress(item[17][0])
-      result[:days_of_week] = parseSchedule(item)
-      result[:valid] = result[:name].present? && result[:address].present? && result[:days_of_week].present?
-      markets << result
+      begin
+        result = {}
+        result[:name] = parseName(item[8])
+        result[:address] = parseAddress(item[17][0])
+        result[:days_of_week] = parseSchedule(item)
+        result[:start_time] = parseStartTime(item)
+        result[:end_time] = parseEndTime(item)
+        result[:valid] = result[:name].present? && result[:address].present? && result[:days_of_week].present?
+        markets << result
+      rescue Exception => e
+        puts "Error parsing #{item}"
+      end
     end
     return markets
   end
@@ -172,6 +178,40 @@ class MarketsController < ApplicationController
     daysOfWeek += 'fri,' if !!market[14]
     daysOfWeek += 'sat,' if !!market[15]
     return daysOfWeek;
+  end
+
+  def parseStartTime(market)
+    time = market[16]
+    if !time.present?
+      return
+    end
+    if time.include?('-')
+      return time.split('-')[0].strip
+    elsif time.include?('to')
+      return time.split('to')[0].strip
+    else
+      return time
+    end
+  end
+
+  def parseEndTime(market)
+    time = market[16]
+    if !time.present?
+      return
+    end
+    if time.include?('-')
+      pieces = time.split('-')
+      if pieces.length > 1
+        return pieces[1].strip
+      end
+    elsif time.include?('to')
+      pieces = time.split('to')
+      if pieces.length > 1
+        return pieces[1].strip
+      end
+    else
+      return time
+    end
   end
 
     # function scrub(data) {
