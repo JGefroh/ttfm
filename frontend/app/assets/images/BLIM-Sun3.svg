@@ -1,68 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   id="svg"
-   width="1000"
-   height="945.70001"
-   viewBox="0 0 1000 945.70001"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="BLIM-Sun31.svg">
-  <metadata
-     id="metadata3434">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs3432" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1855"
-     inkscape:window-height="1056"
-     id="namedview3430"
-     showgrid="false"
-     inkscape:zoom="0.919"
-     inkscape:cx="123.5038"
-     inkscape:cy="500"
-     inkscape:window-x="65"
-     inkscape:window-y="24"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg" />
-  <g
-     id="face"
-     style="fill:#f68717"
-     transform="translate(-10,-39.3)">
-    <path
-       id="lefteye"
-       d="m 506,439.6 c 3.3,4.8 1,11.3 1.7,17 -5,5.5 -11.3,-2.5 -17.8,-2.5 -11.5,-2.3 -23.7,0 -32.6,5.7 -5,-3.2 -4,-11.3 -1.6,-15.3 5,-9.7 15.4,-18.5 26.8,-20 10.5,-1.7 19.5,7 23.5,15.2"
-       inkscape:connector-curvature="0" />
-    <path
-       id="righteye"
-       d="m 580,449.3 c -1,3.2 1.5,8 -2.5,9.6 -6.5,-5 -15.4,-9 -24.4,-5.7 -7.2,-0.8 -16,14.5 -20.2,0 1.7,-10.5 3.3,-23.4 15.4,-27.4 6.6,-1 12.2,-1.7 18,1.5 6.4,6.4 11.3,13.7 13.7,21.8"
-       inkscape:connector-curvature="0" />
-    <path
-       id="mouth"
-       d="m 610.7,480.7 c -2.4,33 -26,63.7 -56,79.8 -26.7,15.3 -65.7,13.7 -90.8,-4 -25.2,-18.6 -40.6,-48.4 -32.6,-79 3.3,-2.5 7.4,-4 11.4,-1.6 11.4,23.2 6.5,54 30.8,70.8 22,14.5 56.8,11.3 77,-3.2 23.6,-16.2 37.4,-40.3 41.5,-66 5,-9 16.3,-4 18.7,3"
-       inkscape:connector-curvature="0" />
-  </g>
+<svg id="svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="945.7" viewBox="0 0 1000 945.70001" width="1e3" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata3434">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="face" fill="#f68717" transform="translate(-10,-39.3)">
+  <path id="lefteye" d="m506 439.6c3.3 4.8 1 11.3 1.7 17-5 5.5-11.3-2.5-17.8-2.5-11.5-2.3-23.7 0-32.6 5.7-5-3.2-4-11.3-1.6-15.3 5-9.7 15.4-18.5 26.8-20 10.5-1.7 19.5 7 23.5 15.2"/>
+  <path id="righteye" d="m580 449.3c-1 3.2 1.5 8-2.5 9.6-6.5-5-15.4-9-24.4-5.7-7.2-0.8-16 14.5-20.2 0 1.7-10.5 3.3-23.4 15.4-27.4 6.6-1 12.2-1.7 18 1.5 6.4 6.4 11.3 13.7 13.7 21.8"/>
+  <path id="mouth" d="m610.7 480.7c-2.4 33-26 63.7-56 79.8-26.7 15.3-65.7 13.7-90.8-4-25.2-18.6-40.6-48.4-32.6-79 3.3-2.5 7.4-4 11.4-1.6 11.4 23.2 6.5 54 30.8 70.8 22 14.5 56.8 11.3 77-3.2 23.6-16.2 37.4-40.3 41.5-66 5-9 16.3-4 18.7 3"/>
+ </g>
 </svg>
