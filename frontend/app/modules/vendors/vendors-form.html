@@ -17,7 +17,7 @@
         <option value="">Select a Market</option>
       </select>
       <div data-text-field data-label="Booth at Market" data-ng-model="vm.boothLocation"></div>
-      <button data-ng-click="vm.addMarket(vm.selectedMarket, vm.boothLocation);">Add Market</button>
+      <button data-ng-click="vm.addMarket(vm.selectedMarket, vm.boothLocation);" data-ng-disabled="!vm.selectedMarket">Add Market</button>
 
     </div>
     <table>

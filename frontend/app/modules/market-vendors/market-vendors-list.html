@@ -6,7 +6,9 @@
       <th>Products</th>
     </thead>
     <tbody>
-      <tr data-ng-repeat="marketVendor in vm.marketVendors | orderBy: 'vendor.name' track by marketVendor.id">
+      <tr id="market-vendor-{{marketVendor.id}}"
+          data-ng-repeat="marketVendor in vm.marketVendors | orderBy: 'vendor.name' track by marketVendor.id"
+          data-ng-click="vm.onMarketVendorSelected({marketVendor: marketVendor})">
         <td><span data-ng-bind="marketVendor.booth_location"></span></td>
         <td><span data-ng-bind="marketVendor.vendor.name"></span></td>
         <td><span data-ng-bind="marketVendor.vendor.description"></span></td>
