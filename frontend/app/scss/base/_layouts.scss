@@ -66,6 +66,17 @@
   }
 }
 
+.hidden-sidebar {
+  @include media($mobile) {
+    &.main-content-wrapper {
+      height: 100%;
+    }
+    &.sidebar {
+      display: none !important;
+    }
+  }
+}
+
 .push-behind {
   &#map {
     position: absolute !important;

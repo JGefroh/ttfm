@@ -200,6 +200,10 @@
       return index !== -1;
     }
 
+    vm.isShowState = function() {
+      return $state.current.name ==='ttfm.markets.browse.show';
+    }
+
     function initializeMapChangeWatcher() {
       $scope.$watch('vm.bounds', function() {
         if (timeoutTilSearch) {

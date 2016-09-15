@@ -1,5 +1,6 @@
 <div class="map-page with-sidebar">
-  <div class="main-content-wrapper" data-ng-style="{'overflow-y': vm.isShowingMap ? 'hidden' : 'auto'}" style="overflow-x: hidden;">
+  <div class="main-content-wrapper" data-ng-style="{'overflow-y': vm.isShowingMap ? 'hidden' : 'auto'}" style="overflow-x: hidden;"
+          data-ng-class="{'hidden-sidebar': vm.isShowState()}">
     <div data-ui-view="show-and-edit" class="main-content" data-ng-if="!vm.isShowingMap" style="padding: 1rem;"></div>
     <div data-map data-markers="vm.markets" data-bounds="vm.bounds" class="main-content" data-ng-class="{'push-behind': !vm.isShowingMap}"></div>
   </div>
@@ -32,8 +33,7 @@
       </div>
     </div>
   </div>
-
-  <div class="sidebar" data-ng-class="{'full' : vm.expanded}">
+  <div class="sidebar" data-ng-class="{'full' : vm.expanded, 'hidden-sidebar': vm.isShowState()}">
     <label style="text-align: center; display: block; padding-top: 0.25rem">
         <span data-ng-if="vm.markets.length && !vm.loading['query-markets']">
           Markets
