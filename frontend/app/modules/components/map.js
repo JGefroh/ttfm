@@ -25,6 +25,44 @@
         var myLatLng = {lat: 21.283142849689918, lng: -158.0157570068359};
         var infoWindow = new google.maps.InfoWindow({});
         var allMarkers = [];
+
+        var styles = [
+          {
+            "featureType": "water",
+            "stylers": [
+              { "color": "#b5e1e8" }
+            ]
+          },{
+            "featureType": "landscape.man_made",
+            "elementType": "geometry.fill",
+            "stylers": [
+              { "color": "#e8e2b5" }
+            ]
+          },{
+            "featureType": "landscape.natural",
+            "elementType": "geometry.fill",
+            "stylers": [
+              { "color": "#e8e2b5" },
+              { "saturation": 25 }
+            ]
+          },{
+            "featureType": "poi.park",
+            "elementType": "geometry.fill",
+            "stylers": [
+              { "hue": "#f6ff00" },
+              { "saturation": 57 },
+              { "color": "#30d393" }
+            ]
+          },{
+            "featureType": "poi.school",
+            "stylers": [
+              { "color": "#e8e2b5" },
+              { "saturation": -45 }
+            ]
+          },{
+          }
+        ];
+
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 10,
           center: myLatLng,
@@ -37,6 +75,7 @@
           rotateControl: false,
           scaleControl: false,
           fullscreenControl: false,
+          styles: styles,
         });
         google.maps.event.addListener(map, "bounds_changed", function() {
           scope.$applyAsync(function() {
