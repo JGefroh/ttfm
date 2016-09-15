@@ -45,6 +45,10 @@
         return response.data[service.resourceNameSingular] || response.data[service.resourceNamePlural] || response.data;
       };
 
+      service.getResponseData = function(response) {
+        return response.data;
+      }
+
       service.createPayload = function(resource) {
         var payload = {};
         payload[service.resourceNameSingular] = resource;

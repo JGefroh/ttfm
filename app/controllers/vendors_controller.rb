@@ -44,8 +44,8 @@ class VendorsController < ApplicationController
   def add_market
     if has_admin_code
       @vendor = Vendor.find(params[:id])
-      @market_vendor = MarketVendor.create(vendor_id: params[:id], market_id: params[:market_id]);
-      render json: @market_vendor.market, root: false
+      @market_vendor = MarketVendor.create(vendor_id: params[:id], market_id: params[:market_id], booth_location: params[:booth_location]);
+      render json: @market_vendor, serializer: MarketVendorSerializer, root: false
     else
       send_unauthorized_response
     end

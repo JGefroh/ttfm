@@ -9,6 +9,8 @@ Rails.application.routes.draw do
     get 'to_coordinates', on: :collection
   end
 
+  resources :market_vendors
+
   resources :vendors do
     put 'add_market', on: :member
     put 'remove_market', on: :member

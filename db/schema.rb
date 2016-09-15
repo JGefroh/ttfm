@@ -11,16 +11,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160911223901) do
+ActiveRecord::Schema.define(version: 20160915054510) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "market_vendors", force: :cascade do |t|
-    t.integer  "vendor_id",  null: false
-    t.integer  "market_id",  null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.integer  "vendor_id",           null: false
+    t.integer  "market_id",           null: false
+    t.datetime "created_at",          null: false
+    t.datetime "updated_at",          null: false
+    t.string   "booth_location"
+    t.float    "at_market_longitude"
+    t.float    "at_market_latitude"
   end
 
   create_table "markets", force: :cascade do |t|

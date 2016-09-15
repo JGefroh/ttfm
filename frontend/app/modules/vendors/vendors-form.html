@@ -13,20 +13,28 @@
 
     <div class="input-field">
       <label>Markets</label>
-      <select data-ng-options="market as market.name for market in vm.allMarkets | filter: vm.isNotOnVendor | orderBy: 'name' track by market.id" data-ng-model="vm.selectedMarket">
+      <select data-ng-options="market as market.name for market in vm.allMarkets | filter: vm.isNotOnVendor | orderBy: 'name' track by market.id" data-ng-model="vm.selectedMarket" style="margin-bottom: 1rem;">
         <option value="">Select a Market</option>
       </select>
-      <button data-ng-click="vm.addMarket(vm.selectedMarket);">Add Market</button>
+      <div data-text-field data-label="Booth at Market" data-ng-model="vm.boothLocation"></div>
+      <button data-ng-click="vm.addMarket(vm.selectedMarket, vm.boothLocation);">Add Market</button>
 
     </div>
     <table>
-      <tr data-ng-repeat="market in vm.vendorMarkets">
+      <thead>
+        <th>Booth</th>
+        <th>Market</th>
+      </thead>
+      <tr data-ng-repeat="marketVendor in vm.marketVendors">
         <td>
-          <span data-ng-bind="market.name"></span><br/>
-          <span data-ng-bind="market.address"></span>
+          <span data-ng-bind="marketVendor.booth_location"></span>
+        </td>
+        <td>
+          <span data-ng-bind="marketVendor.market.name"></span><br/>
+          <span data-ng-bind="marketVendor.market.address"></span>
         </td>
         <td class="button-column">
-          <a data-ng-click="vm.removeMarket(market)"><span class="fa fa-fw fa-trash"></span></a>
+          <a data-ng-click="vm.removeMarket(marketVendor)"><span class="fa fa-fw fa-trash"></span></a>
         </td>
       </tr>
     </table>

@@ -4,31 +4,31 @@
     .module('ttfm.vendors')
     .directive('vendorsForm', Directive);
   function Directive() {
-    function Controller($scope, VendorsService, MarketsService) {
+    function Controller($scope, VendorsService, MarketsService, MarketVendorsService) {
       var vm = this;
       vm.allMarkets = [];
-      vm.vendorMarkets = [];
+      vm.marketVendors = [];
       MarketsService.query().then(function(markets) {
         vm.allMarkets = markets;
       });
 
-      MarketsService.query({vendor_id: vm.vendor.id}).then(function(markets) {
-        vm.vendorMarkets = markets;
+      MarketVendorsService.query({vendor_id: vm.vendor.id}).then(function(marketVendors) {
+        vm.marketVendors = marketVendors;
       });
 
-      vm.addMarket = function(market) {
+      vm.addMarket = function(market, boothLocation) {
         $scope.$parent.vm.errors = null;
-        VendorsService.addMarket(vm.vendor, market).then(function(market) {
-          vm.vendorMarkets.push(market);
+        VendorsService.addMarket(vm.vendor, market, boothLocation).then(function(marketVendor) {
+          vm.marketVendors.push(marketVendor);
         }).catch(function(response) {
           $scope.$parent.vm.errors = response.data.error;
         });
       }
 
-      vm.removeMarket = function(market) {
+      vm.removeMarket = function(marketVendor) {
         $scope.$parent.vm.errors = null;
-        VendorsService.removeMarket(vm.vendor, market).then(function() {
-          vm.vendorMarkets.splice(vm.vendorMarkets.indexOf(market), 1);
+        VendorsService.removeMarket(vm.vendor, marketVendor.market).then(function() {
+          vm.marketVendors.splice(vm.marketVendors.indexOf(marketVendor), 1);
         }).catch(function(response) {
           $scope.$parent.vm.errors = response.data.error;
         });
@@ -36,8 +36,8 @@
 
       vm.isNotOnVendor = function(market) {
         var isDuplicate = false;
-        angular.forEach(vm.vendorMarkets, function(vendorMarket) {
-          if (market.id === vendorMarket.id) {
+        angular.forEach(vm.marketVendors, function(existingMarketVendor) {
+          if (market.id === existingMarketVendor.market.id) {
             isDuplicate = true;
           }
         });
@@ -49,7 +49,7 @@
       restrict: 'A',
       templateUrl: 'vendors-form.html',
       replace: true,
-      controller: ['$scope', 'VendorsService', 'MarketsService', Controller],
+      controller: ['$scope', 'VendorsService', 'MarketsService', 'MarketVendorsService', Controller],
       controllerAs: 'vm',
       bindToController: true,
       scope: {

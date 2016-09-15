@@ -1,0 +1,16 @@
+<div data-ng-show="vm.marketVendors.length">
+  <table>
+    <thead>
+      <th>Booth</th>
+      <th>Vendor</th>
+      <th>Products</th>
+    </thead>
+    <tbody>
+      <tr data-ng-repeat="marketVendor in vm.marketVendors | orderBy: 'vendor.name' track by marketVendor.id">
+        <td><span data-ng-bind="marketVendor.booth_location"></span></td>
+        <td><span data-ng-bind="marketVendor.vendor.name"></span></td>
+        <td><span data-ng-bind="marketVendor.vendor.description"></span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
