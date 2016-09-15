@@ -1,4 +1,4 @@
 class VendorSerializer < ActiveModel::Serializer
   attributes :id,
-            :description, :name
+            :description, :name, :website_url
 end

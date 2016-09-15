@@ -112,7 +112,7 @@ class MarketsController < ApplicationController
   end
 
   private def market_params
-    params.require(:market).permit(:address, :days_of_week, :end_time, :has_map, :name, :organization, :start_time)
+    params.require(:market).permit(:address, :days_of_week, :end_time, :has_map, :name, :organization, :start_time, :website_url)
   end
 
   def has_export_code

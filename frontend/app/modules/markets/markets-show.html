@@ -2,7 +2,9 @@
   <button data-ui-sref="ttfm.markets.browse" class="cta tiny info">Back to map</button>
   <h1>{{vm.market.name}}</h1>
   <h2>{{vm.market.address}}</h2>
+  <h2>{{vm.getTimeString(vm.market)}}</h2>
   <h3 style="text-transform: capitalize;">{{vm.market.days_of_week_as_array.join(', ')}}</h3>
+  <h3 data-ng-if="vm.market.website_url"><a data-ng-href="http://{{vm.market.website_url}}">Website</a></h3>
   <div data-ng-if="vm.market.has_map" data-booth-map data-on-market-vendor-selected="vm.showMarketVendorOnList(marketVendor)"></div>
   <div data-ng-if="!vm.market.has_map" data-static-map data-location="vm.market.latitude + ',' + vm.market.longitude" data-size="512x512"></div>
   <div data-market-vendors-list data-market="vm.market" data-on-market-vendor-selected="vm.showMarketVendorOnMap(marketVendor)"></div>

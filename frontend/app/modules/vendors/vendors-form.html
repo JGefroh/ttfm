@@ -4,6 +4,10 @@
   <div data-ng-show="!vm.editingVendors">
     <div data-text-field data-label="Display name of the vendor" data-ng-model="vm.vendor.name"></div>
     <div data-text-area data-label="Description of the vendor" data-ng-model="vm.vendor.description"></div>
+
+    <div data-text-field data-label="Does the vendor have a website?" data-ng-model="vm.vendor.website_url">
+      <span class="tip">format example: http://jgefroh.com</span>
+    </div>
     <button data-button-action="vm.save()" class="cta">Save Changes</button>
 
   </div>

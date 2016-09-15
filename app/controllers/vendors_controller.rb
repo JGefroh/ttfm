@@ -61,7 +61,7 @@ class VendorsController < ApplicationController
   end
 
   private def vendor_params
-    params.require(:vendor).permit(:name, :description)
+    params.require(:vendor).permit(:description, :name, :website_url)
   end
 
   def send_unauthorized_response

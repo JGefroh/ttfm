@@ -40,6 +40,10 @@
       <div class="input-field">
         <label><input type="checkbox" data-ng-model="vm.market.has_map"></input> Is KCC?</label>
       </div>
+
+      <div data-text-field data-label="Does the market have a website?" data-ng-model="vm.market.website_url">
+        <span class="tip">format example: http://jgefroh.com</span>
+      </div>
       <button data-button-action="vm.save()" class="cta">Save Changes</button>
 
     </div>

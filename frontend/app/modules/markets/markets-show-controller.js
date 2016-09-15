@@ -15,6 +15,10 @@
       vm.showMarketVendorOnList = function(marketVendor) {
         $scope.$broadcast('market-vendor-selected-on-map', marketVendor);
       }
+
+      vm.getTimeString = function(market) {
+        return MarketsService.getTimeString(market);
+      }
     }
     initialize();
   }
