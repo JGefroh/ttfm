@@ -1,5 +1,6 @@
 .ag_green {
   color: $color-button-background;
+  margin: 0px;
 }
 
 .home-page {
@@ -7,28 +8,62 @@
 }
 
 .image {
-  width: 25%;
-  max-height: 250px;
-  position: absolute;
-}
-
-.spacer_height {
-  width: 25%;
-  max-height: 250px;
+  height: 250px;
+    width: 250px;
+  display: block;
+  margin: auto;
+  text-align: left;
 }
 
 .spin_image {
-  -webkit-animation: spin 3s linear 1s 2;
-  -moz-animation: spin 3s linear 1s 2;
-  animation: spin 3s linear 1s 2;
-  transform-origin: 51% 49%;
+  -webkit-animation: spin 3s ease-in-out 1s 2;
+  -moz-animation: spin 3s ease-in-out 1s 2;
+  animation: spin 3s ease-in-out 1s 2;
+  position:absolute;
+  height:250px;
 }
 
+
 .spin_image_second {
-  -webkit-animation: spin 3s linear 4s 1;
-  -moz-animation: spin 3s linear 4s 1;
-  animation: spin 3s linear 4s 1;
-  transform-origin: 51% 49%;
+  -webkit-animation: spin 3s ease-in-out 4s 1;
+  -moz-animation: spin 3s ease-in-out 4s 1;
+  animation: spin 3s ease-in-out 4s 1;
+  position:absolute;
+  height:250px;
+}
+
+.splashlogo {
+   height: 1em;
+   margin: 0px;
+}
+
+.hfbf {
+   height: 1.5em;
+   position:absolute;
+   right: 0;
+   bottom: 0;
+}
+
+.hdoa {
+   height: 1.5em;
+   position:absolute;
+   left: 0;
+   bottom: 0;
+
+}
+
+.partners {
+  text-align: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 4em;
+  margin: 1em;
+}
+
+.tagline {
+  color: rgba(12,12,12,0.5);
 }
 
 .splash_border {
@@ -36,11 +71,17 @@
   margin: 0px;
   width: 100%;
   height: 100%;
+  border: 0px;
+
+/*
   border: 10px solid transparent;
   -webkit-border-image: url("../../images/HFBF_logo_only_200.png") 30% repeat;
   -o-border-image: url("../../images/HFBF_logo_only_200.png") 30% repeat;
   border-image: url("../../images/HFBF_logo_only_200.png") 30% repeat;
+  */
 }
+
+
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
