@@ -11,8 +11,8 @@
           data-ng-click="vm.onMarketVendorSelected({marketVendor: marketVendor})">
         <td><span data-ng-bind="marketVendor.booth_location"></span></td>
         <td>
-          <a data-ng-if="marketVendor.vendor.website_url" data-ng-href="http://{{marketVendor.vendor.website_url}}" rel="noopener"><span data-ng-bind="marketVendor.vendor.name"></span></a>
-          <span data-ng-if="!marketVendor.vendor.website_url" data-ng-bind="marketVendor.vendor.name"></span></a>
+          <a data-ng-if="marketVendor.vendor.website_url" data-ng-href="http://{{marketVendor.vendor.website_url}}" rel="noopener"><span data-ng-bind="marketVendor.vendor.name | translate"></span></a>
+          <span data-ng-if="!marketVendor.vendor.website_url" data-ng-bind="marketVendor.vendor.name | translate"></span></a>
         </td>
         <td><span data-ng-bind="marketVendor.vendor.description"></span></td>
       </tr>
