@@ -2,6 +2,12 @@
   .cta-wrapper {
     @include media($mobile) {
       float: right;
+      margin-top: $height-navigation-mobile;
+    }
+    .cta {
+      color: red;
+      background-color: red;
+      color: white;
     }
     text-align: center;
     float: right;
@@ -29,10 +35,10 @@
       cursor: pointer;
       @include user-select(none);
       @include media($mobile) {
-        font-size: 1.25rem;
+        font-size: 1.1rem;
       }
       @include media($desktop) {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
       }
 
       &:hover {
