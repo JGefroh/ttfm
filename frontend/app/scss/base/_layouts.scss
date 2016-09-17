@@ -77,6 +77,10 @@
   }
 }
 
+.hidden {
+  display: none !important;
+}
+
 .push-behind {
   &#map {
     position: absolute !important;

@@ -1,0 +1,11 @@
+.market-show {
+  .booth-map {
+    height: 300px;
+  }
+  .vendors-panel {
+    position: absolute;
+    bottom: 0;
+    top: 350px;
+    overflow-y: scroll;
+  }
+}

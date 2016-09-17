@@ -6,7 +6,7 @@
   </div>
 
   <div class="sub-navigation">
-    <div class="cta-wrapper">
+    <div class="cta-wrapper" data-ng-class="{'hidden': !vm.isMapState()}">
       <div>
         <div style="display: inline-block; position: relative;">
           <input data-ng-model="vm.manualLocation" data-address-autocomplete placeholder="Where are you?" style="margin-right: 0.2rem; padding-right: 1rem;" class="hidden-desktop"></input>

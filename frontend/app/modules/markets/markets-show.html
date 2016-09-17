@@ -1,8 +1,8 @@
-<div class="container">
+<div class="container market-show">
   <button data-ui-sref="ttfm.markets.browse" class="cta tiny info">Back to map</button>
-  <div data-ng-if="vm.market.has_map" data-booth-map data-on-market-vendor-selected="vm.showMarketVendorOnList(marketVendor)"></div>
+  <div data-ng-if="vm.market.has_map" data-booth-map data-on-market-vendor-selected="vm.showMarketVendorOnList(marketVendor)" class="booth-map"></div>
 
-  <div>
+  <div class="vendors-panel">
     <p>
       <strong>{{vm.market.name}}</strong><br/>
       {{vm.market.address}}<br/>

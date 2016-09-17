@@ -5,8 +5,8 @@
       margin-top: $height-navigation-mobile;
     }
     .cta {
-      color: red;
-      background-color: red;
+      background-color: $color-accent-primary;
+      border-color: $color-accent-primary;
       color: white;
     }
     text-align: center;
