@@ -2,7 +2,7 @@
   <button data-ui-sref="ttfm.markets.browse" class="cta tiny info">Back to map</button>
   <div data-ng-if="vm.market.has_map" data-booth-map data-on-market-vendor-selected="vm.showMarketVendorOnList(marketVendor)" class="booth-map"></div>
 
-  <div class="vendors-panel">
+  <div ng-class="{'vendors-panel':vm.market.has_map}">
     <p>
       <strong>{{vm.market.name}}</strong><br/>
       {{vm.market.address}}<br/>
