@@ -1,0 +1,475 @@
+market=Market.where(name: "Kailua Thursday Night Market")
+vendor = Vendor.where(name: "Music By")
+if vendor.first then
+vendor.first.update(description: "D. Shoji Nakamoto")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "A1")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "A1")
+end
+
+vendor = Vendor.where(name: "Vilath Farm")
+if vendor.first then
+vendor.first.update(description: " Asian greens and herbs, squash, Manoa lettuce, tomatoes, bittermelon, apple bananas, melons, papayas and other fruits and vegetables")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "A2")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "A2")
+end
+
+vendor = Vendor.where(name: "Bueno Salsa")
+if vendor.first then
+vendor.first.update(description: " Salsa's made from all locally sourced ingredients.")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "A3")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "A3")
+end
+
+vendor = Vendor.where(name: "Nalo Meli")
+if vendor.first then
+vendor.first.update(description: " Beekeeper Howard brings hisWindward harvested honey and otherlocal honey products.")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "A4")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "A4")
+end
+
+vendor = Vendor.where(name: "'Ai Manuahi Farms")
+if vendor.first then
+vendor.first.update(description: " Straight from 'Ai Manuahi Farm located in Kahaluu hand pounded pa'i'ai, kalo patties, fried pa'i'ai and much more.")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "A5")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "A5")
+end
+
+vendor = Vendor.where(name: "Loho Street Farm")
+if vendor.first then
+vendor.first.update(description: " Chef John Memering makes hisdebut at the KCC Saturday Market featuring his specialtyseasonings and preserves made with locally sourced ingredients.")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "A6")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "A6")
+end
+
+vendor = Vendor.where(name: "Just Add Water")
+if vendor.first then
+vendor.first.update(description: " organic fruits and vegetables")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "A7")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "A7")
+end
+
+vendor = Vendor.where(name: "Aunty Nani's")
+if vendor.first then
+vendor.first.update(description: "Cookies and dressing")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "A8")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "A8")
+end
+
+vendor = Vendor.where(name: "Thoune HongPhao Farm")
+if vendor.first then
+vendor.first.update(description: " bringing cucumbers, eggplant, long bean, bitter melon, bananas, Okra and much more")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "A9")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "A9")
+end
+
+vendor = Vendor.where(name: "Sweet Revenge")
+if vendor.first then
+vendor.first.update(description: "Kathy bakes up some awesome pies using seasonal fruits and locally grown veggies. Ingredients Locally Sourced-Ho Farm, Peterson Farm, Aloun Farm, Waialua Chocolate, Naked Cow Dairy, and Wow Farm. My personal favorite and a must try item is Kathy's Chicken Pot Pie. Be careful this item is addicting.")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "A10")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "A10")
+end
+
+vendor = Vendor.where(name: "Cold Fyyre")
+if vendor.first then
+vendor.first.update(description: " handmade ice cream created with locally sourced ingredients with cream from the Big Island and flavored with local fruit, coffee, chocolate, strawberries and much more. By the scoop or in their famous cookie sandwich confections. A must try item.")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "A11")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "A11")
+end
+
+vendor = Vendor.where(name: "Theng's Farm")
+if vendor.first then
+vendor.first.update(description: " a variety of Asian vegetables, papaya, bananas")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "Farm1")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "Farm1")
+end
+
+vendor = Vendor.where(name: "Bale Bakery/La Tour Bakehouse")
+if vendor.first then
+vendor.first.update(description: " 100% whole wheat bread, ciabatta, Almond croissants, apple turnovers, baguette(french, garlic, multigrain, olive, rosemary, sourdough), banana bread, brown rice bread, brownies, chocolate almond swirl, chocolate cherry crisp, chocolate cherry loaf, chocolate croissants, cinnamon palmer, cinnamon puff, cinnamon raisin loaf, cinnamon rolls, cookies, cranberry crisp, cranberry walnut loaf, assort danish, dark rye loaf, dinner rolls, Finnish rye loaf, granola, sweet bread, macaroons, scones, sesame bread, assort lavish, spelt and much more.")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "B1")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "B1")
+end
+
+vendor = Vendor.where(name: "Guava Smoked")
+if vendor.first then
+vendor.first.update(description: " Shinsato Farm island-raised pork smoked with Guava wood. Local Smoked Meat burger, kebabs and frozen packages of smoked meat.")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "B2")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "B2")
+end
+
+vendor = Vendor.where(name: "Hibachi")
+if vendor.first then
+vendor.first.update(description: " serving fresh island poke made with local ahi, locally grown grape tomato kabobs, steak plates made with kulana beef and homemade cucumber kimchee from Pit Farm, you also have to try his barbecue kulana beef sticks. Come early Mark sells out.")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "B3")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "B3")
+end
+
+vendor = Vendor.where(name: "Waimanalo Country Farms")
+if vendor.first then
+vendor.first.update(description: " fresh day-of-the-market harvested Super Sweet Dakota corn and homemade cornbread and there famous lemonade, strawberry lemonade and li hing lemonade al served in a special jar.")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "B4")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "B4")
+end
+
+vendor = Vendor.where(name: "Waihole Valley Farm")
+if vendor.first then
+vendor.first.update(description: "Variety of Veggies and Fruits")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "B5")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "B5")
+end
+
+vendor = Vendor.where(name: "North Shore Farms LLC dba BWT")
+if vendor.first then
+vendor.first.update(description: "Serving Fried Green Tomatoes and Jeanne's Famous Grilled Pesto Pizza, Catch the Big Wave of Flavors with colorful Big Wave Tomato. Now available in Birthday Heirloom Seed Collections. This week's featured item will be Roasted Green Chili Rellino's and whole raw Green Chili.")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "C1")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "C1")
+end
+
+vendor = Vendor.where(name: "Hawaiian Style Chili")
+if vendor.first then
+vendor.first.update(description: " chili and rice, sauces, spice mixes, prune mui, taro mochi, garlic shrimp plate")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "C2")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "C2")
+end
+
+vendor = Vendor.where(name: "North Shore Cattle Co.")
+if vendor.first then
+vendor.first.update(description: " naturally raised hormone free beef from Haleiwa; all beef Portuguese and andouille sausages; grilled burgers, breakfast specials")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "C3")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "C3")
+end
+
+vendor = Vendor.where(name: "Alii Seafood")
+if vendor.first then
+vendor.first.update(description: " Featuring Kauai Ama Ebi fresh Local salt water shrimp. Frozen orgrilled yakitori style. A must try item.")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "C4")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "C4")
+end
+
+vendor = Vendor.where(name: "Marine Agrifuture Sea Asparagus")
+if vendor.first then
+vendor.first.update(description: " Dr. Sun's famous Kahuku grown sea asparagus. Fresh or powdered form. Prepared Sea Asparagus in sushi, and tomato lomi style. Aquacultured ogo also available.")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "C5")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "C5")
+end
+
+vendor = Vendor.where(name: "Bon Appetit")
+if vendor.first then
+vendor.first.update(description: " Brings an Artisanal Mediterranean cuisine using locally sourced ingredients and made with Aloha. Please visit www.bonappetithawaii.com for todays menu.")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "C6")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "C6")
+end
+
+vendor = Vendor.where(name: "Petit Suisse Crepes")
+if vendor.first then
+vendor.first.update(description: " Crepes straight from the farms. Using local ingredients eggs, honey, cheese veggies and fruits. A must try item.")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "C7")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "C7")
+end
+
+vendor = Vendor.where(name: "Beyond Burgers")
+if vendor.first then
+vendor.first.update(description: " will be Bringing there Kulana Grass-fed Burgers. Try their Specialty Burger with caramelized Maui sweet onions & crumbled applewood smoked bacon in a savory BBQ sauce, topped off with Nalo baby arugula and roasted garlic aioli sauce.  They also have a Bacon Swiss Burger, Portobello Mushroom Sandwich, and a 1K Burger. Jonathan sources his ingredients locally from Kulana Foods, Shinsato Farm, Ka lei Eggs, Maui Sugar, Nalo Farms, Ma'o Farms, Sugarland Farms, Aloun Farm, Hamakua Springs County Farm, Ho Farms, Maui Farmers, Kula Farms.")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "C8")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "C8")
+end
+
+vendor = Vendor.where(name: "Grandma G's")
+if vendor.first then
+vendor.first.update(description: "s serving up Pan Seared Local Opakapaka, Grilled Garlic Local Sirloin, Grilled Loacl Teriyaki Sirloin and other specials- all with Nalo Greens and your choice of brown or white rice")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "C9")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "C9")
+end
+
+vendor = Vendor.where(name: "Vixaysack Farm")
+if vendor.first then
+vendor.first.update(description: " a variety of Asian vegetables, cucumbers, papayas, pineapple and melons")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "C10")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "C10")
+end
+
+vendor = Vendor.where(name: "Hawaii's Best Ever Nuts and Candy")
+if vendor.first then
+vendor.first.update(description: " Mary the Nut Lady brings herline of gourmet seasoned baked nuts, candied fruit and nougats. Macadamia, almonds, walnuts, pecans ' she baked them up and toffees each batch fresh, her nougats too, with locally-sourced seasonings like honey, Maui Cane sugar, Naked Cow Dairy, Kona coffee, Hawaiian sea salts.")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "D1")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "D1")
+end
+
+vendor = Vendor.where(name: "Onda Pasta")
+if vendor.first then
+vendor.first.update(description: "on hiatus")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "D2")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "D2")
+end
+
+vendor = Vendor.where(name: "Nosh")
+if vendor.first then
+vendor.first.update(description: " Serves Pao de queijo (Brazilian Cheese Bread). There Pao De queijo is offered stuffed with dulce de leche, in a caprese sandwich, or with a fruit salad. locally sourced ingredients from Mao Farms, Fields of Aloha, Hoamoa Farm.")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "D3")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "D3")
+end
+
+vendor = Vendor.where(name: "India Cafe")
+if vendor.first then
+vendor.first.update(description: "Indian curry and specialties using all locally sourced ingredients")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "D4")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "D4")
+end
+
+vendor = Vendor.where(name: "Imu Style")
+if vendor.first then
+vendor.first.update(description: " Chester Pahia brings with him Hawaiian Plates featuring local kalua pig plate and laulau plate with chicken long rice and lomi salmon using all locally sourced ingredients.")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "D5")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "D5")
+end
+
+vendor = Vendor.where(name: "Otsuji Farm")
+if vendor.first then
+vendor.first.update(description: " brings a huge variety of veggies and herb grown on their Hawaii Kai farm ' Dino Kale, Red Kale, mizuna, daikon, purslane, green onion, radish, mustard cabbage, bok choy, beets, and more! Don't forget to try Chef Jonas Otsuji's Sushi Surfer Sliders made with kale or eggplant grown on their farm, tempura'd and topped with spicy ahi, drizzles, and their green onion!")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "D6")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "D6")
+end
+
+vendor = Vendor.where(name: "Pig and the Lady")
+if vendor.first then
+vendor.first.update(description: " Chef Andrew, Mama Le and family changes their menu at each Market please visit pigandthelady.com for tonight's menu.")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "D7")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "D7")
+end
+
+vendor = Vendor.where(name: "Licious Dishes brings raw, vegan, gluten-free eats")
+if vendor.first then
+vendor.first.update(description: " Pad Thai Salad, Lasagna, Three Layer Dip, Chocolate Ganache, Kombucha Love Potion, Grainless Granola, Nori Kale, Date Manna Bars and
+More!")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "E1")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "E1")
+end
+
+vendor = Vendor.where(name: "No Ka'oi Cookie Co.")
+if vendor.first then
+vendor.first.update(description: "Baking her delicious scones and Lovash, cookies, mochi, assort bars, brownies, banana bread and much much more.")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "E2")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "E2")
+end
+
+vendor = Vendor.where(name: "PacifiKool")
+if vendor.first then
+vendor.first.update(description: "Coolers made with their signature Hawaiian Ginger Syrup, fruit, herbs. Also, bottle of syrup to go.")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "E3")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "E3")
+end
+
+vendor = Vendor.where(name: "Mochi Lab")
+if vendor.first then
+vendor.first.update(description: " Specialty Gourmet Butter Mochi made with locally sourced ingredients. Mochi Lab bakes their butter mochi in a muffin form that is moist, fluffy, complimented with a delicious crust with a unique filling baked into each cake. A Must Try Item!")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "E4")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "E4")
+end
+
+vendor = Vendor.where(name: "Hanalei Taro Co.")
+if vendor.first then
+vendor.first.update(description: " The Haraguchi Taro Farm is located on the island of Kauai. Hanalei Taro will feature Fresh Taro, Poi, Taro Humus, Taro Mochi, and a must try item is their Hanalei Kulolo. Yum!")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "E5")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "E5")
+end
+
+vendor = Vendor.where(name: "Honolulu Burger Company")
+if vendor.first then
+vendor.first.update(description: " Ken will be serving up SLIDERS and FRENCH FRIES yum! Honolulu Burger Company uses all locally soured ingredients from: Parker Ranch, Kahua Ranch, Puuwaawaa Ranch, Mari's Garden, Aloun Farms, Sugarland Farms, Alii and Shiimeji Mushroom Farm, Sumida Farm.")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "E6")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "E6")
+end
+
+vendor = Vendor.where(name: "Ono Kettle Pop")
+if vendor.first then
+vendor.first.update(description: " Delicious Kettle Popcorn combined with a variety of Hawaiian grown ingredients. Some of the flavors include island pop, cinnamon toast pop, Mexican pop, Hawaii red pop and much more.")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "E7")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "E7")
+end
+
+vendor = Vendor.where(name: "Lei Farm/Vicky Farm")
+if vendor.first then
+vendor.first.update(description: " 10 acre Farm growing sugar cane, papaya, daikon, okra, banana, long bean, baby bok choy, bittermelon and much more. They will also feature cut sugar cane, and cut assorted fruits.")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "E8")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "E8")
+end
+
+vendor = Vendor.where(name: "Corn Project")
+if vendor.first then
+vendor.first.update(description: " Local Grilled Corn with assorted flavors.")
+end
+market_vendor = MarketVendor.where(market_id: market.first.id, vendor_id: vendor.first.id)
+if market_vendor.first then
+  market_vendor.first.update(booth_location: "E9")
+else
+  market_vendor = MarketVendor.create(market_id: market.first.id, vendor_id: vendor.first.id, booth_location: "E9")
+end
+
