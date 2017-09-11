@@ -1,6 +1,8 @@
 # ttfm
 :pineapple: HACC Farmer's Market Project
 
+![thumb-lg](https://user-images.githubusercontent.com/1077095/30257712-b23f4892-964f-11e7-95a4-a6b9c0e4f073.jpg)
+
 
 Required environment variables:
 * ADMIN_CODE_TO_IMPORT
